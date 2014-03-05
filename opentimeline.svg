@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="svg.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="4306" height="900">
+<title>OpenTimeLine</title>  <!-- All the events -->
+  <rect x="-68" y="0" width="160" height="900" _type="period"/>
+  <rect x="92" y="0" width="160" height="900" _type="period"/>
+  <rect x="252" y="0" width="161" height="900" _type="period"/>
+  <rect x="413" y="0" width="160" height="900" _type="period"/>
+  <rect x="573" y="0" width="161" height="900" _type="period"/>
+  <rect x="734" y="0" width="161" height="900" _type="period"/>
+  <rect x="895" y="0" width="160" height="900" _type="period"/>
+  <rect x="1055" y="0" width="161" height="900" _type="period"/>
+  <rect x="1216" y="0" width="160" height="900" _type="period"/>
+  <rect x="1376" y="0" width="161" height="900" _type="period"/>
+  <rect x="1537" y="0" width="160" height="900" _type="period"/>
+  <rect x="1697" y="0" width="161" height="900" _type="period"/>
+  <rect x="1858" y="0" width="161" height="900" _type="period"/>
+  <rect x="2019" y="0" width="160" height="900" _type="period"/>
+  <rect x="2179" y="0" width="161" height="900" _type="period"/>
+  <rect x="2340" y="0" width="160" height="900" _type="period"/>
+  <rect x="2500" y="0" width="161" height="900" _type="period"/>
+  <rect x="2661" y="0" width="160" height="900" _type="period"/>
+  <rect x="2821" y="0" width="161" height="900" _type="period"/>
+  <rect x="2982" y="0" width="160" height="900" _type="period"/>
+  <rect x="3142" y="0" width="161" height="900" _type="period"/>
+  <rect x="3303" y="0" width="161" height="900" _type="period"/>
+  <rect x="3464" y="0" width="160" height="900" _type="period"/>
+  <rect x="3624" y="0" width="161" height="900" _type="period"/>
+  <rect x="3785" y="0" width="160" height="900" _type="period"/>
+  <rect x="3945" y="0" width="161" height="900" _type="period"/>
+  <rect x="4106" y="0" width="160" height="900" _type="period"/>
+  <rect x="4266" y="0" width="161" height="900" _type="period"/>
+  <line x1="891" y1="345" x2="891" y2="360" _date="-2" _type="event"><title>-2</title></line>
+  <line x1="851" y1="300" x2="851" y2="330" _date="-27" _type="event"><title>-27</title></line>
+  <line x1="3535" y1="375" x2="3535" y2="390" _date="1642/12/25" _type="event"><title>1642/12/25</title></line>
+  <line x1="3603" y1="330" x2="3603" y2="360" _date="1685/02/06" _type="event"><title>1685/02/06</title></line>
+  <line x1="3609" y1="420" x2="3609" y2="450" _date="1689/02/13" _type="event"><title>1689/02/13</title></line>
+  <line x1="3618" y1="420" x2="3618" y2="450" _date="1694/12/28" _type="event"><title>1694/12/28</title></line>
+  <line x1="3630" y1="420" x2="3630" y2="480" _date="1702/03/08" _type="event"><title>1702/03/08</title></line>
+  <line x1="3650" y1="480" x2="3650" y2="510" _date="1714/08/01" _type="event"><title>1714/08/01</title></line>
+  <line x1="3670" y1="375" x2="3670" y2="390" _date="1727/03/20" _type="event"><title>1727/03/20</title></line>
+  <line x1="3671" y1="510" x2="3671" y2="540" _date="1727/06/11" _type="event"><title>1727/06/11</title></line>
+  <line x1="3724" y1="300" x2="3724" y2="540" _date="1760/10/25" _type="event"><title>1760/10/25</title></line>
+  <line x1="3820" y1="300" x2="3820" y2="420" _date="1820/01/29" _type="event"><title>1820/01/29</title></line>
+  <line x1="3836" y1="390" x2="3836" y2="420" _date="1830/06/26" _type="event"><title>1830/06/26</title></line>
+  <line x1="3847" y1="360" x2="3847" y2="390" _date="1837/06/20" _type="event"><title>1837/06/20</title></line>
+  <line x1="3950" y1="360" x2="3950" y2="480" _date="1901/01/22" _type="event"><title>1901/01/22</title></line>
+  <line x1="3965" y1="480" x2="3965" y2="510" _date="1910/05/06" _type="event"><title>1910/05/06</title></line>
+  <line x1="4006" y1="510" x2="4006" y2="540" _date="1936/01/20" _type="event"><title>1936/01/20</title></line>
+  <line x1="4007" y1="540" x2="4007" y2="570" _date="1936/12/11" _type="event"><title>1936/12/11</title></line>
+  <line x1="4032" y1="300" x2="4032" y2="570" _date="1952/02/06" _type="event"><title>1952/02/06</title></line>
+  <line x1="4068" y1="405" x2="4068" y2="420" _date="1974/08/20" _type="event"><title>1974/08/20</title></line>
+  <line x1="4075" y1="585" x2="4075" y2="600" _date="1979/04/04" _type="event"><title>1979/04/04</title></line>
+  <line x1="952" y1="345" x2="952" y2="360" _date="36" _type="event"><title>36</title></line>
+  <line x1="851" y1="330" x2="3229" y2="330" _type="actor" entity="state"/>
+  <line x1="76" y1="300" x2="851" y2="300" _type="actor" entity="state"/>
+  <line x1="3824" y1="450" x2="3970" y2="450" _type="actor" entity="human"/>
+  <line x1="3990" y1="300" x2="4306" y2="300" _type="actor" entity="human"/>
+  <line x1="3941" y1="570" x2="4032" y2="570" _type="actor" entity="human"/>
+  <line x1="3650" y1="510" x2="3671" y2="510" _type="actor" entity="human"/>
+  <line x1="3671" y1="540" x2="3724" y2="540" _type="actor" entity="human"/>
+  <line x1="3724" y1="300" x2="3820" y2="300" _type="actor" entity="human"/>
+  <line x1="3820" y1="420" x2="3836" y2="420" _type="actor" entity="human"/>
+  <line x1="3836" y1="390" x2="3847" y2="390" _type="actor" entity="human"/>
+  <line x1="3937" y1="540" x2="4064" y2="540" _type="actor" entity="human"/>
+  <line x1="4075" y1="600" x2="4306" y2="600" _type="actor" entity="human"/>
+  <line x1="3892" y1="510" x2="4006" y2="510" _type="actor" entity="human"/>
+  <line x1="3855" y1="480" x2="3965" y2="480" _type="actor" entity="human"/>
+  <line x1="3818" y1="360" x2="3950" y2="360" _type="actor" entity="human"/>
+  <line x1="4068" y1="420" x2="4306" y2="420" _type="actor" entity="human"/>
+  <line x1="3467" y1="300" x2="3545" y2="300" _type="actor" entity="human"/>
+  <line x1="3515" y1="330" x2="3603" y2="330" _type="actor" entity="human"/>
+  <line x1="3520" y1="360" x2="3609" y2="360" _type="actor" entity="human"/>
+  <line x1="3548" y1="420" x2="3630" y2="420" _type="actor" entity="human"/>
+  <line x1="3566" y1="450" x2="3618" y2="450" _type="actor" entity="human"/>
+  <line x1="3570" y1="480" x2="3650" y2="480" _type="actor" entity="human"/>
+  <line x1="1810" y1="300" x2="1911" y2="300" _type="actor" entity="human"/>
+  <line x1="4012" y1="390" x2="4021" y2="390" _type="actor" entity="war"/>
+  <line x1="3535" y1="390" x2="3670" y2="390" _type="actor" entity="human"/>
+  <line x1="891" y1="360" x2="952" y2="360" _type="actor" entity="human"/>
+  <line x1="3802" y1="330" x2="3919" y2="330" _type="actor" entity="human"/>
+  <text _type="actor" x="854" y="327">Roman Empire</text>
+  <text _type="actor" x="79" y="297">Roman Republic</text>
+  <text _type="actor" x="3827" y="447">Alfred Russel Wallace</text>
+  <text _type="actor" x="3993" y="297">Elizabeth Alexandra Mary Windsor</text>
+  <text _type="actor" x="3944" y="567">Albert Frederick Arthur George Windsor</text>
+  <text _type="actor" x="3653" y="507">George Louis</text>
+  <text _type="actor" x="3674" y="537">George Augustus</text>
+  <text _type="actor" x="3727" y="297">George William Frederick</text>
+  <text _type="actor" x="3823" y="417">George Augustus Frederick</text>
+  <text _type="actor" x="3839" y="387">William Henry</text>
+  <text _type="actor" x="3940" y="537">Edward Albert Christian George Andrew Patrick David</text>
+  <text _type="actor" x="4078" y="597">John James Ralph Scott</text>
+  <text _type="actor" x="3895" y="507">George Frederick Ernest Albert</text>
+  <text _type="actor" x="3858" y="477">Albert Edward</text>
+  <text _type="actor" x="3821" y="357">Alexandrina Victoria</text>
+  <text _type="actor" x="4071" y="417">Amy Lou Adams</text>
+  <text _type="actor" x="3612" y="417">William III &amp; II</text>
+  <text _type="actor" x="3612" y="447">Mary II</text>
+  <text _type="actor" x="3606" y="357">James II and VII</text>
+  <text _type="actor" x="3566" y="327">Charles II</text>
+  <text _type="actor" x="3470" y="297">Charles</text>
+  <text _type="actor" x="3509" y="297">Charles I</text>
+  <text _type="actor" x="3518" y="327">Charles</text>
+  <text _type="actor" x="3523" y="357">James</text>
+  <text _type="actor" x="3551" y="417">William</text>
+  <text _type="actor" x="3569" y="447">Mary</text>
+  <text _type="actor" x="3573" y="477">Anne</text>
+  <text _type="actor" x="1813" y="297">Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim</text>
+  <text _type="actor" x="4015" y="387">World War II</text>
+  <text _type="actor" x="3538" y="387">Isaac Newton</text>
+  <text _type="actor" x="894" y="357">Jesus of Nazareth</text>
+  <text _type="actor" x="3805" y="327">Charles Robert Darwin</text>
+  <circle cx="3229" cy="330" r="3" participant="ended" _type="event"><title>ended</title></circle>
+  <circle cx="851" cy="330" r="3" participant="started" _type="event"><title>started</title></circle>
+  <circle cx="851" cy="300" r="3" participant="ended" _type="event"><title>ended</title></circle>
+  <circle cx="76" cy="300" r="3" participant="started" _type="event"><title>started</title></circle>
+  <circle cx="4007" cy="540" r="3" participant="abdicated" _type="event"><title>abdicated</title></circle>
+  <circle cx="4006" cy="540" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3937" cy="540" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4064" cy="540" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3965" cy="510" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3892" cy="510" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4006" cy="510" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3950" cy="480" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3855" cy="480" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3965" cy="480" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3847" cy="360" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3818" cy="360" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3950" cy="360" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3836" cy="390" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3847" cy="390" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3820" cy="420" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3836" cy="420" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3724" cy="300" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3820" cy="300" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3671" cy="540" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3724" cy="540" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3650" cy="510" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3671" cy="510" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3630" cy="480" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3570" cy="480" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3650" cy="480" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="4075" cy="600" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3609" cy="420" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3618" cy="420" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3548" cy="420" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3630" cy="420" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3609" cy="450" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3566" cy="450" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3618" cy="450" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3603" cy="360" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3520" cy="360" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3609" cy="360" r="3" participant="deposed" _type="event"><title>deposed</title></circle>
+  <circle cx="3563" cy="330" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3515" cy="330" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3603" cy="330" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3467" cy="300" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3545" cy="300" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="1810" cy="300" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="1911" cy="300" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="4021" cy="390" r="3" participant="ended" _type="event"><title>ended</title></circle>
+  <circle cx="4012" cy="390" r="3" participant="started" _type="event"><title>started</title></circle>
+  <circle cx="4068" cy="420" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4068" cy="420" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3535" cy="390" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3670" cy="390" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="891" cy="360" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="952" cy="360" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3824" cy="450" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3970" cy="450" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3802" cy="330" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3919" cy="330" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="4032" cy="300" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3990" cy="300" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4007" cy="570" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="4007" cy="570" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3941" cy="570" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4032" cy="570" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3506" cy="300" r="3" particpant="ascended" _type="event"><title>ascended</title></circle>
+  <text x="4070" y="403" _type="event">Amy Lou Adams was born</text>
+  <text x="3672" y="373" _type="event">Isaac Newton died</text>
+  <text x="3537" y="373" _type="event">Isaac Newton is born</text>
+  <text x="893" y="343" _type="event">Jesus born</text>
+  <text x="954" y="343" _type="event">Jesus died</text>
+  <text x="4077" y="583" _type="event">John was born</text>
+  <line x1="4032" y1="300" x2="4306" y2="300" _type="actor" title="monarch"/>
+  <line x1="4007" y1="570" x2="4032" y2="570" _type="actor" title="monarch"/>
+  <line x1="3630" y1="480" x2="3650" y2="480" _type="actor" title="monarch"/>
+  <line x1="3650" y1="510" x2="3671" y2="510" _type="actor" title="monarch"/>
+  <line x1="3671" y1="540" x2="3724" y2="540" _type="actor" title="monarch"/>
+  <line x1="3724" y1="300" x2="3820" y2="300" _type="actor" title="monarch"/>
+  <line x1="3820" y1="420" x2="3836" y2="420" _type="actor" title="monarch"/>
+  <line x1="3836" y1="390" x2="3847" y2="390" _type="actor" title="monarch"/>
+  <line x1="3847" y1="360" x2="3950" y2="360" _type="actor" title="monarch"/>
+  <line x1="3950" y1="480" x2="3965" y2="480" _type="actor" title="monarch"/>
+  <line x1="3965" y1="510" x2="4006" y2="510" _type="actor" title="monarch"/>
+  <line x1="4006" y1="540" x2="4007" y2="540" _type="actor" title="monarch"/>
+  <line x1="3609" y1="420" x2="3630" y2="420" _type="actor" title="monarch"/>
+  <line x1="3609" y1="450" x2="3618" y2="450" _type="actor" title="monarch"/>
+  <line x1="3603" y1="360" x2="3609" y2="360" _type="actor" title="monarch"/>
+  <line x1="3563" y1="330" x2="3603" y2="330" _type="actor" title="monarch"/>
+  <line x1="3506" y1="300" x2="3545" y2="300" _type="actor" title="monarch"/>
+  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Empire" _type="actor"><rect x="858" y="315" width="2364" height="30"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Republic" _type="actor"><rect x="83" y="285" width="761" height="30"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace" _type="actor"><rect x="3831" y="435" width="132" height="30"/></a>
+  <a xlink:href="http://jjrscott.com" _type="actor"><rect x="4082" y="585" width="224" height="30"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Amy_Adams" _type="actor"><rect x="4075" y="405" width="231" height="30"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Isaac_Newton" _type="actor"><rect x="3542" y="375" width="121" height="30"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Jesus" _type="actor"><rect x="898" y="345" width="47" height="30"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Charles_Darwin" _type="actor"><rect x="3809" y="315" width="103" height="30"/></a>
+</svg>

@@ -1,0 +1,123 @@
+line[_date]
+{
+	stroke: red;
+	stroke-linejoin: butt;
+	stroke:rgb(128,128,128);
+	stroke-width: 2;
+}
+
+line:not([_date])
+{
+	stroke: red;
+	stroke-linejoin: butt;
+	stroke:rgb(0,0,255);
+	stroke-width: 2;
+}
+
+line[title="monarch"]
+{
+	stroke-linejoin: butt;
+	render-order: -1;
+	stroke:rgba(255,255,0,0.5);
+	stroke-width: 10;
+}
+
+line[entity="war"]
+{
+	stroke-linejoin: butt;
+	stroke:rgba(255,0,0,0.5);
+	stroke-width: 2;
+}
+
+line[entity="state"]
+{
+	stroke-linejoin: butt;
+	stroke:rgba(0,255,0,0.5);
+	stroke-width: 2;
+}
+
+circle[participant="died"]
+{
+  stroke: rgba(255,0,0,0.8);
+  stroke-width: 0;
+  fill: rgba(255,0,0,0.8);
+}
+
+circle[participant="deposed"]
+{
+  stroke: rgba(255,0,0,0.8);
+  stroke-width: 0;
+  fill: rgba(255,0,0,0.8);
+}
+
+circle[participant="abdicated"]
+{
+  stroke: rgba(255,0,0,0.8);
+  stroke-width: 0;
+  fill: rgba(255,0,0,0.8);
+}
+
+
+circle[participant="ascended"]
+{
+  stroke: rgba(0,255,0,0.8);
+  stroke-width: 0;
+  fill: rgba(0,255,0,0.8);
+}
+
+
+circle[participant="baby"]
+{
+  stroke: rgba(0,255,0,0.8);
+  stroke-width: 0;
+  fill: rgba(0,255,0,0.8);
+}
+
+circle[participant="ended"]
+{
+  stroke: rgba(255,0,0,0.8);
+  stroke-width: 0;
+  fill: rgba(255,0,0,0.8);
+}
+
+
+circle[participant="started"]
+{
+  stroke: rgba(0,255,0,0.8);
+  stroke-width: 0;
+  fill: rgba(0,255,0,0.8);
+}
+
+
+circle
+{
+  stroke: rgba(0,255,0,0.8);
+  stroke-width: 0;
+  fill: rgba(0,255,0,0.8);
+}
+
+circle:hover
+{
+  stroke-width: 10px;
+}
+
+
+text
+{
+	font-size: 12px;
+}
+
+rect
+{
+  fill: rgba(0,0,255,0);
+}
+
+a:hover rect
+{
+  fill: rgba(0,0,255,0.2);
+}
+
+rect[_type="period"]:nth-of-type(even)
+{
+  fill: rgba(250,250,250,1);
+}
