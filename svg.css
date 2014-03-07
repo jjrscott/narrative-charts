@@ -1,4 +1,4 @@
-line[_date]
+polyline[_date]
 {
 	stroke: red;
 	stroke-linejoin: butt;
@@ -6,7 +6,7 @@ line[_date]
 	stroke-width: 2;
 }
 
-line:not([_date])
+polyline:not([_date])
 {
 	stroke: red;
 	stroke-linejoin: butt;
@@ -14,7 +14,7 @@ line:not([_date])
 	stroke-width: 2;
 }
 
-line[title="monarch"]
+polyline[title="monarch"]
 {
 	stroke-linejoin: butt;
 	render-order: -1;
@@ -22,14 +22,14 @@ line[title="monarch"]
 	stroke-width: 10;
 }
 
-line[entity="war"]
+polyline[entity="war"]
 {
 	stroke-linejoin: butt;
 	stroke:rgba(255,0,0,0.5);
 	stroke-width: 2;
 }
 
-line[entity="state"]
+polyline[entity="state"]
 {
 	stroke-linejoin: butt;
 	stroke:rgba(0,255,0,0.5);
@@ -112,9 +112,16 @@ rect
   fill: rgba(0,0,255,0);
 }
 
-a:hover rect
+a:hover polyline[website]
 {
-  fill: rgba(0,0,255,0.2);
+  stroke: rgba(0,0,255,0.2);
+  stroke-width: 30;
+}
+
+a polyline[website]
+{
+  stroke: rgba(0,0,255,0);
+  stroke-width: 30;
 }
 
 rect[_type="period"]:nth-of-type(even)

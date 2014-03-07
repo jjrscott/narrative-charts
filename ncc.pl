@@ -246,7 +246,7 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 	
 			if ($minY != $entries{$entry_name}{';max-y'})
 			{
-				printf $svg_handle qq(  <line x1="%s" y1="%s" x2="%s" y2="%s" _date="%s" _type="event"><title>%s</title></line>\n), xT($entries{$entry_name}{';x'}), yT($minY), xT($entries{$entry_name}{';x'}), yT($entries{$entry_name}{';max-y'}+$event_bottom), $entries{$entry_name}{'_date'}, $entries{$entry_name}{'_date'};
+				printf $svg_handle qq(  <polyline points="%s,%s %s,%s" _date="%s" _type="event"><title>%s</title></polyline>\n), xT($entries{$entry_name}{';x'}), yT($minY), xT($entries{$entry_name}{';x'}), yT($entries{$entry_name}{';max-y'}+$event_bottom), $entries{$entry_name}{'_date'}, $entries{$entry_name}{'_date'};
 			}
 		}
 	}
@@ -294,11 +294,11 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 			}
 			elsif ($class eq 'website' && length $value)
 			{
-				printf $svg_handle qq(  <a xlink:href="%s" _type="actor"><rect x="%s" y="%s" width="%s" height="%s"/></a>\n), $value, xT($start_x)+$left_margin, yT($entries{$entry_name}{';y'}-0.5), xT($end_x)-xT($start_x)-($left_margin + $right_margin), yT($entries{$entry_name}{';y'}+0.5)-yT($entries{$entry_name}{';y'}-0.5);
+				printf $svg_handle qq(  <a xlink:href="%s"><polyline points="%s,%s %s,%s" _type="actor" %s="%s"/></a>\n), $value, xT($start_x)+$left_margin, yT($entries{$entry_name}{';y'}), xT($end_x)-$right_margin, yT($entries{$entry_name}{';y'}), $class, $value;
 			}
 			else
 			{
-				printf $svg_handle qq(  <line x1="%s" y1="%s" x2="%s" y2="%s" _type="actor" %s="%s"/>\n), xT($start_x), yT($entries{$entry_name}{';y'}), xT($end_x), yT($entries{$entry_name}{';y'}), $class, $value;
+				printf $svg_handle qq(  <polyline points="%s,%s %s,%s" _type="actor" %s="%s"/>\n), xT($start_x), yT($entries{$entry_name}{';y'}), xT($end_x), yT($entries{$entry_name}{';y'}), $class, $value;
 			}
 		}
 	}

@@ -30,55 +30,55 @@
   <rect x="3945" y="0" width="161" height="900" _type="period"/>
   <rect x="4106" y="0" width="160" height="900" _type="period"/>
   <rect x="4266" y="0" width="161" height="900" _type="period"/>
-  <line x1="891" y1="345" x2="891" y2="360" _date="-2" _type="event"><title>-2</title></line>
-  <line x1="851" y1="300" x2="851" y2="330" _date="-27" _type="event"><title>-27</title></line>
-  <line x1="3535" y1="375" x2="3535" y2="390" _date="1642/12/25" _type="event"><title>1642/12/25</title></line>
-  <line x1="3603" y1="330" x2="3603" y2="360" _date="1685/02/06" _type="event"><title>1685/02/06</title></line>
-  <line x1="3609" y1="420" x2="3609" y2="450" _date="1689/02/13" _type="event"><title>1689/02/13</title></line>
-  <line x1="3618" y1="420" x2="3618" y2="450" _date="1694/12/28" _type="event"><title>1694/12/28</title></line>
-  <line x1="3630" y1="420" x2="3630" y2="480" _date="1702/03/08" _type="event"><title>1702/03/08</title></line>
-  <line x1="3650" y1="480" x2="3650" y2="510" _date="1714/08/01" _type="event"><title>1714/08/01</title></line>
-  <line x1="3670" y1="375" x2="3670" y2="390" _date="1727/03/20" _type="event"><title>1727/03/20</title></line>
-  <line x1="3671" y1="510" x2="3671" y2="540" _date="1727/06/11" _type="event"><title>1727/06/11</title></line>
-  <line x1="3724" y1="300" x2="3724" y2="540" _date="1760/10/25" _type="event"><title>1760/10/25</title></line>
-  <line x1="3820" y1="300" x2="3820" y2="420" _date="1820/01/29" _type="event"><title>1820/01/29</title></line>
-  <line x1="3836" y1="390" x2="3836" y2="420" _date="1830/06/26" _type="event"><title>1830/06/26</title></line>
-  <line x1="3847" y1="360" x2="3847" y2="390" _date="1837/06/20" _type="event"><title>1837/06/20</title></line>
-  <line x1="3950" y1="360" x2="3950" y2="480" _date="1901/01/22" _type="event"><title>1901/01/22</title></line>
-  <line x1="3965" y1="480" x2="3965" y2="510" _date="1910/05/06" _type="event"><title>1910/05/06</title></line>
-  <line x1="4006" y1="510" x2="4006" y2="540" _date="1936/01/20" _type="event"><title>1936/01/20</title></line>
-  <line x1="4007" y1="540" x2="4007" y2="570" _date="1936/12/11" _type="event"><title>1936/12/11</title></line>
-  <line x1="4032" y1="300" x2="4032" y2="570" _date="1952/02/06" _type="event"><title>1952/02/06</title></line>
-  <line x1="4068" y1="405" x2="4068" y2="420" _date="1974/08/20" _type="event"><title>1974/08/20</title></line>
-  <line x1="4075" y1="585" x2="4075" y2="600" _date="1979/04/04" _type="event"><title>1979/04/04</title></line>
-  <line x1="952" y1="345" x2="952" y2="360" _date="36" _type="event"><title>36</title></line>
-  <line x1="851" y1="330" x2="3229" y2="330" _type="actor" entity="state"/>
-  <line x1="76" y1="300" x2="851" y2="300" _type="actor" entity="state"/>
-  <line x1="3824" y1="450" x2="3970" y2="450" _type="actor" entity="human"/>
-  <line x1="3990" y1="300" x2="4306" y2="300" _type="actor" entity="human"/>
-  <line x1="3941" y1="570" x2="4032" y2="570" _type="actor" entity="human"/>
-  <line x1="3650" y1="510" x2="3671" y2="510" _type="actor" entity="human"/>
-  <line x1="3671" y1="540" x2="3724" y2="540" _type="actor" entity="human"/>
-  <line x1="3724" y1="300" x2="3820" y2="300" _type="actor" entity="human"/>
-  <line x1="3820" y1="420" x2="3836" y2="420" _type="actor" entity="human"/>
-  <line x1="3836" y1="390" x2="3847" y2="390" _type="actor" entity="human"/>
-  <line x1="3937" y1="540" x2="4064" y2="540" _type="actor" entity="human"/>
-  <line x1="4075" y1="600" x2="4306" y2="600" _type="actor" entity="human"/>
-  <line x1="3892" y1="510" x2="4006" y2="510" _type="actor" entity="human"/>
-  <line x1="3855" y1="480" x2="3965" y2="480" _type="actor" entity="human"/>
-  <line x1="3818" y1="360" x2="3950" y2="360" _type="actor" entity="human"/>
-  <line x1="4068" y1="420" x2="4306" y2="420" _type="actor" entity="human"/>
-  <line x1="3467" y1="300" x2="3545" y2="300" _type="actor" entity="human"/>
-  <line x1="3515" y1="330" x2="3603" y2="330" _type="actor" entity="human"/>
-  <line x1="3520" y1="360" x2="3609" y2="360" _type="actor" entity="human"/>
-  <line x1="3548" y1="420" x2="3630" y2="420" _type="actor" entity="human"/>
-  <line x1="3566" y1="450" x2="3618" y2="450" _type="actor" entity="human"/>
-  <line x1="3570" y1="480" x2="3650" y2="480" _type="actor" entity="human"/>
-  <line x1="1810" y1="300" x2="1911" y2="300" _type="actor" entity="human"/>
-  <line x1="4012" y1="390" x2="4021" y2="390" _type="actor" entity="war"/>
-  <line x1="3535" y1="390" x2="3670" y2="390" _type="actor" entity="human"/>
-  <line x1="891" y1="360" x2="952" y2="360" _type="actor" entity="human"/>
-  <line x1="3802" y1="330" x2="3919" y2="330" _type="actor" entity="human"/>
+  <polyline points="891,345 891,360" _date="-2" _type="event"><title>-2</title></polyline>
+  <polyline points="851,300 851,330" _date="-27" _type="event"><title>-27</title></polyline>
+  <polyline points="3535,375 3535,390" _date="1642/12/25" _type="event"><title>1642/12/25</title></polyline>
+  <polyline points="3603,330 3603,360" _date="1685/02/06" _type="event"><title>1685/02/06</title></polyline>
+  <polyline points="3609,420 3609,450" _date="1689/02/13" _type="event"><title>1689/02/13</title></polyline>
+  <polyline points="3618,420 3618,450" _date="1694/12/28" _type="event"><title>1694/12/28</title></polyline>
+  <polyline points="3630,420 3630,480" _date="1702/03/08" _type="event"><title>1702/03/08</title></polyline>
+  <polyline points="3650,480 3650,510" _date="1714/08/01" _type="event"><title>1714/08/01</title></polyline>
+  <polyline points="3670,375 3670,390" _date="1727/03/20" _type="event"><title>1727/03/20</title></polyline>
+  <polyline points="3671,510 3671,540" _date="1727/06/11" _type="event"><title>1727/06/11</title></polyline>
+  <polyline points="3724,300 3724,540" _date="1760/10/25" _type="event"><title>1760/10/25</title></polyline>
+  <polyline points="3820,300 3820,420" _date="1820/01/29" _type="event"><title>1820/01/29</title></polyline>
+  <polyline points="3836,390 3836,420" _date="1830/06/26" _type="event"><title>1830/06/26</title></polyline>
+  <polyline points="3847,360 3847,390" _date="1837/06/20" _type="event"><title>1837/06/20</title></polyline>
+  <polyline points="3950,360 3950,480" _date="1901/01/22" _type="event"><title>1901/01/22</title></polyline>
+  <polyline points="3965,480 3965,510" _date="1910/05/06" _type="event"><title>1910/05/06</title></polyline>
+  <polyline points="4006,510 4006,540" _date="1936/01/20" _type="event"><title>1936/01/20</title></polyline>
+  <polyline points="4007,540 4007,570" _date="1936/12/11" _type="event"><title>1936/12/11</title></polyline>
+  <polyline points="4032,300 4032,570" _date="1952/02/06" _type="event"><title>1952/02/06</title></polyline>
+  <polyline points="4068,405 4068,420" _date="1974/08/20" _type="event"><title>1974/08/20</title></polyline>
+  <polyline points="4075,585 4075,600" _date="1979/04/04" _type="event"><title>1979/04/04</title></polyline>
+  <polyline points="952,345 952,360" _date="36" _type="event"><title>36</title></polyline>
+  <polyline points="851,330 3229,330" _type="actor" entity="state"/>
+  <polyline points="76,300 851,300" _type="actor" entity="state"/>
+  <polyline points="3824,450 3970,450" _type="actor" entity="human"/>
+  <polyline points="3990,300 4306,300" _type="actor" entity="human"/>
+  <polyline points="3941,570 4032,570" _type="actor" entity="human"/>
+  <polyline points="3650,510 3671,510" _type="actor" entity="human"/>
+  <polyline points="3671,540 3724,540" _type="actor" entity="human"/>
+  <polyline points="3724,300 3820,300" _type="actor" entity="human"/>
+  <polyline points="3820,420 3836,420" _type="actor" entity="human"/>
+  <polyline points="3836,390 3847,390" _type="actor" entity="human"/>
+  <polyline points="3937,540 4064,540" _type="actor" entity="human"/>
+  <polyline points="4075,600 4306,600" _type="actor" entity="human"/>
+  <polyline points="3892,510 4006,510" _type="actor" entity="human"/>
+  <polyline points="3855,480 3965,480" _type="actor" entity="human"/>
+  <polyline points="3818,360 3950,360" _type="actor" entity="human"/>
+  <polyline points="4068,420 4306,420" _type="actor" entity="human"/>
+  <polyline points="3467,300 3545,300" _type="actor" entity="human"/>
+  <polyline points="3515,330 3603,330" _type="actor" entity="human"/>
+  <polyline points="3520,360 3609,360" _type="actor" entity="human"/>
+  <polyline points="3548,420 3630,420" _type="actor" entity="human"/>
+  <polyline points="3566,450 3618,450" _type="actor" entity="human"/>
+  <polyline points="3570,480 3650,480" _type="actor" entity="human"/>
+  <polyline points="1810,300 1911,300" _type="actor" entity="human"/>
+  <polyline points="4012,390 4021,390" _type="actor" entity="war"/>
+  <polyline points="3535,390 3670,390" _type="actor" entity="human"/>
+  <polyline points="891,360 952,360" _type="actor" entity="human"/>
+  <polyline points="3802,330 3919,330" _type="actor" entity="human"/>
   <text _type="actor" x="854" y="327">Roman Empire</text>
   <text _type="actor" x="79" y="297">Roman Republic</text>
   <text _type="actor" x="3827" y="447">Alfred Russel Wallace</text>
@@ -184,29 +184,29 @@
   <text x="893" y="343" _type="event">Jesus born</text>
   <text x="954" y="343" _type="event">Jesus died</text>
   <text x="4077" y="583" _type="event">John was born</text>
-  <line x1="4032" y1="300" x2="4306" y2="300" _type="actor" title="monarch"/>
-  <line x1="4007" y1="570" x2="4032" y2="570" _type="actor" title="monarch"/>
-  <line x1="3630" y1="480" x2="3650" y2="480" _type="actor" title="monarch"/>
-  <line x1="3650" y1="510" x2="3671" y2="510" _type="actor" title="monarch"/>
-  <line x1="3671" y1="540" x2="3724" y2="540" _type="actor" title="monarch"/>
-  <line x1="3724" y1="300" x2="3820" y2="300" _type="actor" title="monarch"/>
-  <line x1="3820" y1="420" x2="3836" y2="420" _type="actor" title="monarch"/>
-  <line x1="3836" y1="390" x2="3847" y2="390" _type="actor" title="monarch"/>
-  <line x1="3847" y1="360" x2="3950" y2="360" _type="actor" title="monarch"/>
-  <line x1="3950" y1="480" x2="3965" y2="480" _type="actor" title="monarch"/>
-  <line x1="3965" y1="510" x2="4006" y2="510" _type="actor" title="monarch"/>
-  <line x1="4006" y1="540" x2="4007" y2="540" _type="actor" title="monarch"/>
-  <line x1="3609" y1="420" x2="3630" y2="420" _type="actor" title="monarch"/>
-  <line x1="3609" y1="450" x2="3618" y2="450" _type="actor" title="monarch"/>
-  <line x1="3603" y1="360" x2="3609" y2="360" _type="actor" title="monarch"/>
-  <line x1="3563" y1="330" x2="3603" y2="330" _type="actor" title="monarch"/>
-  <line x1="3506" y1="300" x2="3545" y2="300" _type="actor" title="monarch"/>
-  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Empire" _type="actor"><rect x="858" y="315" width="2364" height="30"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Republic" _type="actor"><rect x="83" y="285" width="761" height="30"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace" _type="actor"><rect x="3831" y="435" width="132" height="30"/></a>
-  <a xlink:href="http://jjrscott.com" _type="actor"><rect x="4082" y="585" width="224" height="30"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Amy_Adams" _type="actor"><rect x="4075" y="405" width="231" height="30"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Isaac_Newton" _type="actor"><rect x="3542" y="375" width="121" height="30"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Jesus" _type="actor"><rect x="898" y="345" width="47" height="30"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Charles_Darwin" _type="actor"><rect x="3809" y="315" width="103" height="30"/></a>
+  <polyline points="4032,300 4306,300" _type="actor" title="monarch"/>
+  <polyline points="4007,570 4032,570" _type="actor" title="monarch"/>
+  <polyline points="3630,480 3650,480" _type="actor" title="monarch"/>
+  <polyline points="3650,510 3671,510" _type="actor" title="monarch"/>
+  <polyline points="3671,540 3724,540" _type="actor" title="monarch"/>
+  <polyline points="3724,300 3820,300" _type="actor" title="monarch"/>
+  <polyline points="3820,420 3836,420" _type="actor" title="monarch"/>
+  <polyline points="3836,390 3847,390" _type="actor" title="monarch"/>
+  <polyline points="3847,360 3950,360" _type="actor" title="monarch"/>
+  <polyline points="3950,480 3965,480" _type="actor" title="monarch"/>
+  <polyline points="3965,510 4006,510" _type="actor" title="monarch"/>
+  <polyline points="4006,540 4007,540" _type="actor" title="monarch"/>
+  <polyline points="3609,420 3630,420" _type="actor" title="monarch"/>
+  <polyline points="3609,450 3618,450" _type="actor" title="monarch"/>
+  <polyline points="3603,360 3609,360" _type="actor" title="monarch"/>
+  <polyline points="3563,330 3603,330" _type="actor" title="monarch"/>
+  <polyline points="3506,300 3545,300" _type="actor" title="monarch"/>
+  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Empire"><polyline points="858,330 3222,330" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Empire"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Republic"><polyline points="83,300 844,300" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Republic"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"><polyline points="3831,450 3963,450" _type="actor" website="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"/></a>
+  <a xlink:href="http://jjrscott.com"><polyline points="4082,600 4306,600" _type="actor" website="http://jjrscott.com"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Amy_Adams"><polyline points="4075,420 4306,420" _type="actor" website="http://en.wikipedia.org/wiki/Amy_Adams"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Isaac_Newton"><polyline points="3542,390 3663,390" _type="actor" website="http://en.wikipedia.org/wiki/Isaac_Newton"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Jesus"><polyline points="898,360 945,360" _type="actor" website="http://en.wikipedia.org/wiki/Jesus"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Charles_Darwin"><polyline points="3809,330 3912,330" _type="actor" website="http://en.wikipedia.org/wiki/Charles_Darwin"/></a>
 </svg>
