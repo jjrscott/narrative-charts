@@ -310,7 +310,7 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 
 			if ($class eq 'name' && length $value)
 			{
-				printf $svg_handle qq(  <text _type="actor" x="%s" y="%s">%s</text>\n),  xT($xs[0])+3, yT($entries{$entry_name}{';points'}{$xs[0]})-3, escape($entries{$entry_name}{$key});
+				printf $svg_handle qq(  <text _type="actor" x="%s" y="%s">%s</text>\n),  xT($entries{$start_ref}{';x'})+3, yT($entries{$entry_name}{';points'}{$entries{$start_ref}{';x'}})-3, escape($entries{$entry_name}{$key});
 			}
 			elsif ($class eq 'website' && length $value)
 			{
