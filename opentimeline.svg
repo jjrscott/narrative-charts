@@ -1,212 +1,212 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet href="svg.css" type="text/css"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="4306" height="900">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="4306" height="1500">
 <title>OpenTimeLine</title>  <!-- All the events -->
-  <rect x="-68" y="0" width="160" height="900" _type="period"/>
-  <rect x="92" y="0" width="160" height="900" _type="period"/>
-  <rect x="252" y="0" width="161" height="900" _type="period"/>
-  <rect x="413" y="0" width="160" height="900" _type="period"/>
-  <rect x="573" y="0" width="161" height="900" _type="period"/>
-  <rect x="734" y="0" width="161" height="900" _type="period"/>
-  <rect x="895" y="0" width="160" height="900" _type="period"/>
-  <rect x="1055" y="0" width="161" height="900" _type="period"/>
-  <rect x="1216" y="0" width="160" height="900" _type="period"/>
-  <rect x="1376" y="0" width="161" height="900" _type="period"/>
-  <rect x="1537" y="0" width="160" height="900" _type="period"/>
-  <rect x="1697" y="0" width="161" height="900" _type="period"/>
-  <rect x="1858" y="0" width="161" height="900" _type="period"/>
-  <rect x="2019" y="0" width="160" height="900" _type="period"/>
-  <rect x="2179" y="0" width="161" height="900" _type="period"/>
-  <rect x="2340" y="0" width="160" height="900" _type="period"/>
-  <rect x="2500" y="0" width="161" height="900" _type="period"/>
-  <rect x="2661" y="0" width="160" height="900" _type="period"/>
-  <rect x="2821" y="0" width="161" height="900" _type="period"/>
-  <rect x="2982" y="0" width="160" height="900" _type="period"/>
-  <rect x="3142" y="0" width="161" height="900" _type="period"/>
-  <rect x="3303" y="0" width="161" height="900" _type="period"/>
-  <rect x="3464" y="0" width="160" height="900" _type="period"/>
-  <rect x="3624" y="0" width="161" height="900" _type="period"/>
-  <rect x="3785" y="0" width="160" height="900" _type="period"/>
-  <rect x="3945" y="0" width="161" height="900" _type="period"/>
-  <rect x="4106" y="0" width="160" height="900" _type="period"/>
-  <rect x="4266" y="0" width="161" height="900" _type="period"/>
-  <polyline points="891,345 891,360" _date="-2" _type="event"><title>-2</title></polyline>
-  <polyline points="851,300 851,330" _date="-27" _type="event"><title>-27</title></polyline>
-  <polyline points="3535,375 3535,390" _date="1642/12/25" _type="event"><title>1642/12/25</title></polyline>
-  <polyline points="3603,330 3603,360" _date="1685/02/06" _type="event"><title>1685/02/06</title></polyline>
-  <polyline points="3609,420 3609,450" _date="1689/02/13" _type="event"><title>1689/02/13</title></polyline>
-  <polyline points="3618,420 3618,450" _date="1694/12/28" _type="event"><title>1694/12/28</title></polyline>
-  <polyline points="3630,420 3630,480" _date="1702/03/08" _type="event"><title>1702/03/08</title></polyline>
-  <polyline points="3650,480 3650,510" _date="1714/08/01" _type="event"><title>1714/08/01</title></polyline>
-  <polyline points="3670,375 3670,390" _date="1727/03/20" _type="event"><title>1727/03/20</title></polyline>
-  <polyline points="3671,510 3671,540" _date="1727/06/11" _type="event"><title>1727/06/11</title></polyline>
-  <polyline points="3724,300 3724,540" _date="1760/10/25" _type="event"><title>1760/10/25</title></polyline>
-  <polyline points="3820,300 3820,420" _date="1820/01/29" _type="event"><title>1820/01/29</title></polyline>
-  <polyline points="3836,390 3836,420" _date="1830/06/26" _type="event"><title>1830/06/26</title></polyline>
-  <polyline points="3847,360 3847,390" _date="1837/06/20" _type="event"><title>1837/06/20</title></polyline>
-  <polyline points="3950,360 3950,480" _date="1901/01/22" _type="event"><title>1901/01/22</title></polyline>
-  <polyline points="3965,480 3965,510" _date="1910/05/06" _type="event"><title>1910/05/06</title></polyline>
-  <polyline points="4006,510 4006,540" _date="1936/01/20" _type="event"><title>1936/01/20</title></polyline>
-  <polyline points="4007,540 4007,570" _date="1936/12/11" _type="event"><title>1936/12/11</title></polyline>
-  <polyline points="4032,300 4032,570" _date="1952/02/06" _type="event"><title>1952/02/06</title></polyline>
-  <polyline points="4068,405 4068,420" _date="1974/08/20" _type="event"><title>1974/08/20</title></polyline>
-  <polyline points="4075,585 4075,600" _date="1979/04/04" _type="event"><title>1979/04/04</title></polyline>
-  <polyline points="952,345 952,360" _date="36" _type="event"><title>36</title></polyline>
-  <polyline points="851,330 3229,330" _type="actor" entity="state"/>
-  <polyline points="76,300 851,300" _type="actor" entity="state"/>
-  <polyline points="3824,450 3970,450" _type="actor" entity="human"/>
-  <polyline points="3990,300 4306,300" _type="actor" entity="human"/>
-  <polyline points="3941,570 4032,570" _type="actor" entity="human"/>
-  <polyline points="3650,510 3671,510" _type="actor" entity="human"/>
-  <polyline points="3671,540 3724,540" _type="actor" entity="human"/>
-  <polyline points="3724,300 3820,300" _type="actor" entity="human"/>
-  <polyline points="3820,420 3836,420" _type="actor" entity="human"/>
-  <polyline points="3836,390 3847,390" _type="actor" entity="human"/>
-  <polyline points="3937,540 4064,540" _type="actor" entity="human"/>
-  <polyline points="4075,600 4306,600" _type="actor" entity="human"/>
-  <polyline points="3892,510 4006,510" _type="actor" entity="human"/>
-  <polyline points="3855,480 3965,480" _type="actor" entity="human"/>
-  <polyline points="3818,360 3950,360" _type="actor" entity="human"/>
-  <polyline points="4068,420 4306,420" _type="actor" entity="human"/>
-  <polyline points="3467,300 3545,300" _type="actor" entity="human"/>
-  <polyline points="3515,330 3603,330" _type="actor" entity="human"/>
-  <polyline points="3520,360 3609,360" _type="actor" entity="human"/>
-  <polyline points="3548,420 3630,420" _type="actor" entity="human"/>
-  <polyline points="3566,450 3618,450" _type="actor" entity="human"/>
-  <polyline points="3570,480 3650,480" _type="actor" entity="human"/>
-  <polyline points="1810,300 1911,300" _type="actor" entity="human"/>
-  <polyline points="4012,390 4021,390" _type="actor" entity="war"/>
-  <polyline points="3535,390 3670,390" _type="actor" entity="human"/>
-  <polyline points="891,360 952,360" _type="actor" entity="human"/>
-  <polyline points="3802,330 3919,330" _type="actor" entity="human"/>
-  <text _type="actor" x="854" y="327">Roman Empire</text>
-  <text _type="actor" x="79" y="297">Roman Republic</text>
-  <text _type="actor" x="3827" y="447">Alfred Russel Wallace</text>
-  <text _type="actor" x="3993" y="297">Elizabeth Alexandra Mary Windsor</text>
-  <text _type="actor" x="3944" y="567">Albert Frederick Arthur George Windsor</text>
-  <text _type="actor" x="3653" y="507">George Louis</text>
-  <text _type="actor" x="3674" y="537">George Augustus</text>
-  <text _type="actor" x="3727" y="297">George William Frederick</text>
-  <text _type="actor" x="3823" y="417">George Augustus Frederick</text>
-  <text _type="actor" x="3839" y="387">William Henry</text>
-  <text _type="actor" x="3940" y="537">Edward Albert Christian George Andrew Patrick David</text>
-  <text _type="actor" x="4078" y="597">John James Ralph Scott</text>
-  <text _type="actor" x="3895" y="507">George Frederick Ernest Albert</text>
-  <text _type="actor" x="3858" y="477">Albert Edward</text>
-  <text _type="actor" x="3821" y="357">Alexandrina Victoria</text>
-  <text _type="actor" x="4071" y="417">Amy Lou Adams</text>
-  <text _type="actor" x="3612" y="417">William III &amp; II</text>
-  <text _type="actor" x="3612" y="447">Mary II</text>
-  <text _type="actor" x="3606" y="357">James II and VII</text>
-  <text _type="actor" x="3566" y="327">Charles II</text>
-  <text _type="actor" x="3470" y="297">Charles</text>
-  <text _type="actor" x="3509" y="297">Charles I</text>
-  <text _type="actor" x="3518" y="327">Charles</text>
-  <text _type="actor" x="3523" y="357">James</text>
-  <text _type="actor" x="3551" y="417">William</text>
-  <text _type="actor" x="3569" y="447">Mary</text>
-  <text _type="actor" x="3573" y="477">Anne</text>
-  <text _type="actor" x="1813" y="297">Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim</text>
-  <text _type="actor" x="4015" y="387">World War II</text>
-  <text _type="actor" x="3538" y="387">Isaac Newton</text>
-  <text _type="actor" x="894" y="357">Jesus of Nazareth</text>
-  <text _type="actor" x="3805" y="327">Charles Robert Darwin</text>
-  <circle cx="3229" cy="330" r="3" participant="ended" _type="event"><title>ended</title></circle>
-  <circle cx="851" cy="330" r="3" participant="started" _type="event"><title>started</title></circle>
-  <circle cx="851" cy="300" r="3" participant="ended" _type="event"><title>ended</title></circle>
-  <circle cx="76" cy="300" r="3" participant="started" _type="event"><title>started</title></circle>
-  <circle cx="4007" cy="540" r="3" participant="abdicated" _type="event"><title>abdicated</title></circle>
-  <circle cx="4006" cy="540" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3937" cy="540" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="4064" cy="540" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3965" cy="510" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3892" cy="510" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="4006" cy="510" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3950" cy="480" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3855" cy="480" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3965" cy="480" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3847" cy="360" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3818" cy="360" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3950" cy="360" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3836" cy="390" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3847" cy="390" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3820" cy="420" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3836" cy="420" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3724" cy="300" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3820" cy="300" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3671" cy="540" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3724" cy="540" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3650" cy="510" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3671" cy="510" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3630" cy="480" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3570" cy="480" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3650" cy="480" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="4075" cy="600" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3609" cy="420" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3618" cy="420" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3548" cy="420" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3630" cy="420" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3609" cy="450" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3566" cy="450" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3618" cy="450" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3603" cy="360" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3520" cy="360" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3609" cy="360" r="3" participant="deposed" _type="event"><title>deposed</title></circle>
-  <circle cx="3563" cy="330" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3515" cy="330" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3603" cy="330" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3467" cy="300" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3545" cy="300" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="1810" cy="300" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="1911" cy="300" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="4021" cy="390" r="3" participant="ended" _type="event"><title>ended</title></circle>
-  <circle cx="4012" cy="390" r="3" participant="started" _type="event"><title>started</title></circle>
-  <circle cx="4068" cy="420" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="4068" cy="420" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3535" cy="390" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3670" cy="390" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="891" cy="360" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="952" cy="360" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3824" cy="450" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3970" cy="450" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3802" cy="330" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="3919" cy="330" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="4032" cy="300" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3990" cy="300" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="4007" cy="570" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="4007" cy="570" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
-  <circle cx="3941" cy="570" r="3" participant="baby" _type="event"><title>baby</title></circle>
-  <circle cx="4032" cy="570" r="3" participant="died" _type="event"><title>died</title></circle>
-  <circle cx="3506" cy="300" r="3" particpant="ascended" _type="event"><title>ascended</title></circle>
-  <text x="4070" y="403" _type="event">Amy Lou Adams was born</text>
-  <text x="3672" y="373" _type="event">Isaac Newton died</text>
-  <text x="3537" y="373" _type="event">Isaac Newton is born</text>
-  <text x="893" y="343" _type="event">Jesus born</text>
-  <text x="954" y="343" _type="event">Jesus died</text>
-  <text x="4077" y="583" _type="event">John was born</text>
-  <polyline points="4032,300 4306,300" _type="actor" title="monarch"/>
-  <polyline points="4007,570 4032,570" _type="actor" title="monarch"/>
-  <polyline points="3630,480 3650,480" _type="actor" title="monarch"/>
-  <polyline points="3650,510 3671,510" _type="actor" title="monarch"/>
-  <polyline points="3671,540 3724,540" _type="actor" title="monarch"/>
-  <polyline points="3724,300 3820,300" _type="actor" title="monarch"/>
-  <polyline points="3820,420 3836,420" _type="actor" title="monarch"/>
-  <polyline points="3836,390 3847,390" _type="actor" title="monarch"/>
-  <polyline points="3847,360 3950,360" _type="actor" title="monarch"/>
-  <polyline points="3950,480 3965,480" _type="actor" title="monarch"/>
-  <polyline points="3965,510 4006,510" _type="actor" title="monarch"/>
-  <polyline points="4006,540 4007,540" _type="actor" title="monarch"/>
-  <polyline points="3609,420 3630,420" _type="actor" title="monarch"/>
-  <polyline points="3609,450 3618,450" _type="actor" title="monarch"/>
-  <polyline points="3603,360 3609,360" _type="actor" title="monarch"/>
-  <polyline points="3563,330 3603,330" _type="actor" title="monarch"/>
-  <polyline points="3506,300 3545,300" _type="actor" title="monarch"/>
-  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Empire"><polyline points="858,330 3222,330" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Empire"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Republic"><polyline points="83,300 844,300" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Republic"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"><polyline points="3831,450 3963,450" _type="actor" website="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"/></a>
-  <a xlink:href="http://jjrscott.com"><polyline points="4082,600 4306,600" _type="actor" website="http://jjrscott.com"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Amy_Adams"><polyline points="4075,420 4306,420" _type="actor" website="http://en.wikipedia.org/wiki/Amy_Adams"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Isaac_Newton"><polyline points="3542,390 3663,390" _type="actor" website="http://en.wikipedia.org/wiki/Isaac_Newton"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Jesus"><polyline points="898,360 945,360" _type="actor" website="http://en.wikipedia.org/wiki/Jesus"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Charles_Darwin"><polyline points="3809,330 3912,330" _type="actor" website="http://en.wikipedia.org/wiki/Charles_Darwin"/></a>
+  <rect x="-68" y="0" width="160" height="1500" _type="period"/>
+  <rect x="92" y="0" width="160" height="1500" _type="period"/>
+  <rect x="252" y="0" width="161" height="1500" _type="period"/>
+  <rect x="413" y="0" width="160" height="1500" _type="period"/>
+  <rect x="573" y="0" width="161" height="1500" _type="period"/>
+  <rect x="734" y="0" width="161" height="1500" _type="period"/>
+  <rect x="895" y="0" width="160" height="1500" _type="period"/>
+  <rect x="1055" y="0" width="161" height="1500" _type="period"/>
+  <rect x="1216" y="0" width="160" height="1500" _type="period"/>
+  <rect x="1376" y="0" width="161" height="1500" _type="period"/>
+  <rect x="1537" y="0" width="160" height="1500" _type="period"/>
+  <rect x="1697" y="0" width="161" height="1500" _type="period"/>
+  <rect x="1858" y="0" width="161" height="1500" _type="period"/>
+  <rect x="2019" y="0" width="160" height="1500" _type="period"/>
+  <rect x="2179" y="0" width="161" height="1500" _type="period"/>
+  <rect x="2340" y="0" width="160" height="1500" _type="period"/>
+  <rect x="2500" y="0" width="161" height="1500" _type="period"/>
+  <rect x="2661" y="0" width="160" height="1500" _type="period"/>
+  <rect x="2821" y="0" width="161" height="1500" _type="period"/>
+  <rect x="2982" y="0" width="160" height="1500" _type="period"/>
+  <rect x="3142" y="0" width="161" height="1500" _type="period"/>
+  <rect x="3303" y="0" width="161" height="1500" _type="period"/>
+  <rect x="3464" y="0" width="160" height="1500" _type="period"/>
+  <rect x="3624" y="0" width="161" height="1500" _type="period"/>
+  <rect x="3785" y="0" width="160" height="1500" _type="period"/>
+  <rect x="3945" y="0" width="161" height="1500" _type="period"/>
+  <rect x="4106" y="0" width="160" height="1500" _type="period"/>
+  <rect x="4266" y="0" width="161" height="1500" _type="period"/>
+  <polyline points="891,585 891,600" _date="-2" _type="event"><title>-2</title></polyline>
+  <polyline points="851,500 851,550" _date="-27" _type="event"><title>-27</title></polyline>
+  <polyline points="3535,635 3535,650" _date="1642/12/25" _type="event"><title>1642/12/25</title></polyline>
+  <polyline points="3603,550 3603,600" _date="1685/02/06" _type="event"><title>1685/02/06</title></polyline>
+  <polyline points="3609,700 3609,750" _date="1689/02/13" _type="event"><title>1689/02/13</title></polyline>
+  <polyline points="3618,700 3618,750" _date="1694/12/28" _type="event"><title>1694/12/28</title></polyline>
+  <polyline points="3630,700 3630,800" _date="1702/03/08" _type="event"><title>1702/03/08</title></polyline>
+  <polyline points="3650,800 3650,850" _date="1714/08/01" _type="event"><title>1714/08/01</title></polyline>
+  <polyline points="3670,635 3670,650" _date="1727/03/20" _type="event"><title>1727/03/20</title></polyline>
+  <polyline points="3671,850 3671,900" _date="1727/06/11" _type="event"><title>1727/06/11</title></polyline>
+  <polyline points="3724,500 3724,900" _date="1760/10/25" _type="event"><title>1760/10/25</title></polyline>
+  <polyline points="3820,500 3820,700" _date="1820/01/29" _type="event"><title>1820/01/29</title></polyline>
+  <polyline points="3836,650 3836,700" _date="1830/06/26" _type="event"><title>1830/06/26</title></polyline>
+  <polyline points="3847,600 3847,650" _date="1837/06/20" _type="event"><title>1837/06/20</title></polyline>
+  <polyline points="3950,600 3950,800" _date="1901/01/22" _type="event"><title>1901/01/22</title></polyline>
+  <polyline points="3965,800 3965,850" _date="1910/05/06" _type="event"><title>1910/05/06</title></polyline>
+  <polyline points="4006,850 4006,900" _date="1936/01/20" _type="event"><title>1936/01/20</title></polyline>
+  <polyline points="4007,900 4007,950" _date="1936/12/11" _type="event"><title>1936/12/11</title></polyline>
+  <polyline points="4032,500 4032,950" _date="1952/02/06" _type="event"><title>1952/02/06</title></polyline>
+  <polyline points="4068,685 4068,700" _date="1974/08/20" _type="event"><title>1974/08/20</title></polyline>
+  <polyline points="4075,985 4075,1000" _date="1979/04/04" _type="event"><title>1979/04/04</title></polyline>
+  <polyline points="952,585 952,600" _date="36" _type="event"><title>36</title></polyline>
+  <polyline points="851,550 3229,550" _type="actor" entity="state"/>
+  <polyline points="76,500 851,500" _type="actor" entity="state"/>
+  <polyline points="3824,750 3970,750" _type="actor" entity="human"/>
+  <polyline points="3990,500 4032,500 4306,500" _type="actor" entity="human"/>
+  <polyline points="3941,950 4007,950 4032,950" _type="actor" entity="human"/>
+  <polyline points="3650,850 3671,850" _type="actor" entity="human"/>
+  <polyline points="3671,900 3724,900" _type="actor" entity="human"/>
+  <polyline points="3724,500 3820,500" _type="actor" entity="human"/>
+  <polyline points="3820,700 3836,700" _type="actor" entity="human"/>
+  <polyline points="3836,650 3847,650" _type="actor" entity="human"/>
+  <polyline points="3937,900 4006,900 4007,900 4064,900" _type="actor" entity="human"/>
+  <polyline points="4075,1000 4306,1000" _type="actor" entity="human"/>
+  <polyline points="3892,850 3965,850 4006,850" _type="actor" entity="human"/>
+  <polyline points="3855,800 3950,800 3965,800" _type="actor" entity="human"/>
+  <polyline points="3818,600 3847,600 3950,600" _type="actor" entity="human"/>
+  <polyline points="4068,700 4306,700" _type="actor" entity="human"/>
+  <polyline points="3467,500 3506,500 3545,500" _type="actor" entity="human"/>
+  <polyline points="3515,550 3563,550 3603,550" _type="actor" entity="human"/>
+  <polyline points="3520,600 3603,600 3609,600" _type="actor" entity="human"/>
+  <polyline points="3548,700 3609,700 3618,700 3630,700" _type="actor" entity="human"/>
+  <polyline points="3566,750 3609,750 3618,750" _type="actor" entity="human"/>
+  <polyline points="3570,800 3630,800 3650,800" _type="actor" entity="human"/>
+  <polyline points="1810,500 1911,500" _type="actor" entity="human"/>
+  <polyline points="4012,650 4021,650" _type="actor" entity="war"/>
+  <polyline points="3535,650 3670,650" _type="actor" entity="human"/>
+  <polyline points="891,600 952,600" _type="actor" entity="human"/>
+  <polyline points="3802,550 3919,550" _type="actor" entity="human"/>
+  <text _type="actor" x="854" y="547">Roman Empire</text>
+  <text _type="actor" x="79" y="497">Roman Republic</text>
+  <text _type="actor" x="3827" y="747">Alfred Russel Wallace</text>
+  <text _type="actor" x="3993" y="497">Elizabeth Alexandra Mary Windsor</text>
+  <text _type="actor" x="3944" y="947">Albert Frederick Arthur George Windsor</text>
+  <text _type="actor" x="3653" y="847">George Louis</text>
+  <text _type="actor" x="3674" y="897">George Augustus</text>
+  <text _type="actor" x="3727" y="497">George William Frederick</text>
+  <text _type="actor" x="3823" y="697">George Augustus Frederick</text>
+  <text _type="actor" x="3839" y="647">William Henry</text>
+  <text _type="actor" x="3940" y="897">Edward Albert Christian George Andrew Patrick David</text>
+  <text _type="actor" x="4078" y="997">John James Ralph Scott</text>
+  <text _type="actor" x="3895" y="847">George Frederick Ernest Albert</text>
+  <text _type="actor" x="3858" y="797">Albert Edward</text>
+  <text _type="actor" x="3821" y="597">Alexandrina Victoria</text>
+  <text _type="actor" x="4071" y="697">Amy Lou Adams</text>
+  <text _type="actor" x="3551" y="697">William III &amp; II</text>
+  <text _type="actor" x="3569" y="747">Mary II</text>
+  <text _type="actor" x="3523" y="597">James II and VII</text>
+  <text _type="actor" x="3518" y="547">Charles II</text>
+  <text _type="actor" x="3470" y="497">Charles</text>
+  <text _type="actor" x="3470" y="497">Charles I</text>
+  <text _type="actor" x="3518" y="547">Charles</text>
+  <text _type="actor" x="3523" y="597">James</text>
+  <text _type="actor" x="3551" y="697">William</text>
+  <text _type="actor" x="3569" y="747">Mary</text>
+  <text _type="actor" x="3573" y="797">Anne</text>
+  <text _type="actor" x="1813" y="497">Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim</text>
+  <text _type="actor" x="4015" y="647">World War II</text>
+  <text _type="actor" x="3538" y="647">Isaac Newton</text>
+  <text _type="actor" x="894" y="597">Jesus of Nazareth</text>
+  <text _type="actor" x="3805" y="547">Charles Robert Darwin</text>
+  <circle cx="3229" cy="550" r="3" participant="ended" _type="event"><title>ended</title></circle>
+  <circle cx="851" cy="550" r="3" participant="started" _type="event"><title>started</title></circle>
+  <circle cx="851" cy="500" r="3" participant="ended" _type="event"><title>ended</title></circle>
+  <circle cx="76" cy="500" r="3" participant="started" _type="event"><title>started</title></circle>
+  <circle cx="4007" cy="900" r="3" participant="abdicated" _type="event"><title>abdicated</title></circle>
+  <circle cx="4006" cy="900" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3937" cy="900" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4064" cy="900" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3965" cy="850" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3892" cy="850" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4006" cy="850" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3950" cy="800" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3855" cy="800" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3965" cy="800" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3847" cy="600" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3818" cy="600" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3950" cy="600" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3836" cy="650" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3847" cy="650" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3820" cy="700" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3836" cy="700" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3724" cy="500" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3820" cy="500" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3671" cy="900" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3724" cy="900" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3650" cy="850" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3671" cy="850" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3630" cy="800" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3570" cy="800" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3650" cy="800" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="4075" cy="1000" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3609" cy="700" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3618" cy="700" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3548" cy="700" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3630" cy="700" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3609" cy="750" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3566" cy="750" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3618" cy="750" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3603" cy="600" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3520" cy="600" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3609" cy="600" r="3" participant="deposed" _type="event"><title>deposed</title></circle>
+  <circle cx="3563" cy="550" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3515" cy="550" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3603" cy="550" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3467" cy="500" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3545" cy="500" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="1810" cy="500" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="1911" cy="500" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="4021" cy="650" r="3" participant="ended" _type="event"><title>ended</title></circle>
+  <circle cx="4012" cy="650" r="3" participant="started" _type="event"><title>started</title></circle>
+  <circle cx="4068" cy="700" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4068" cy="700" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3535" cy="650" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3670" cy="650" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="891" cy="600" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="952" cy="600" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3824" cy="750" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3970" cy="750" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3802" cy="550" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="3919" cy="550" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="4032" cy="500" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3990" cy="500" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4007" cy="950" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="4007" cy="950" r="3" participant="ascended" _type="event"><title>ascended</title></circle>
+  <circle cx="3941" cy="950" r="3" participant="baby" _type="event"><title>baby</title></circle>
+  <circle cx="4032" cy="950" r="3" participant="died" _type="event"><title>died</title></circle>
+  <circle cx="3506" cy="500" r="3" particpant="ascended" _type="event"><title>ascended</title></circle>
+  <text x="4070" y="683" _type="event">Amy Lou Adams was born</text>
+  <text x="3672" y="633" _type="event">Isaac Newton died</text>
+  <text x="3537" y="633" _type="event">Isaac Newton is born</text>
+  <text x="893" y="583" _type="event">Jesus born</text>
+  <text x="954" y="583" _type="event">Jesus died</text>
+  <text x="4077" y="983" _type="event">John was born</text>
+  <polyline points="4032,500 4306,500" _type="actor" title="monarch"/>
+  <polyline points="4007,950 4032,950" _type="actor" title="monarch"/>
+  <polyline points="3630,800 3650,800" _type="actor" title="monarch"/>
+  <polyline points="3650,850 3671,850" _type="actor" title="monarch"/>
+  <polyline points="3671,900 3724,900" _type="actor" title="monarch"/>
+  <polyline points="3724,500 3820,500" _type="actor" title="monarch"/>
+  <polyline points="3820,700 3836,700" _type="actor" title="monarch"/>
+  <polyline points="3836,650 3847,650" _type="actor" title="monarch"/>
+  <polyline points="3847,600 3950,600" _type="actor" title="monarch"/>
+  <polyline points="3950,800 3965,800" _type="actor" title="monarch"/>
+  <polyline points="3965,850 4006,850" _type="actor" title="monarch"/>
+  <polyline points="4006,900 4007,900" _type="actor" title="monarch"/>
+  <polyline points="3609,700 3618,700 3630,700" _type="actor" title="monarch"/>
+  <polyline points="3609,750 3618,750" _type="actor" title="monarch"/>
+  <polyline points="3603,600 3609,600" _type="actor" title="monarch"/>
+  <polyline points="3563,550 3603,550" _type="actor" title="monarch"/>
+  <polyline points="3506,500 3545,500" _type="actor" title="monarch"/>
+  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Empire"><polyline points="851,550 3229,550" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Empire"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Republic"><polyline points="76,500 851,500" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Republic"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"><polyline points="3824,750 3970,750" _type="actor" website="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"/></a>
+  <a xlink:href="http://jjrscott.com"><polyline points="4075,1000 4306,1000" _type="actor" website="http://jjrscott.com"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Amy_Adams"><polyline points="4068,700 4306,700" _type="actor" website="http://en.wikipedia.org/wiki/Amy_Adams"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Isaac_Newton"><polyline points="3535,650 3670,650" _type="actor" website="http://en.wikipedia.org/wiki/Isaac_Newton"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Jesus"><polyline points="891,600 952,600" _type="actor" website="http://en.wikipedia.org/wiki/Jesus"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Charles_Darwin"><polyline points="3802,550 3919,550" _type="actor" website="http://en.wikipedia.org/wiki/Charles_Darwin"/></a>
 </svg>

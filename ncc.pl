@@ -40,8 +40,8 @@ while (my $line = $timeline_handle->getline())
 			my @refs = split ',', $2;
 			foreach my $ref (@refs)
 			{
-				$entries{$current_entry_name}{';refs'}{$ref}++;
-				$entries{$ref}{';refs'}{$current_entry_name}++;
+				$entries{$current_entry_name}{';refs'}{$ref} = undef;
+				$entries{$ref}{';refs'}{$current_entry_name} = undef;
 			}
 		}
 	}
@@ -70,42 +70,50 @@ foreach my $entry_name (keys %entries)
 	}
 }
 
-my %current_maxXs_for_ys;
-foreach my $entry_name (sort {$entries{$a}{';min-x'} <=> $entries{$b}{';min-x'}} keys %entries)
+my %visible_entry_names;
+foreach my $entry_name (sort {$entries{$a}{';x'} <=> $entries{$b}{';x'}} keys %entries)
 {
-	if (length $entry_name && !exists $entries{$entry_name}{'_date'})
-	{
-		while (my ($y, $maxX) = each %current_maxXs_for_ys)
+	if (length $entry_name && exists $entries{$entry_name}{'_date'})
+	{		
+		foreach my $visible_entry_name (keys %visible_entry_names)
 		{
-			if (($maxX + 60*60*24*31*12*100) < $entries{$entry_name}{';min-x'})
+			if (($entries{$visible_entry_name}{';max-x'} + 60*60*24*31*12*100) < $entries{$entry_name}{';x'})
 			{
-				delete $current_maxXs_for_ys{$y};
+				delete $visible_entry_names{$visible_entry_name};
 			}
 		}
-	
-	
-		# Add actor to a slot
-
-		my $i = 1;
-		my $y = 0;
-		while (1)
-		{
-			$y = $i-1;#int($i/2)*(-1)**$i;
-			if (!exists $current_maxXs_for_ys{$y})
-			{
-				last;
-			}
-			$i++;
-		}		
-	
-		$current_maxXs_for_ys{$y} = $entries{$entry_name}{';max-x'};
-		$entries{$entry_name}{';y'} = $y;
-		$entries{''}{';min-y'} = min($entries{''}{';min-y'}, $entries{$entry_name}{';y'});
-		$entries{''}{';max-y'} = max($entries{''}{';max-y'}, $entries{$entry_name}{';y'});
+		
 		foreach my $ref (keys %{$entries{$entry_name}{';refs'}})
 		{
-			$entries{$ref}{';min-y'} = min($entries{$ref}{';min-y'}, $entries{$entry_name}{';y'});
-			$entries{$ref}{';max-y'} = max($entries{$ref}{';max-y'}, $entries{$entry_name}{';y'});
+			$entries{$ref}{';min-x'} = min($entries{$ref}{';min-x'}, $entries{$entry_name}{';x'});
+			$entries{$ref}{';max-x'} = max($entries{$ref}{';max-x'}, $entries{$entry_name}{';x'});
+			
+			my $i = 1;
+			my $y = 0;
+			
+			if (exists $visible_entry_names{$ref})
+			{
+				$y = $visible_entry_names{$ref};
+			}
+			else
+			{
+				my %used_ys = reverse %visible_entry_names;
+				for(;;$y++)
+				{
+					if (!exists $used_ys{$y})
+					{
+						last;
+					}
+				}
+				$visible_entry_names{$ref} = $y;
+			}	
+
+			$visible_entry_names{$ref} = $y;
+			$entries{$ref}{';points'}{$entries{$entry_name}{';x'}} = $y;
+			$entries{''}{';min-y'} = min($entries{''}{';min-y'}, $y);
+			$entries{''}{';max-y'} = max($entries{''}{';max-y'}, $y);
+			$entries{$entry_name}{';min-y'} = min($entries{$entry_name}{';min-y'}, $y);
+			$entries{$entry_name}{';max-y'} = max($entries{$entry_name}{';max-y'}, $y);
 		}
 	}
 }
@@ -138,7 +146,7 @@ foreach my $entry_name (sort {$a cmp $b} keys %entries)
 		}
 		if ('HASH' eq ref $entries{$entry_name}{$key})
 		{
-			printf $timeline_handle qq(%s = %s\n), $key, join ',', sort {$a cmp $b} keys %{$entries{$entry_name}{$key}};
+			printf $timeline_handle qq(%s = %s\n), $key, join ' ', map {$_.(defined $entries{$entry_name}{$key}{$_}? ','.$entries{$entry_name}{$key}{$_} : '')} sort {$a cmp $b} keys %{$entries{$entry_name}{$key}};
 		}
 		else
 		{
@@ -165,7 +173,7 @@ print $svg_handle qq(<title>OpenTimeLine</title>);
 
 print $svg_handle qq(  <!-- All the events -->\n);
 
-my $event_top = 0.5;
+my $event_top = 0.3;
 my $event_bottom = 0;
 
 my $event_padding_top = 0;
@@ -228,7 +236,7 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 		my ($class, $ref) = $key =~ m!([^ =\n(]+)\(([^\)]+)\)!;
 		if (defined $class)
 		{
-			printf $svg_handle qq(  <circle cx="%s" cy="%s" r="3" %s="%s" _type="event"><title>%s</title></circle>\n), xT($entries{$entry_name}{';x'}), yT($entries{$ref}{';y'}), $class, $entries{$entry_name}{$key}, escape($entries{$entry_name}{$key});
+			printf $svg_handle qq(  <circle cx="%s" cy="%s" r="3" %s="%s" _type="event"><title>%s</title></circle>\n), xT($entries{$entry_name}{';x'}), yT($entries{$ref}{';points'}{$entries{$entry_name}{';x'}}), $class, $entries{$entry_name}{$key}, escape($entries{$entry_name}{$key});
 		}
 		elsif ($key eq 'title')
 		{
@@ -260,45 +268,57 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 
 			$value =~ s/&/&amp;/g;
 			
-			my $start_x;
-			my $end_x;
-			my $left_margin;
-			my $right_margin;
+			my @xs = sort {$a <=> $b} keys %{$entries{$entry_name}{';points'}};
 			
-			if (length $start_ref)
+			if (0 == length $start_ref)
 			{
-				$start_x = $entries{$start_ref}{';x'};
-				$left_margin = 7;
-			}
-			else
-			{
-				$start_x = $entries{''}{';min-x'};
-				$left_margin = 0;
+				unshift @xs, $entries{''}{';min-x'};
 			}
 			
-			if (length $end_ref)
+			if (0 == length $end_ref)
 			{
-				$end_x = $entries{$end_ref}{';x'};
-				$right_margin = 7;
+				push @xs, $entries{''}{';max-x'};
 			}
-			else
+			
+			my @points;
+			for (my $xi=0;$xi<@xs;$xi++)
 			{
-				$end_x = $entries{''}{';max-x'};
-				$right_margin = 0;
+				if (length $start_ref && $xs[$xi] < $entries{$start_ref}{';x'})
+				{
+					next;
+				}
+				if (length $end_ref && $xs[$xi] > $entries{$end_ref}{';x'})
+				{
+					next;
+				}
+				my $y;
+				if (exists $entries{$entry_name}{';points'}{$xs[$xi]})
+				{
+					$y = $entries{$entry_name}{';points'}{$xs[$xi]};
+				}
+				elsif ($xi == 0)
+				{
+					$y = $entries{$entry_name}{';points'}{$xs[$xi+1]};
+				}
+				else
+				{
+					$y = $entries{$entry_name}{';points'}{$xs[$xi-1]};
+				}
+				push @points, xT($xs[$xi]).','.yT($y);
 			}
 			
 
 			if ($class eq 'name' && length $value)
 			{
-					printf $svg_handle qq(  <text _type="actor" x="%s" y="%s">%s</text>\n),  xT($start_x)+3, yT($entries{$entry_name}{';y'})-3, escape($entries{$entry_name}{$key});
+				printf $svg_handle qq(  <text _type="actor" x="%s" y="%s">%s</text>\n),  xT($xs[0])+3, yT($entries{$entry_name}{';points'}{$xs[0]})-3, escape($entries{$entry_name}{$key});
 			}
 			elsif ($class eq 'website' && length $value)
 			{
-				printf $svg_handle qq(  <a xlink:href="%s"><polyline points="%s,%s %s,%s" _type="actor" %s="%s"/></a>\n), $value, xT($start_x)+$left_margin, yT($entries{$entry_name}{';y'}), xT($end_x)-$right_margin, yT($entries{$entry_name}{';y'}), $class, $value;
+				printf $svg_handle qq(  <a xlink:href="%s"><polyline points="%s" _type="actor" %s="%s"/></a>\n), $value, join(' ', @points), $class, $value;
 			}
 			else
 			{
-				printf $svg_handle qq(  <polyline points="%s,%s %s,%s" _type="actor" %s="%s"/>\n), xT($start_x), yT($entries{$entry_name}{';y'}), xT($end_x), yT($entries{$entry_name}{';y'}), $class, $value;
+				printf $svg_handle qq(  <polyline points="%s" _type="actor" %s="%s"/>\n), join(' ', @points), $class, $value;
 			}
 		}
 	}
@@ -319,7 +339,7 @@ sub xT
 sub yT
 {
 	my ($y) = @_;
-	return int((($y - $entries{''}{';min-y'})) * 30);
+	return int((($y - $entries{''}{';min-y'})) * 50);
 }
 sub parse_datetime
 {
@@ -343,44 +363,28 @@ sub parse_datetime
 
 sub max
 {
-	my ($a, $b) = @_;
-	if (!defined $a)
+	my $r = undef;
+	foreach my $v (@_)
 	{
-		return $b;
+		if (!defined $r || $v > $r)
+		{
+			$r = $v;
+		}
 	}
-	elsif (!defined $b)
-	{
-		return $a;
-	}
-	elsif ($a > $b)
-	{
-		return $a;
-	}
-	else
-	{
-		return $b;
-	}
+	return $r;
 }
 
 sub min
 {
-	my ($a, $b) = @_;
-	if (!defined $a)
+	my $r = undef;
+	foreach my $v (@_)
 	{
-		return $b;
+		if (!defined $r || $v < $r)
+		{
+			$r = $v;
+		}
 	}
-	elsif (!defined $b)
-	{
-		return $a;
-	}
-	elsif ($a < $b)
-	{
-		return $a;
-	}
-	else
-	{
-		return $b;
-	}
+	return $r;
 }
 
 sub escape
