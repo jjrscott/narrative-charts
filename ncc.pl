@@ -140,9 +140,16 @@ foreach my $entry_name (sort {$a cmp $b} keys %entries)
 	}
 	foreach my $key (sort {$a cmp $b} keys %{$entries{$entry_name}})
 	{
+# 		if ($key eq 'type' || $key eq 'name')
+# 		{
+# 			my (@refs) = sort {$entries{$a}{';x'} <=> $entries{$b}{';x'}} keys %{$entries{$entry_name}{';refs'}};
+# 			printf $timeline_handle qq(%s(%s,%s) = %s\n), $key, $refs[0], $refs[-1], $entries{$entry_name}{$key};
+# 			next;
+# 		}
+	
 		if ($key =~ m!^;!)
 		{
-# 			next;
+			next;
 		}
 		if ('HASH' eq ref $entries{$entry_name}{$key})
 		{
@@ -236,7 +243,7 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 		my ($class, $ref) = $key =~ m!([^ =\n(]+)\(([^\)]+)\)!;
 		if (defined $class)
 		{
-			printf $svg_handle qq(  <circle cx="%s" cy="%s" r="3" %s="%s" _type="event"><title>%s</title></circle>\n), xT($entries{$entry_name}{';x'}), yT($entries{$ref}{';points'}{$entries{$entry_name}{';x'}}), $class, $entries{$entry_name}{$key}, escape($entries{$entry_name}{$key});
+			printf $svg_handle qq(  <circle cx="%s" cy="%s" r="3" %s="%s" _type="event"><title>%s: %s</title></circle> <!-- %s -->\n), xT($entries{$entry_name}{';x'}), yT($entries{$ref}{';points'}{$entries{$entry_name}{';x'}}), $class, $entries{$entry_name}{$key}, escape($entries{$entry_name}{'_date'}), escape($entries{$entry_name}{$key}), $entry_name;
 		}
 		elsif ($key eq 'title')
 		{
@@ -318,7 +325,7 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 			}
 			else
 			{
-				printf $svg_handle qq(  <polyline points="%s" _type="actor" %s="%s"/>\n), join(' ', @points), $class, $value;
+				printf $svg_handle qq(  <polyline points="%s" _type="actor" %s="%s"/> <!-- %s -->\n), join(' ', @points), $class, $value, $entry_name;
 			}
 		}
 	}
@@ -339,7 +346,7 @@ sub xT
 sub yT
 {
 	my ($y) = @_;
-	return int((($y - $entries{''}{';min-y'})) * 50);
+	return int((($y - $entries{''}{';min-y'})) * $entries{''}{'scale-y'});
 }
 sub parse_datetime
 {
