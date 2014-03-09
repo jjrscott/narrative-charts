@@ -329,6 +329,8 @@
   <polyline points="7949,850 8025,850" _type="actor" title="monarch"/> <!-- a-24 -->
   <a xlink:href="http://en.wikipedia.org/wiki/Roman_Empire"><polyline points="2638,500 4255,500" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Empire"/></a>
   <a xlink:href="http://en.wikipedia.org/wiki/Roman_Republic"><polyline points="1089,600 2638,600" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Republic"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Russian_Empire"><polyline points="8256,1450 8680,1450 8690,1450" _type="actor" website="http://en.wikipedia.org/wiki/Russian_Empire"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Tsardom_of_Russia"><polyline points="7697,800 8256,800" _type="actor" website="http://en.wikipedia.org/wiki/Tsardom_of_Russia"/></a>
   <a xlink:href="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"><polyline points="8584,800 8876,800" _type="actor" website="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"/></a>
   <a xlink:href="http://jjrscott.com"><polyline points="9086,1000 9548,1000" _type="actor" website="http://jjrscott.com"/></a>
   <a xlink:href="http://en.wikipedia.org/wiki/Amy_Adams"><polyline points="9072,650 9548,650" _type="actor" website="http://en.wikipedia.org/wiki/Amy_Adams"/></a>
