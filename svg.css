@@ -27,7 +27,7 @@ polyline[title="monarch"]
 	stroke-width: 10;
 }
 
-polyline[entity="war"]
+polyline[entity="conflict"]
 {
 	stroke-linejoin: butt;
 	stroke:rgba(255,0,0,0.5);
@@ -68,6 +68,13 @@ circle[participant="ascended"]
   stroke: rgba(0,255,0,0.8);
   stroke-width: 0;
   fill: rgba(0,255,0,0.8);
+}
+
+circle[participant="belligerent"]
+{
+  stroke: rgba(128,128,128,0.8);
+  stroke-width: 0;
+  fill: rgba(128,128,128,0.8);
 }
 
 
