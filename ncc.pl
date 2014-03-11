@@ -31,7 +31,7 @@ while (my $line = $timeline_handle->getline())
 	{
 		$current_entry_name = $1;
 	}
-	elsif ($line =~ m!([^\ =\n(]+(?:\(([^\)]+)\))?)\s*=\s*([^\n]+)!)
+	elsif ($line =~ m!([^\ =\n(]+(?:\(([^\)]+)\))?)\s*=\s*([^\n]*)!)
 	{
 		$entries{$current_entry_name}{$1} = $3;
 		
@@ -44,6 +44,7 @@ while (my $line = $timeline_handle->getline())
 				$entries{$ref}{';refs'}{$current_entry_name} = undef;
 			}
 		}
+# 		die Dumper([$current_entry_name, $1, $2, $3]);
 	}
 	elsif ($line =~ m!^\s*$!)
 	{
@@ -81,6 +82,13 @@ foreach my $entry_name (sort {$entries{$a}{';x'} <=> $entries{$b}{';x'}} keys %e
 			{
 				delete $visible_entry_names{$visible_entry_name};
 			}
+			
+# 			my $y = 0;
+# 			foreach my $visible_entry_name (sort {$visible_entry_names{$a} <=> $visible_entry_names{$b}} keys %visible_entry_names)
+# 			{
+# 				$visible_entry_names{$visible_entry_name} = $y++;
+# 				$entries{$visible_entry_name}{';points'}{$entries{$entry_name}{';x'}} = $visible_entry_names{$visible_entry_name};
+# 			}
 		}
 		
 		foreach my $ref (keys %{$entries{$entry_name}{';refs'}})
@@ -118,10 +126,12 @@ foreach my $entry_name (sort {$entries{$a}{';x'} <=> $entries{$b}{';x'}} keys %e
 	}
 }
 
-$entries{''}{';min-x'} += -60*60*24*356.2425*50;
-$entries{''}{';max-x'} += 60*60*24*356.2425*150;
-$entries{''}{';min-y'} += -10;
-$entries{''}{';max-y'} += 10;
+#die Dumper(\%visible_entry_names);
+
+$entries{''}{';min-x'} += parse_datetime(exists $entries{''}{'margin-left'} ? -$entries{''}{'margin-left'} : '-100');
+$entries{''}{';max-x'} += parse_datetime(exists $entries{''}{'margin-right'} ? $entries{''}{'margin-right'} : '100');
+$entries{''}{';min-y'} += exists $entries{''}{'margin-top'} ? -$entries{''}{'margin-top'} : -2;
+$entries{''}{';max-y'} += exists $entries{''}{'margin-bottom'} ? $entries{''}{'margin-bottom'} : 2;
 
 my $timeline_handle = FileHandle->new('>'.$timeline_path) or die;
 
@@ -167,10 +177,25 @@ foreach my $key (keys %override_global_entry)
 	$entries{''}{$key} = $override_global_entry{$key};
 }
 
-my $svg_handle = FileHandle->new(">".$entries{''}{'output-path'});
+my $output_path = $entries{''}{'output-path'};
+if (0 == length $output_path)
+{
+	$output_path = $timeline_path;
+	$output_path =~ s!\.[^\.]*$!.svg!;
+}
+
+my $svg_handle = FileHandle->new(">".$output_path);
+
+my $xml_stylesheet = $entries{''}{'xml-stylesheet'};
+if (0 == length $xml_stylesheet)
+{
+	$xml_stylesheet = $timeline_path;
+	$xml_stylesheet =~ s!\.[^\.]*$!.css!;
+}
+
 
 print $svg_handle qq(<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n);
-printf $svg_handle qq(<?xml-stylesheet href="%s" type="text/css"?>\n), $entries{''}{'xml-stylesheet'};
+printf $svg_handle qq(<?xml-stylesheet href="%s" type="text/css"?>\n), $xml_stylesheet;
 
 printf $svg_handle qq(<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="%s" height="%s">\n), xT($entries{''}{';max-x'})-xT($entries{''}{';min-x'}), yT($entries{''}{';max-y'})-yT($entries{''}{';min-y'});
 
@@ -221,7 +246,7 @@ foreach my $entry_name (keys %entries)
 		}
 	}
 }
-
+my $id_count = 0;
 foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entries{$a->[0]}{$a->[1]} cmp $entries{$b->[0]}{$b->[1]}} @paintables)
 {
 	my ($entry_name, $key) = @{$paintable};
@@ -250,6 +275,15 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 			my $minY = $entries{$entry_name}{';min-y'};
 			$minY -= $event_top;
 			printf $svg_handle qq(  <text x="%s" y="%s" _type="event">%s</text>\n),  xT($entries{$entry_name}{';x'})+2, yT($minY)-2, $entries{$entry_name}{$key};
+			
+			
+# 				printf $svg_handle qq(  <defs><path id="%s" d="M%s %s L%s %s" _date="%s" _type="event"><title>%s</title></path></defs>\n), $id_count, xT($entries{$entry_name}{';x'}), yT($minY), xT($entries{$entry_name}{';x'}), yT($entries{$entry_name}{';max-y'}+$event_bottom), $entries{$entry_name}{'_date'}, $entries{$entry_name}{'_date'};
+# 			
+# 				printf $svg_handle qq(  <text _type="actor" x="10"><textPath _order="back" xlink:href="#%s">%s</textPath></text>\n), $id_count, escape($entries{$entry_name}{$key});
+# 
+# 				printf $svg_handle qq(  <text _type="actor" x="10"><textPath _order="front" xlink:href="#%s">%s</textPath></text>\n), $id_count, escape($entries{$entry_name}{$key});
+# 
+# 				$id_count++;
 		}
 		elsif (length $entry_name && $key eq '_date')
 		{
@@ -261,7 +295,7 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 	
 			if ($minY != $entries{$entry_name}{';max-y'})
 			{
-				printf $svg_handle qq(  <polyline points="%s,%s %s,%s" _date="%s" _type="event"><title>%s</title></polyline>\n), xT($entries{$entry_name}{';x'}), yT($minY), xT($entries{$entry_name}{';x'}), yT($entries{$entry_name}{';max-y'}+$event_bottom), $entries{$entry_name}{'_date'}, $entries{$entry_name}{'_date'};
+				printf $svg_handle qq(  <path d="M%s %s L%s %s" _date="%s" _type="event"><title>%s</title></path>\n), xT($entries{$entry_name}{';x'}), yT($minY), xT($entries{$entry_name}{';x'}), yT($entries{$entry_name}{';max-y'}+$event_bottom), $entries{$entry_name}{'_date'}, $entries{$entry_name}{'_date'};
 			}
 		}
 	}
@@ -317,7 +351,17 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 
 			if ($class eq 'name' && length $value)
 			{
-				printf $svg_handle qq(  <text _type="actor" x="%s" y="%s">%s</text>\n),  xT($entries{$start_ref}{';x'})+3, yT($entries{$entry_name}{';points'}{$entries{$start_ref}{';x'}})-3, escape($entries{$entry_name}{$key});
+				my ($x, $y) = split ',', $points[-1];
+				push @points, ($x+1000).','.$y;
+				
+				printf $svg_handle qq(  <defs><path id="%s" d="M%s" _type="actor" %s="%s"/></defs>\n),$id_count, join(' L', @points), $class, $value, $entry_name;
+
+			
+				printf $svg_handle qq(  <text _type="actor" x="5"><textPath _order="back" xlink:href="#%s">%s</textPath></text>\n), $id_count, escape($entries{$entry_name}{$key});
+
+				printf $svg_handle qq(  <text _type="actor" x="5"><textPath _order="front" xlink:href="#%s">%s</textPath></text>\n), $id_count, escape($entries{$entry_name}{$key});
+				
+				$id_count++;
 			}
 			elsif ($class eq 'website' && length $value)
 			{
@@ -325,7 +369,7 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 			}
 			else
 			{
-				printf $svg_handle qq(  <polyline points="%s" _type="actor" %s="%s"/> <!-- %s -->\n), join(' ', @points), $class, $value, $entry_name;
+				printf $svg_handle qq(  <path d="M%s" _type="actor" %s="%s"/> <!-- %s -->\n), join(' L', @points), $class, $value, $entry_name;
 			}
 		}
 	}

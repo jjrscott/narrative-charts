@@ -1,9 +1,9 @@
-polyline
+path
 {
 	fill : none;
 }
 
-polyline[_date]
+path[_date]
 {
 	stroke: red;
 	stroke-linejoin: butt;
@@ -11,7 +11,7 @@ polyline[_date]
 	stroke-width: 2;
 }
 
-polyline:not([_date])
+path:not([_date])
 {
 	stroke: red;
 	stroke-linejoin: butt;
@@ -19,7 +19,7 @@ polyline:not([_date])
 	stroke-width: 2;
 }
 
-polyline[title="monarch"]
+path[title="monarch"]
 {
 	stroke-linejoin: butt;
 	render-order: -1;
@@ -27,14 +27,14 @@ polyline[title="monarch"]
 	stroke-width: 10;
 }
 
-polyline[entity="conflict"]
+path[entity="conflict"]
 {
 	stroke-linejoin: butt;
 	stroke:rgba(255,0,0,0.5);
 	stroke-width: 2;
 }
 
-polyline[entity="state"]
+path[entity="state"]
 {
 	stroke-linejoin: butt;
 	stroke:rgba(0,255,0,0.5);
@@ -114,9 +114,19 @@ circle:hover
 }
 
 
-text
+textPath, text
 {
-	font-size: 12px;
+	dominant-baseline: central;
+	font-size: 10pt;
+}
+
+textPath[_order="back"]
+{
+	dominant-baseline: central;
+	stroke: red;
+	stroke:rgba(255,255,255,0.8);
+	stroke-width: 8;
+	stroke-linejoin: round;
 }
 
 rect
@@ -124,13 +134,13 @@ rect
   fill: rgba(0,0,255,0);
 }
 
-a:hover polyline[website]
+a:hover path[website]
 {
   stroke: rgba(0,0,255,0.2);
   stroke-width: 30;
 }
 
-a polyline[website]
+a path[website]
 {
   stroke: rgba(0,0,255,0);
   stroke-width: 30;
