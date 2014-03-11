@@ -1,0 +1,58 @@
+path
+{
+	fill : none;
+}
+
+path
+{
+	stroke-linejoin: butt;
+	stroke:rgb(128,128,128);
+	stroke-width: 2;
+}
+
+path[entity="human"]
+{
+	stroke: black;
+	stroke-linejoin: butt;
+	stroke:rgb(0,0,0);
+	stroke-width: 2;
+}
+
+path[entity="dinosaur"]
+{
+	stroke: red;
+	stroke-linejoin: butt;
+	stroke:rgb(255,0,0);
+	stroke-width: 2;
+}
+
+path[entity="locked-up"]
+{
+	stroke: red;
+	stroke-linejoin: butt;
+	stroke-dasharray: 5,5;
+	stroke:rgb(255,0,0);
+	stroke-width: 2;
+}
+
+circle[participant="died"]
+{
+  stroke: rgba(255,0,0,0.8);
+  stroke-width: 0;
+  fill: rgba(255,0,0,0.8);
+}
+
+textPath, text
+{
+	dominant-baseline: central;
+	font-size: 10pt;
+}
+
+textPath[_order="back"]
+{
+	dominant-baseline: central;
+	stroke-linejoin: round;
+	stroke: red;
+	stroke:rgb(255,255,255);
+	stroke-width: 8;
+}
