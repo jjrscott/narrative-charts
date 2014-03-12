@@ -217,39 +217,58 @@ my @paintables;
 
 my @sort_indexes =
 (
-	[qr/^$/]
+	['', undef],
+	['event','_date'],
+	['event','type'],
+	['actor','entity'],
+	['actor','title'],	
+	['event','participant', 'back'],
+	['event','title', 'back'],
+	['actor','name', 'back'],
+	['event','title'],
+	['actor','name'],
+	['actor','website'],
+# 	['event','participant'],
 );
 
 
 foreach my $entry_name (keys %entries)
 {
+	my $type = 'actor';
+	if ('' eq $entry_name)
+	{
+		$type = '';
+	}
+	elsif (exists $entries{$entry_name}{'_date'})
+	{
+		$type = 'event';
+	}
 	foreach my $key (keys %{$entries{$entry_name}})
 	{
-		for (my $sort_index = 0;$sort_index<=@sort_indexes;$sort_index++)
+		next if $key =~ m!^;!;
+		my ($trimmed_key) = $key =~ m!^([^(]+)!;
+		my $matched = 0;
+		for (my $sort_index = 0;$sort_index<@sort_indexes;$sort_index++)
 		{
-			if ($sort_index<@sort_indexes)
+
+			my ($type_match, $key_match, $level) = @{$sort_indexes[$sort_index]};
+			if ((!defined $type_match || $type_match eq $type) && (!defined $key_match || $key_match eq $trimmed_key))
 			{
-				my ($entry_name_regex, $key_regex, $value_regex) = @{$sort_indexes[$sort_index]};
-				$entry_name_regex ||= qr/.*/;
-				$key_regex ||= qr/.*/;
-				$value_regex ||= qr/.*/;
-				if (($entry_name =~ $entry_name_regex && $key =~ $key_regex && $entries{$entry_name}{$key} =~ $value_regex))
-				{
-					push @paintables, [$entry_name, $key, $sort_index];
-					last;
-				}
+				push @paintables, [$entry_name, $key, $sort_index, $level];
+				$matched++;
 			}
-			else
-			{
-				push @paintables, [$entry_name, $key, $sort_index];
-			}
+		}
+		if ($matched == 0)
+		{
+			die sprintf qq(Failed to match %s / %s for entry %s\n), $type, $key, $entry_name;
 		}
 	}
 }
 my $id_count = 0;
-foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entries{$a->[0]}{$a->[1]} cmp $entries{$b->[0]}{$b->[1]}} @paintables)
+foreach my $paintable (sort {$a->[2] <=> $b->[2] || $a->[1] cmp $b->[1] || $entries{$a->[0]}{$a->[1]} cmp $entries{$b->[0]}{$b->[1]}} @paintables)
 {
-	my ($entry_name, $key) = @{$paintable};
+	my ($entry_name, $key, undef, $order) = @{$paintable};
+
 	if (0 == length $entry_name)
 	{
 		if ($key eq 'period-marker-width')
@@ -268,13 +287,13 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 		my ($class, $ref) = $key =~ m!([^ =\n(]+)\(([^\)]+)\)!;
 		if (defined $class)
 		{
-			printf $svg_handle qq(  <circle cx="%s" cy="%s" r="3" %s="%s" _type="event"><title>%s: %s</title></circle> <!-- %s -->\n), xT($entries{$entry_name}{';x'}), yT($entries{$ref}{';points'}{$entries{$entry_name}{';x'}}), $class, $entries{$entry_name}{$key}, escape($entries{$entry_name}{'_date'}), escape($entries{$entry_name}{$key}), $entry_name;
+			printf $svg_handle qq(  <circle cx="%s" cy="%s" r="5" %s="%s" _type="event" _order="%s"><title>%s: %s</title></circle> <!-- %s -->\n), xT($entries{$entry_name}{';x'}), yT($entries{$ref}{';points'}{$entries{$entry_name}{';x'}}), $class, $entries{$entry_name}{$key}, $order, escape($entries{$entry_name}{'_date'}), escape($entries{$entry_name}{$key}), $entry_name;
 		}
 		elsif ($key eq 'title')
 		{
 			my $minY = $entries{$entry_name}{';min-y'};
 			$minY -= $event_top;
-			printf $svg_handle qq(  <text x="%s" y="%s" _type="event">%s</text>\n),  xT($entries{$entry_name}{';x'})+2, yT($minY)-2, $entries{$entry_name}{$key};
+			printf $svg_handle qq(  <text x="%s" y="%s" _type="event" _order="%s">%s</text>\n),  xT($entries{$entry_name}{';x'})+2, yT($minY)-2, $order, $entries{$entry_name}{$key};
 			
 			
 # 				printf $svg_handle qq(  <defs><path id="%s" d="M%s %s L%s %s" _date="%s" _type="event"><title>%s</title></path></defs>\n), $id_count, xT($entries{$entry_name}{';x'}), yT($minY), xT($entries{$entry_name}{';x'}), yT($entries{$entry_name}{';max-y'}+$event_bottom), $entries{$entry_name}{'_date'}, $entries{$entry_name}{'_date'};
@@ -357,15 +376,13 @@ foreach my $paintable (sort {$a->[2] cmp $b->[2] || $a->[1] cmp $b->[1] || $entr
 				printf $svg_handle qq(  <defs><path id="%s" d="M%s" _type="actor" %s="%s"/></defs>\n),$id_count, join(' L', @points), $class, $value, $entry_name;
 
 			
-				printf $svg_handle qq(  <text _type="actor" x="5"><textPath _order="back" xlink:href="#%s">%s</textPath></text>\n), $id_count, escape($entries{$entry_name}{$key});
-
-				printf $svg_handle qq(  <text _type="actor" x="5"><textPath _order="front" xlink:href="#%s">%s</textPath></text>\n), $id_count, escape($entries{$entry_name}{$key});
+				printf $svg_handle qq(  <text _type="actor" x="5"><textPath _order="%s" xlink:href="#%s">%s</textPath></text>\n), $order, $id_count, escape($entries{$entry_name}{$key});
 				
 				$id_count++;
 			}
 			elsif ($class eq 'website' && length $value)
 			{
-				printf $svg_handle qq(  <a xlink:href="%s"><polyline points="%s" _type="actor" %s="%s"/></a>\n), $value, join(' ', @points), $class, $value;
+				printf $svg_handle qq(  <a xlink:href="%s"><path d="M%s" _type="actor" %s="%s"/></a>\n), $value, join(' L', @points), $class, $value;
 			}
 			else
 			{

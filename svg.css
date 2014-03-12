@@ -15,7 +15,7 @@ path:not([_date])
 {
 	stroke: red;
 	stroke-linejoin: butt;
-	stroke:rgb(0,0,255);
+	stroke:rgb(0,0,180);
 	stroke-width: 2;
 }
 
@@ -37,75 +37,75 @@ path[entity="conflict"]
 path[entity="state"]
 {
 	stroke-linejoin: butt;
-	stroke:rgba(0,255,0,0.5);
+	stroke:rgba(0,180,0,1);
 	stroke-width: 2;
 }
 
 circle[participant="died"]
 {
-  stroke: rgba(255,0,0,0.8);
+  stroke: rgba(255,0,0,1);
   stroke-width: 0;
-  fill: rgba(255,0,0,0.8);
+  fill: rgba(255,0,0,1);
 }
 
 circle[participant="deposed"]
 {
-  stroke: rgba(255,0,0,0.8);
+  stroke: rgba(255,0,0,1);
   stroke-width: 0;
-  fill: rgba(255,0,0,0.8);
+  fill: rgba(255,0,0,1);
 }
 
 circle[participant="abdicated"]
 {
-  stroke: rgba(255,0,0,0.8);
+  stroke: rgba(255,0,0,1);
   stroke-width: 0;
-  fill: rgba(255,0,0,0.8);
+  fill: rgba(255,0,0,1);
 }
 
 
 circle[participant="ascended"]
 {
-  stroke: rgba(0,255,0,0.8);
+  stroke: rgba(0,255,0,1);
   stroke-width: 0;
-  fill: rgba(0,255,0,0.8);
+  fill: rgba(0,255,0,1);
 }
 
 circle[participant="belligerent"]
 {
-  stroke: rgba(128,128,128,0.8);
+  stroke: rgba(128,128,128,1);
   stroke-width: 0;
-  fill: rgba(128,128,128,0.8);
+  fill: rgba(128,128,128,1);
 }
 
 
 circle[participant="baby"]
 {
-  stroke: rgba(0,255,0,0.8);
+  stroke: rgba(0,255,0,1);
   stroke-width: 0;
-  fill: rgba(0,255,0,0.8);
+  fill: rgba(0,255,0,1);
 }
 
 circle[participant="ended"]
 {
-  stroke: rgba(255,0,0,0.8);
+  stroke: rgba(255,0,0,1);
   stroke-width: 0;
-  fill: rgba(255,0,0,0.8);
+  fill: rgba(255,0,0,1);
 }
 
 
 circle[participant="started"]
 {
-  stroke: rgba(0,255,0,0.8);
+  stroke: rgba(0,255,0,1);
   stroke-width: 0;
-  fill: rgba(0,255,0,0.8);
+  fill: rgba(0,255,0,1);
 }
 
 
 circle
 {
-  stroke: rgba(0,255,0,0.8);
+  stroke: rgba(0,255,0,1);
   stroke-width: 0;
-  fill: rgba(0,255,0,0.8);
+  fill: rgba(0,255,0,1);
 }
 
 circle:hover
@@ -117,15 +117,15 @@ circle:hover
 textPath, text
 {
 	dominant-baseline: central;
-	font-size: 10pt;
+	font-size: 8pt;
 }
 
-textPath[_order="back"]
+textPath[_order="back"], text[_order="back"]
 {
 	dominant-baseline: central;
 	stroke: red;
 	stroke:rgba(255,255,255,0.8);
-	stroke-width: 8;
+	stroke-width: 4;
 	stroke-linejoin: round;
 }
 
@@ -137,13 +137,13 @@ rect
 a:hover path[website]
 {
   stroke: rgba(0,0,255,0.2);
-  stroke-width: 30;
+  stroke-width: 20;
 }
 
 a path[website]
 {
   stroke: rgba(0,0,255,0);
-  stroke-width: 30;
+  stroke-width: 20;
 }
 
 rect[_type="period"]:nth-of-type(even)

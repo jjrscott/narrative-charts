@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet href="svg.css" type="text/css"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="9575" height="480">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="9575" height="640">
 <title>OpenTimeLine</title>  <!-- All the events -->
-  <rect x="-318" y="0" width="321" height="480" _type="period"/>
-  <rect x="3" y="0" width="321" height="480" _type="period"/>
-  <rect x="324" y="0" width="321" height="480" _type="period"/>
-  <rect x="645" y="0" width="321" height="480" _type="period"/>
-  <rect x="966" y="0" width="321" height="480" _type="period"/>
-  <rect x="1287" y="0" width="321" height="480" _type="period"/>
-  <rect x="1608" y="0" width="321" height="480" _type="period"/>
-  <rect x="1929" y="0" width="321" height="480" _type="period"/>
-  <rect x="2250" y="0" width="322" height="480" _type="period"/>
-  <rect x="2572" y="0" width="321" height="480" _type="period"/>
-  <rect x="2893" y="0" width="321" height="480" _type="period"/>
-  <rect x="3214" y="0" width="321" height="480" _type="period"/>
-  <rect x="3535" y="0" width="321" height="480" _type="period"/>
-  <rect x="3856" y="0" width="321" height="480" _type="period"/>
-  <rect x="4177" y="0" width="321" height="480" _type="period"/>
-  <rect x="4498" y="0" width="322" height="480" _type="period"/>
-  <rect x="4820" y="0" width="321" height="480" _type="period"/>
-  <rect x="5141" y="0" width="321" height="480" _type="period"/>
-  <rect x="5462" y="0" width="321" height="480" _type="period"/>
-  <rect x="5783" y="0" width="321" height="480" _type="period"/>
-  <rect x="6104" y="0" width="321" height="480" _type="period"/>
-  <rect x="6425" y="0" width="321" height="480" _type="period"/>
-  <rect x="6746" y="0" width="321" height="480" _type="period"/>
-  <rect x="7067" y="0" width="322" height="480" _type="period"/>
-  <rect x="7389" y="0" width="321" height="480" _type="period"/>
-  <rect x="7710" y="0" width="321" height="480" _type="period"/>
-  <rect x="8031" y="0" width="321" height="480" _type="period"/>
-  <rect x="8352" y="0" width="321" height="480" _type="period"/>
-  <rect x="8673" y="0" width="321" height="480" _type="period"/>
-  <rect x="8994" y="0" width="321" height="480" _type="period"/>
-  <rect x="9315" y="0" width="321" height="480" _type="period"/>
+  <rect x="-318" y="0" width="321" height="640" _type="period"/>
+  <rect x="3" y="0" width="321" height="640" _type="period"/>
+  <rect x="324" y="0" width="321" height="640" _type="period"/>
+  <rect x="645" y="0" width="321" height="640" _type="period"/>
+  <rect x="966" y="0" width="321" height="640" _type="period"/>
+  <rect x="1287" y="0" width="321" height="640" _type="period"/>
+  <rect x="1608" y="0" width="321" height="640" _type="period"/>
+  <rect x="1929" y="0" width="321" height="640" _type="period"/>
+  <rect x="2250" y="0" width="322" height="640" _type="period"/>
+  <rect x="2572" y="0" width="321" height="640" _type="period"/>
+  <rect x="2893" y="0" width="321" height="640" _type="period"/>
+  <rect x="3214" y="0" width="321" height="640" _type="period"/>
+  <rect x="3535" y="0" width="321" height="640" _type="period"/>
+  <rect x="3856" y="0" width="321" height="640" _type="period"/>
+  <rect x="4177" y="0" width="321" height="640" _type="period"/>
+  <rect x="4498" y="0" width="322" height="640" _type="period"/>
+  <rect x="4820" y="0" width="321" height="640" _type="period"/>
+  <rect x="5141" y="0" width="321" height="640" _type="period"/>
+  <rect x="5462" y="0" width="321" height="640" _type="period"/>
+  <rect x="5783" y="0" width="321" height="640" _type="period"/>
+  <rect x="6104" y="0" width="321" height="640" _type="period"/>
+  <rect x="6425" y="0" width="321" height="640" _type="period"/>
+  <rect x="6746" y="0" width="321" height="640" _type="period"/>
+  <rect x="7067" y="0" width="322" height="640" _type="period"/>
+  <rect x="7389" y="0" width="321" height="640" _type="period"/>
+  <rect x="7710" y="0" width="321" height="640" _type="period"/>
+  <rect x="8031" y="0" width="321" height="640" _type="period"/>
+  <rect x="8352" y="0" width="321" height="640" _type="period"/>
+  <rect x="8673" y="0" width="321" height="640" _type="period"/>
+  <rect x="8994" y="0" width="321" height="640" _type="period"/>
+  <rect x="9315" y="0" width="321" height="640" _type="period"/>
   <path d="M2886 54 L2886 60" _date="-2" _type="event"><title>-2</title></path>
   <path d="M2806 40 L2806 80" _date="-27" _type="event"><title>-27</title></path>
   <path d="M1256 40 L1256 80" _date="-509" _type="event"><title>-509</title></path>
@@ -121,307 +121,6 @@
   <path d="M8173,80 L8444,80" _type="actor" entity="human"/> <!-- a-4 -->
   <path d="M2886,60 L3008,60" _type="actor" entity="human"/> <!-- a-5 -->
   <path d="M8707,140 L8943,140" _type="actor" entity="human"/> <!-- a-7 -->
-  <defs><path id="0" d="M8379,380 L8681,380 L9681,380" _type="actor" name="United Kingdom of Great Britain"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#0">United Kingdom of Great Britain</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#0">United Kingdom of Great Britain</textPath></text>
-  <defs><path id="1" d="M8192,240 L8225,240 L8228,240 L9228,240" _type="actor" name="Commonwealth of England"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#1">Commonwealth of England</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#1">Commonwealth of England</textPath></text>
-  <defs><path id="2" d="M9060,360 L9147,360 L10147,360" _type="actor" name="League of Nations"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#2">League of Nations</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#2">League of Nations</textPath></text>
-  <defs><path id="3" d="M9144,440 L9147,440 L9575,440 L10575,440" _type="actor" name="United Nations"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#3">United Nations</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#3">United Nations</textPath></text>
-  <defs><path id="4" d="M9044,300 L9057,300 L10057,300" _type="actor" name="Great War"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#4">Great War</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#4">Great War</textPath></text>
-  <defs><path id="5" d="M9125,80 L9144,80 L10144,80" _type="actor" name="World War II"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#5">World War II</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#5">World War II</textPath></text>
-  <defs><path id="6" d="M8681,60 L8848,60 L8858,60 L9044,60 L9057,60 L9070,60 L10070,60" _type="actor" name="United Kingdom of Great Britain and Ireland"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#6">United Kingdom of Great Britain and Ireland</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#6">United Kingdom of Great Britain and Ireland</textPath></text>
-  <defs><path id="7" d="M2806,40 L4422,40 L5422,40" _type="actor" name="Roman Empire"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#7">Roman Empire</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#7">Roman Empire</textPath></text>
-  <defs><path id="8" d="M1256,80 L2806,80 L3806,80" _type="actor" name="Roman Republic"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#8">Roman Republic</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#8">Roman Republic</textPath></text>
-  <defs><path id="9" d="M472,60 L1256,60 L2256,60" _type="actor" name="Roman Kingdom"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#9">Roman Kingdom</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#9">Roman Kingdom</textPath></text>
-  <defs><path id="10" d="M321,40 L1256,40 L2256,40" _type="actor" name="Etruscan civilization"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#10">Etruscan civilization</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#10">Etruscan civilization</textPath></text>
-  <defs><path id="11" d="M8848,260 L8858,260 L9858,260" _type="actor" name="Crimean War"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#11">Crimean War</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#11">Crimean War</textPath></text>
-  <defs><path id="12" d="M7849,140 L8225,140 L9225,140" _type="actor" name="Kingdom of Ireland"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#12">Kingdom of Ireland</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#12">Kingdom of Ireland</textPath></text>
-  <defs><path id="13" d="M7068,120 L8848,120 L8858,120 L9070,120 L10070,120" _type="actor" name="Ottoman Empire"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#13">Ottoman Empire</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#13">Ottoman Empire</textPath></text>
-  <defs><path id="14" d="M8845,240 L8848,240 L8858,240 L8903,240 L9903,240" _type="actor" name="Second French Empire"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#14">Second French Empire</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#14">Second French Empire</textPath></text>
-  <defs><path id="15" d="M7061,100 L8848,100 L8858,100 L8874,100 L9874,100" _type="actor" name="Kingdom of Sardinia"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#15">Kingdom of Sardinia</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#15">Kingdom of Sardinia</textPath></text>
-  <defs><path id="16" d="M8424,420 L8848,420 L8858,420 L9858,420" _type="actor" name="Russian Empire"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#16">Russian Empire</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#16">Russian Empire</textPath></text>
-  <defs><path id="17" d="M7865,160 L8424,160 L9424,160" _type="actor" name="Tsardom of Russia"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#17">Tsardom of Russia</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#17">Tsardom of Russia</textPath></text>
-  <defs><path id="18" d="M9070,380 L9125,380 L9144,380 L9575,380 L10575,380" _type="actor" name="United Kingdom of Great Britain and Northern Ireland"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#18">United Kingdom of Great Britain and Northern Ireland</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#18">United Kingdom of Great Britain and Northern Ireland</textPath></text>
-  <defs><path id="19" d="M9070,40 L9118,40 L10118,40" _type="actor" name="Irish Free State"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#19">Irish Free State</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#19">Irish Free State</textPath></text>
-  <defs><path id="20" d="M9118,200 L9575,200 L10575,200" _type="actor" name="Republic of Ireland"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#20">Republic of Ireland</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#20">Republic of Ireland</textPath></text>
-  <defs><path id="21" d="M5872,60 L8225,60 L9225,60" _type="actor" name="Kingdom of England"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#21">Kingdom of England</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#21">Kingdom of England</textPath></text>
-  <defs><path id="22" d="M5602,40 L8225,40 L9225,40" _type="actor" name="Kingdom of Scotland"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#22">Kingdom of Scotland</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#22">Kingdom of Scotland</textPath></text>
-  <defs><path id="23" d="M6656,80 L7849,80 L8849,80" _type="actor" name="Lordship of Ireland"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#23">Lordship of Ireland</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#23">Lordship of Ireland</textPath></text>
-  <defs><path id="24" d="M8225,280 L8379,280 L9379,280" _type="actor" name="Kingdom of England"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#24">Kingdom of England</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#24">Kingdom of England</textPath></text>
-  <defs><path id="25" d="M8225,320 L8379,320 L9379,320" _type="actor" name="Kingdom of Scotland"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#25">Kingdom of Scotland</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#25">Kingdom of Scotland</textPath></text>
-  <defs><path id="26" d="M8225,300 L8681,300 L9681,300" _type="actor" name="Kingdom of Ireland"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#26">Kingdom of Ireland</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#26">Kingdom of Ireland</textPath></text>
-  <defs><path id="27" d="M8752,160 L9044,160 L10044,160" _type="actor" name="Alfred Russel Wallace"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#27">Alfred Russel Wallace</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#27">Alfred Russel Wallace</textPath></text>
-  <defs><path id="28" d="M9084,400 L9167,400 L9575,400 L10575,400" _type="actor" name="Elizabeth Alexandra Mary Windsor"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#28">Elizabeth Alexandra Mary Windsor</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#28">Elizabeth Alexandra Mary Windsor</textPath></text>
-  <defs><path id="29" d="M8986,340 L9118,340 L9167,340 L10167,340" _type="actor" name="Albert Frederick Arthur George Windsor"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#29">Albert Frederick Arthur George Windsor</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#29">Albert Frederick Arthur George Windsor</textPath></text>
-  <defs><path id="30" d="M8404,400 L8445,400 L9445,400" _type="actor" name="George Louis"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#30">George Louis</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#30">George Louis</textPath></text>
-  <defs><path id="31" d="M8445,440 L8552,440 L9552,440" _type="actor" name="George Augustus"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#31">George Augustus</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#31">George Augustus</textPath></text>
-  <defs><path id="32" d="M8552,40 L8743,40 L9743,40" _type="actor" name="George William Frederick"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#32">George William Frederick</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#32">George William Frederick</textPath></text>
-  <defs><path id="33" d="M8743,200 L8776,200 L9776,200" _type="actor" name="George Augustus Frederick"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#33">George Augustus Frederick</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#33">George Augustus Frederick</textPath></text>
-  <defs><path id="34" d="M8776,80 L8798,80 L9798,80" _type="actor" name="William Henry"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#34">William Henry</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#34">William Henry</textPath></text>
-  <defs><path id="35" d="M8979,320 L9115,320 L9118,320 L9232,320 L10232,320" _type="actor" name="Edward Albert Christian George Andrew Patrick David"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#35">Edward Albert Christian George Andrew Patrick David</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#35">Edward Albert Christian George Andrew Patrick David</textPath></text>
-  <defs><path id="36" d="M9254,240 L9575,240 L10575,240" _type="actor" name="John James Ralph Scott"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#36">John James Ralph Scott</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#36">John James Ralph Scott</textPath></text>
-  <defs><path id="37" d="M8888,280 L9033,280 L9115,280 L10115,280" _type="actor" name="George Frederick Ernest Albert"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#37">George Frederick Ernest Albert</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#37">George Frederick Ernest Albert</textPath></text>
-  <defs><path id="38" d="M8813,220 L9003,220 L9033,220 L10033,220" _type="actor" name="Albert Edward"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#38">Albert Edward</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#38">Albert Edward</textPath></text>
-  <defs><path id="39" d="M8740,180 L8798,180 L9003,180 L10003,180" _type="actor" name="Alexandrina Victoria"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#39">Alexandrina Victoria</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#39">Alexandrina Victoria</textPath></text>
-  <defs><path id="40" d="M9239,100 L9575,100 L10575,100" _type="actor" name="Amy Lou Adams"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#40">Amy Lou Adams</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#40">Amy Lou Adams</textPath></text>
-  <defs><path id="41" d="M8322,260 L8341,260 L8364,260 L9364,260" _type="actor" name="William III &amp; II"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#41">William III &amp; II</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#41">William III &amp; II</textPath></text>
-  <defs><path id="42" d="M8322,340 L8341,340 L9341,340" _type="actor" name="Mary II"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#42">Mary II</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#42">Mary II</textPath></text>
-  <defs><path id="43" d="M8309,220 L8321,220 L9321,220" _type="actor" name="James II and VII"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#43">James II and VII</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#43">James II and VII</textPath></text>
-  <defs><path id="44" d="M8229,200 L8309,200 L9309,200" _type="actor" name="Charles II"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#44">Charles II</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#44">Charles II</textPath></text>
-  <defs><path id="45" d="M8038,180 L8116,180 L8193,180 L9193,180" _type="actor" name="Charles"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#45">Charles</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#45">Charles</textPath></text>
-  <defs><path id="46" d="M8116,180 L8193,180 L9193,180" _type="actor" name="Charles I"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#46">Charles I</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#46">Charles I</textPath></text>
-  <defs><path id="47" d="M8133,200 L8229,200 L8309,200 L9309,200" _type="actor" name="Charles"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#47">Charles</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#47">Charles</textPath></text>
-  <defs><path id="48" d="M8144,220 L8309,220 L8321,220 L9321,220" _type="actor" name="James"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#48">James</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#48">James</textPath></text>
-  <defs><path id="49" d="M8199,260 L8322,260 L8341,260 L8364,260 L9364,260" _type="actor" name="William"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#49">William</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#49">William</textPath></text>
-  <defs><path id="50" d="M8236,340 L8322,340 L8341,340 L9341,340" _type="actor" name="Mary"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#50">Mary</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#50">Mary</textPath></text>
-  <defs><path id="51" d="M8244,360 L8364,360 L8404,360 L9404,360" _type="actor" name="Anne"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#51">Anne</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#51">Anne</textPath></text>
-  <defs><path id="52" d="M4724,60 L4925,60 L5925,60" _type="actor" name="Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#52">Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#52">Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim</textPath></text>
-  <defs><path id="53" d="M8173,80 L8444,80 L9444,80" _type="actor" name="Isaac Newton"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#53">Isaac Newton</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#53">Isaac Newton</textPath></text>
-  <defs><path id="54" d="M2886,60 L3008,60 L4008,60" _type="actor" name="Jesus of Nazareth"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#54">Jesus of Nazareth</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#54">Jesus of Nazareth</textPath></text>
-  <defs><path id="55" d="M8707,140 L8943,140 L9943,140" _type="actor" name="Charles Robert Darwin"/></defs>
-  <text _type="actor" x="5"><textPath _order="back" xlink:href="#55">Charles Robert Darwin</textPath></text>
-  <text _type="actor" x="5"><textPath _order="front" xlink:href="#55">Charles Robert Darwin</textPath></text>
-  <circle cx="9118" cy="320" r="3" participant="abdicated" _type="event"><title>1936/12/11: abdicated</title></circle> <!-- e-27 -->
-  <circle cx="9115" cy="320" r="3" participant="ascended" _type="event"><title>1936/01/20: ascended</title></circle> <!-- e-26 -->
-  <circle cx="8979" cy="320" r="3" participant="baby" _type="event"><title>1893/06/23: baby</title></circle> <!-- e-28 -->
-  <circle cx="9232" cy="320" r="3" participant="died" _type="event"><title>1972/05/28: died</title></circle> <!-- e-29 -->
-  <circle cx="9033" cy="280" r="3" participant="ascended" _type="event"><title>1910/05/06: ascended</title></circle> <!-- e-25 -->
-  <circle cx="8888" cy="280" r="3" participant="baby" _type="event"><title>1865/06/03: baby</title></circle> <!-- e-30 -->
-  <circle cx="9115" cy="280" r="3" participant="died" _type="event"><title>1936/01/20: died</title></circle> <!-- e-26 -->
-  <circle cx="9003" cy="220" r="3" participant="ascended" _type="event"><title>1901/01/22: ascended</title></circle> <!-- e-24 -->
-  <circle cx="8813" cy="220" r="3" participant="baby" _type="event"><title>1841/11/09: baby</title></circle> <!-- e-31 -->
-  <circle cx="9033" cy="220" r="3" participant="died" _type="event"><title>1910/05/06: died</title></circle> <!-- e-25 -->
-  <circle cx="8798" cy="180" r="3" participant="ascended" _type="event"><title>1837/06/20: ascended</title></circle> <!-- e-23 -->
-  <circle cx="8740" cy="180" r="3" participant="baby" _type="event"><title>1819/05/24: baby</title></circle> <!-- e-32 -->
-  <circle cx="9003" cy="180" r="3" participant="died" _type="event"><title>1901/01/22: died</title></circle> <!-- e-24 -->
-  <circle cx="8776" cy="80" r="3" participant="ascended" _type="event"><title>1830/06/26: ascended</title></circle> <!-- e-22 -->
-  <circle cx="8798" cy="80" r="3" participant="died" _type="event"><title>1837/06/20: died</title></circle> <!-- e-23 -->
-  <circle cx="8743" cy="200" r="3" participant="ascended" _type="event"><title>1820/01/29: ascended</title></circle> <!-- e-21 -->
-  <circle cx="8776" cy="200" r="3" participant="died" _type="event"><title>1830/06/26: died</title></circle> <!-- e-22 -->
-  <circle cx="8552" cy="40" r="3" participant="ascended" _type="event"><title>1760/10/25: ascended</title></circle> <!-- e-20 -->
-  <circle cx="8743" cy="40" r="3" participant="died" _type="event"><title>1820/01/29: died</title></circle> <!-- e-21 -->
-  <circle cx="8445" cy="440" r="3" participant="ascended" _type="event"><title>1727/06/11: ascended</title></circle> <!-- e-19 -->
-  <circle cx="8552" cy="440" r="3" participant="died" _type="event"><title>1760/10/25: died</title></circle> <!-- e-20 -->
-  <circle cx="8404" cy="400" r="3" participant="ascended" _type="event"><title>1714/08/01: ascended</title></circle> <!-- e-18 -->
-  <circle cx="8445" cy="400" r="3" participant="died" _type="event"><title>1727/06/11: died</title></circle> <!-- e-19 -->
-  <circle cx="8364" cy="360" r="3" participant="ascended" _type="event"><title>1702/03/08: ascended</title></circle> <!-- e-17 -->
-  <circle cx="8244" cy="360" r="3" participant="baby" _type="event"><title>1665/02/06: baby</title></circle> <!-- e-46 -->
-  <circle cx="8404" cy="360" r="3" participant="died" _type="event"><title>1714/08/01: died</title></circle> <!-- e-18 -->
-  <circle cx="9254" cy="240" r="3" participant="baby" _type="event"><title>1979/04/04: baby</title></circle> <!-- e-3 -->
-  <circle cx="8322" cy="260" r="3" participant="ascended" _type="event"><title>1689/02/13: ascended</title></circle> <!-- e-34 -->
-  <circle cx="8341" cy="260" r="3" participant="ascended" _type="event"><title>1694/12/28: ascended</title></circle> <!-- e-35 -->
-  <circle cx="8199" cy="260" r="3" participant="baby" _type="event"><title>1650/11/04: baby</title></circle> <!-- e-44 -->
-  <circle cx="8364" cy="260" r="3" participant="died" _type="event"><title>1702/03/08: died</title></circle> <!-- e-17 -->
-  <circle cx="8322" cy="340" r="3" participant="ascended" _type="event"><title>1689/02/13: ascended</title></circle> <!-- e-34 -->
-  <circle cx="8236" cy="340" r="3" participant="baby" _type="event"><title>1662/04/30: baby</title></circle> <!-- e-45 -->
-  <circle cx="8341" cy="340" r="3" participant="died" _type="event"><title>1694/12/28: died</title></circle> <!-- e-35 -->
-  <circle cx="8309" cy="220" r="3" participant="ascended" _type="event"><title>1685/02/06: ascended</title></circle> <!-- e-36 -->
-  <circle cx="8144" cy="220" r="3" participant="baby" _type="event"><title>1633/10/14: baby</title></circle> <!-- e-43 -->
-  <circle cx="8321" cy="220" r="3" participant="deposed" _type="event"><title>1688/12/11: deposed</title></circle> <!-- e-37 -->
-  <circle cx="8229" cy="200" r="3" participant="ascended" _type="event"><title>1660/05/29: ascended</title></circle> <!-- e-38 -->
-  <circle cx="8133" cy="200" r="3" participant="baby" _type="event"><title>1630/05/29: baby</title></circle> <!-- e-42 -->
-  <circle cx="8309" cy="200" r="3" participant="died" _type="event"><title>1685/02/06: died</title></circle> <!-- e-36 -->
-  <circle cx="8038" cy="180" r="3" participant="baby" _type="event"><title>1600/11/19: baby</title></circle> <!-- e-39 -->
-  <circle cx="8193" cy="180" r="3" participant="died" _type="event"><title>1649/01/30: died</title></circle> <!-- e-40 -->
-  <circle cx="4724" cy="60" r="3" participant="baby" _type="event"><title>570: baby</title></circle> <!-- e-47 -->
-  <circle cx="4925" cy="60" r="3" participant="died" _type="event"><title>632/06/08: died</title></circle> <!-- e-48 -->
-  <circle cx="9239" cy="100" r="3" participant="baby" _type="event"><title>1974/08/20: baby</title></circle> <!-- e-4 -->
-  <circle cx="9239" cy="100" r="3" participant="baby" _type="event"><title>1974/08/20: baby</title></circle> <!-- e-33 -->
-  <circle cx="8173" cy="80" r="3" participant="baby" _type="event"><title>1642/12/25: baby</title></circle> <!-- e-5 -->
-  <circle cx="8444" cy="80" r="3" participant="died" _type="event"><title>1727/03/20: died</title></circle> <!-- e-6 -->
-  <circle cx="2886" cy="60" r="3" participant="baby" _type="event"><title>-2: baby</title></circle> <!-- e-7 -->
-  <circle cx="3008" cy="60" r="3" participant="died" _type="event"><title>36: died</title></circle> <!-- e-8 -->
-  <circle cx="8752" cy="160" r="3" participant="baby" _type="event"><title>1823/01/8: baby</title></circle> <!-- e-10 -->
-  <circle cx="9044" cy="160" r="3" participant="died" _type="event"><title>1913/11/07: died</title></circle> <!-- e-11 -->
-  <circle cx="8707" cy="140" r="3" participant="baby" _type="event"><title>1809/02/12: baby</title></circle> <!-- e-9 -->
-  <circle cx="8943" cy="140" r="3" participant="died" _type="event"><title>1882/04/19: died</title></circle> <!-- e-12 -->
-  <circle cx="9167" cy="400" r="3" participant="ascended" _type="event"><title>1952/02/06: ascended</title></circle> <!-- e-14 -->
-  <circle cx="9084" cy="400" r="3" participant="baby" _type="event"><title>1926/04/21: baby</title></circle> <!-- e-13 -->
-  <circle cx="9118" cy="340" r="3" participant="ascended" _type="event"><title>1936/12/11: ascended</title></circle> <!-- e-16 -->
-  <circle cx="9118" cy="340" r="3" participant="ascended" _type="event"><title>1936/12/11: ascended</title></circle> <!-- e-27 -->
-  <circle cx="8986" cy="340" r="3" participant="baby" _type="event"><title>1895/12/14: baby</title></circle> <!-- e-15 -->
-  <circle cx="9167" cy="340" r="3" participant="died" _type="event"><title>1952/02/06: died</title></circle> <!-- e-14 -->
-  <circle cx="8379" cy="380" r="3" participant="born" _type="event"><title>1707: born</title></circle> <!-- country-event-1 -->
-  <circle cx="8681" cy="380" r="3" participant="died" _type="event"><title>1801: died</title></circle> <!-- country-event-2 -->
-  <circle cx="8225" cy="240" r="3" participant="" _type="event"><title>1659: </title></circle> <!-- country-event-9 -->
-  <circle cx="8192" cy="240" r="3" participant="born" _type="event"><title>1649: born</title></circle> <!-- country-event-10 -->
-  <circle cx="8228" cy="240" r="3" participant="died" _type="event"><title>1660: died</title></circle> <!-- country-event-11 -->
-  <circle cx="5872" cy="60" r="3" participant="born" _type="event"><title>927: born</title></circle> <!-- country-event-6 -->
-  <circle cx="8225" cy="60" r="3" participant="died" _type="event"><title>1659: died</title></circle> <!-- country-event-9 -->
-  <circle cx="5602" cy="40" r="3" participant="born" _type="event"><title>843: born</title></circle> <!-- country-event-7 -->
-  <circle cx="8225" cy="40" r="3" participant="died" _type="event"><title>1659: died</title></circle> <!-- country-event-9 -->
-  <circle cx="7849" cy="140" r="3" participant="born" _type="event"><title>1542: born</title></circle> <!-- country-event-3 -->
-  <circle cx="8225" cy="140" r="3" participant="died" _type="event"><title>1659: died</title></circle> <!-- country-event-9 -->
-  <circle cx="9060" cy="360" r="3" participant="born" _type="event"><title>1919: born</title></circle> <!-- country-event-12 -->
-  <circle cx="9147" cy="360" r="3" participant="died" _type="event"><title>1946: died</title></circle> <!-- country-event-13 -->
-  <circle cx="9144" cy="440" r="3" participant="born" _type="event"><title>1945: born</title></circle> <!-- country-event-14 -->
-  <circle cx="9147" cy="440" r="3" participant="successor" _type="event"><title>1946: successor</title></circle> <!-- country-event-13 -->
-  <circle cx="9044" cy="300" r="3" participant="born" _type="event"><title>1914: born</title></circle> <!-- country-event-15 -->
-  <circle cx="9057" cy="300" r="3" participant="died" _type="event"><title>1918: died</title></circle> <!-- country-event-16 -->
-  <circle cx="9125" cy="80" r="3" participant="born" _type="event"><title>1939: born</title></circle> <!-- country-event-17 -->
-  <circle cx="9144" cy="80" r="3" participant="died" _type="event"><title>1945: died</title></circle> <!-- country-event-18 -->
-  <circle cx="8225" cy="280" r="3" participant="born" _type="event"><title>1659: born</title></circle> <!-- country-event-9 -->
-  <circle cx="8379" cy="280" r="3" participant="died" _type="event"><title>1707: died</title></circle> <!-- country-event-1 -->
-  <circle cx="2806" cy="40" r="3" participant="born" _type="event"><title>-27: born</title></circle> <!-- country-event-23 -->
-  <circle cx="4422" cy="40" r="3" participant="died" _type="event"><title>476: died</title></circle> <!-- country-event-24 -->
-  <circle cx="1256" cy="80" r="3" participant="born" _type="event"><title>-509: born</title></circle> <!-- country-event-25 -->
-  <circle cx="2806" cy="80" r="3" participant="died" _type="event"><title>-27: died</title></circle> <!-- country-event-23 -->
-  <circle cx="472" cy="60" r="3" participant="born" _type="event"><title>-753: born</title></circle> <!-- country-event-26 -->
-  <circle cx="1256" cy="60" r="3" participant="died" _type="event"><title>-509: died</title></circle> <!-- country-event-25 -->
-  <circle cx="321" cy="40" r="3" participant="born" _type="event"><title>-800: born</title></circle> <!-- country-event-27 -->
-  <circle cx="1256" cy="40" r="3" participant="died" _type="event"><title>-509: died</title></circle> <!-- country-event-25 -->
-  <circle cx="8848" cy="260" r="3" participant="born" _type="event"><title>1853: born</title></circle> <!-- country-event-29 -->
-  <circle cx="8858" cy="260" r="3" participant="died" _type="event"><title>1856: died</title></circle> <!-- country-event-30 -->
-  <circle cx="8858" cy="120" r="3" participant="belligerent" _type="event"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
-  <circle cx="8848" cy="120" r="3" participant="belligerent" _type="event"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
-  <circle cx="7068" cy="120" r="3" participant="born" _type="event"><title>1299: born</title></circle> <!-- country-event-31 -->
-  <circle cx="9070" cy="120" r="3" participant="died" _type="event"><title>1922: died</title></circle> <!-- country-event-32 -->
-  <circle cx="8225" cy="320" r="3" participant="born" _type="event"><title>1659: born</title></circle> <!-- country-event-9 -->
-  <circle cx="8379" cy="320" r="3" participant="died" _type="event"><title>1707: died</title></circle> <!-- country-event-1 -->
-  <circle cx="8858" cy="240" r="3" participant="belligerent" _type="event"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
-  <circle cx="8848" cy="240" r="3" participant="belligerent" _type="event"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
-  <circle cx="8845" cy="240" r="3" participant="born" _type="event"><title>1852: born</title></circle> <!-- country-event-33 -->
-  <circle cx="8903" cy="240" r="3" participant="died" _type="event"><title>1870: died</title></circle> <!-- country-event-34 -->
-  <circle cx="8858" cy="100" r="3" participant="belligerent" _type="event"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
-  <circle cx="8848" cy="100" r="3" participant="belligerent" _type="event"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
-  <circle cx="7061" cy="100" r="3" participant="born" _type="event"><title>1297: born</title></circle> <!-- country-event-35 -->
-  <circle cx="8874" cy="100" r="3" participant="died" _type="event"><title>1861: died</title></circle> <!-- country-event-36 -->
-  <circle cx="8858" cy="420" r="3" participant="belligerent" _type="event"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
-  <circle cx="8848" cy="420" r="3" participant="belligerent" _type="event"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
-  <circle cx="8424" cy="420" r="3" participant="born" _type="event"><title>1721: born</title></circle> <!-- country-event-37 -->
-  <circle cx="7865" cy="160" r="3" participant="born" _type="event"><title>1547: born</title></circle> <!-- country-event-38 -->
-  <circle cx="8424" cy="160" r="3" participant="died" _type="event"><title>1721: died</title></circle> <!-- country-event-37 -->
-  <circle cx="8225" cy="300" r="3" participant="born" _type="event"><title>1659: born</title></circle> <!-- country-event-9 -->
-  <circle cx="8681" cy="300" r="3" participant="died" _type="event"><title>1801: died</title></circle> <!-- country-event-2 -->
-  <circle cx="8858" cy="60" r="3" participant="belligerent" _type="event"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
-  <circle cx="9057" cy="60" r="3" participant="belligerent" _type="event"><title>1918: belligerent</title></circle> <!-- country-event-16 -->
-  <circle cx="8848" cy="60" r="3" participant="belligerent" _type="event"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
-  <circle cx="9044" cy="60" r="3" participant="belligerent" _type="event"><title>1914: belligerent</title></circle> <!-- country-event-15 -->
-  <circle cx="8681" cy="60" r="3" participant="born" _type="event"><title>1801: born</title></circle> <!-- country-event-2 -->
-  <circle cx="9070" cy="60" r="3" participant="died" _type="event"><title>1922: died</title></circle> <!-- country-event-4 -->
-  <circle cx="9125" cy="380" r="3" participant="belligerent" _type="event"><title>1939: belligerent</title></circle> <!-- country-event-17 -->
-  <circle cx="9144" cy="380" r="3" participant="belligerent" _type="event"><title>1945: belligerent</title></circle> <!-- country-event-18 -->
-  <circle cx="9070" cy="380" r="3" participant="born" _type="event"><title>1922: born</title></circle> <!-- country-event-4 -->
-  <circle cx="9070" cy="40" r="3" participant="born" _type="event"><title>1922: born</title></circle> <!-- country-event-4 -->
-  <circle cx="9118" cy="40" r="3" participant="died" _type="event"><title>1937: died</title></circle> <!-- country-event-5 -->
-  <circle cx="9118" cy="200" r="3" participant="born" _type="event"><title>1937: born</title></circle> <!-- country-event-5 -->
-  <circle cx="6656" cy="80" r="3" participant="born" _type="event"><title>1171: born</title></circle> <!-- country-event-8 -->
-  <circle cx="7849" cy="80" r="3" participant="died" _type="event"><title>1542: died</title></circle> <!-- country-event-3 -->
-  <circle cx="8116" cy="180" r="3" particpant="ascended" _type="event"><title>1625/03/27: ascended</title></circle> <!-- e-41 -->
-  <text x="9241" y="92" _type="event">Amy Lou Adams was born</text>
-  <text x="8446" y="72" _type="event">Isaac Newton died</text>
-  <text x="8175" y="72" _type="event">Isaac Newton is born</text>
-  <text x="2888" y="52" _type="event">Jesus born</text>
-  <text x="3010" y="52" _type="event">Jesus died</text>
-  <text x="9256" y="232" _type="event">John was born</text>
   <path d="M9167,400 L9575,400" _type="actor" title="monarch"/> <!-- a-8 -->
   <path d="M9118,340 L9167,340" _type="actor" title="monarch"/> <!-- a-9 -->
   <path d="M8364,360 L8404,360" _type="actor" title="monarch"/> <!-- a-19 -->
@@ -439,14 +138,377 @@
   <path d="M8309,220 L8321,220" _type="actor" title="monarch"/> <!-- a-22 -->
   <path d="M8229,200 L8309,200" _type="actor" title="monarch"/> <!-- a-23 -->
   <path d="M8116,180 L8193,180" _type="actor" title="monarch"/> <!-- a-24 -->
-  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Empire"><polyline points="2806,40 4422,40" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Empire"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Republic"><polyline points="1256,80 2806,80" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Republic"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Russian_Empire"><polyline points="8424,420 8848,420 8858,420" _type="actor" website="http://en.wikipedia.org/wiki/Russian_Empire"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Tsardom_of_Russia"><polyline points="7865,160 8424,160" _type="actor" website="http://en.wikipedia.org/wiki/Tsardom_of_Russia"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"><polyline points="8752,160 9044,160" _type="actor" website="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"/></a>
-  <a xlink:href="http://jjrscott.com"><polyline points="9254,240 9575,240" _type="actor" website="http://jjrscott.com"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Amy_Adams"><polyline points="9239,100 9575,100" _type="actor" website="http://en.wikipedia.org/wiki/Amy_Adams"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Isaac_Newton"><polyline points="8173,80 8444,80" _type="actor" website="http://en.wikipedia.org/wiki/Isaac_Newton"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Jesus"><polyline points="2886,60 3008,60" _type="actor" website="http://en.wikipedia.org/wiki/Jesus"/></a>
-  <a xlink:href="http://en.wikipedia.org/wiki/Charles_Darwin"><polyline points="8707,140 8943,140" _type="actor" website="http://en.wikipedia.org/wiki/Charles_Darwin"/></a>
+  <circle cx="9118" cy="320" r="5" participant="abdicated" _type="event" _order="back"><title>1936/12/11: abdicated</title></circle> <!-- e-27 -->
+  <circle cx="9115" cy="320" r="5" participant="ascended" _type="event" _order="back"><title>1936/01/20: ascended</title></circle> <!-- e-26 -->
+  <circle cx="8979" cy="320" r="5" participant="baby" _type="event" _order="back"><title>1893/06/23: baby</title></circle> <!-- e-28 -->
+  <circle cx="9232" cy="320" r="5" participant="died" _type="event" _order="back"><title>1972/05/28: died</title></circle> <!-- e-29 -->
+  <circle cx="9033" cy="280" r="5" participant="ascended" _type="event" _order="back"><title>1910/05/06: ascended</title></circle> <!-- e-25 -->
+  <circle cx="8888" cy="280" r="5" participant="baby" _type="event" _order="back"><title>1865/06/03: baby</title></circle> <!-- e-30 -->
+  <circle cx="9115" cy="280" r="5" participant="died" _type="event" _order="back"><title>1936/01/20: died</title></circle> <!-- e-26 -->
+  <circle cx="9003" cy="220" r="5" participant="ascended" _type="event" _order="back"><title>1901/01/22: ascended</title></circle> <!-- e-24 -->
+  <circle cx="8813" cy="220" r="5" participant="baby" _type="event" _order="back"><title>1841/11/09: baby</title></circle> <!-- e-31 -->
+  <circle cx="9033" cy="220" r="5" participant="died" _type="event" _order="back"><title>1910/05/06: died</title></circle> <!-- e-25 -->
+  <circle cx="8798" cy="180" r="5" participant="ascended" _type="event" _order="back"><title>1837/06/20: ascended</title></circle> <!-- e-23 -->
+  <circle cx="8740" cy="180" r="5" participant="baby" _type="event" _order="back"><title>1819/05/24: baby</title></circle> <!-- e-32 -->
+  <circle cx="9003" cy="180" r="5" participant="died" _type="event" _order="back"><title>1901/01/22: died</title></circle> <!-- e-24 -->
+  <circle cx="8776" cy="80" r="5" participant="ascended" _type="event" _order="back"><title>1830/06/26: ascended</title></circle> <!-- e-22 -->
+  <circle cx="8798" cy="80" r="5" participant="died" _type="event" _order="back"><title>1837/06/20: died</title></circle> <!-- e-23 -->
+  <circle cx="8743" cy="200" r="5" participant="ascended" _type="event" _order="back"><title>1820/01/29: ascended</title></circle> <!-- e-21 -->
+  <circle cx="8776" cy="200" r="5" participant="died" _type="event" _order="back"><title>1830/06/26: died</title></circle> <!-- e-22 -->
+  <circle cx="8552" cy="40" r="5" participant="ascended" _type="event" _order="back"><title>1760/10/25: ascended</title></circle> <!-- e-20 -->
+  <circle cx="8743" cy="40" r="5" participant="died" _type="event" _order="back"><title>1820/01/29: died</title></circle> <!-- e-21 -->
+  <circle cx="8445" cy="440" r="5" participant="ascended" _type="event" _order="back"><title>1727/06/11: ascended</title></circle> <!-- e-19 -->
+  <circle cx="8552" cy="440" r="5" participant="died" _type="event" _order="back"><title>1760/10/25: died</title></circle> <!-- e-20 -->
+  <circle cx="8404" cy="400" r="5" participant="ascended" _type="event" _order="back"><title>1714/08/01: ascended</title></circle> <!-- e-18 -->
+  <circle cx="8445" cy="400" r="5" participant="died" _type="event" _order="back"><title>1727/06/11: died</title></circle> <!-- e-19 -->
+  <circle cx="8364" cy="360" r="5" participant="ascended" _type="event" _order="back"><title>1702/03/08: ascended</title></circle> <!-- e-17 -->
+  <circle cx="8244" cy="360" r="5" participant="baby" _type="event" _order="back"><title>1665/02/06: baby</title></circle> <!-- e-46 -->
+  <circle cx="8404" cy="360" r="5" participant="died" _type="event" _order="back"><title>1714/08/01: died</title></circle> <!-- e-18 -->
+  <circle cx="9254" cy="240" r="5" participant="baby" _type="event" _order="back"><title>1979/04/04: baby</title></circle> <!-- e-3 -->
+  <circle cx="8322" cy="260" r="5" participant="ascended" _type="event" _order="back"><title>1689/02/13: ascended</title></circle> <!-- e-34 -->
+  <circle cx="8341" cy="260" r="5" participant="ascended" _type="event" _order="back"><title>1694/12/28: ascended</title></circle> <!-- e-35 -->
+  <circle cx="8199" cy="260" r="5" participant="baby" _type="event" _order="back"><title>1650/11/04: baby</title></circle> <!-- e-44 -->
+  <circle cx="8364" cy="260" r="5" participant="died" _type="event" _order="back"><title>1702/03/08: died</title></circle> <!-- e-17 -->
+  <circle cx="8322" cy="340" r="5" participant="ascended" _type="event" _order="back"><title>1689/02/13: ascended</title></circle> <!-- e-34 -->
+  <circle cx="8236" cy="340" r="5" participant="baby" _type="event" _order="back"><title>1662/04/30: baby</title></circle> <!-- e-45 -->
+  <circle cx="8341" cy="340" r="5" participant="died" _type="event" _order="back"><title>1694/12/28: died</title></circle> <!-- e-35 -->
+  <circle cx="8309" cy="220" r="5" participant="ascended" _type="event" _order="back"><title>1685/02/06: ascended</title></circle> <!-- e-36 -->
+  <circle cx="8144" cy="220" r="5" participant="baby" _type="event" _order="back"><title>1633/10/14: baby</title></circle> <!-- e-43 -->
+  <circle cx="8321" cy="220" r="5" participant="deposed" _type="event" _order="back"><title>1688/12/11: deposed</title></circle> <!-- e-37 -->
+  <circle cx="8229" cy="200" r="5" participant="ascended" _type="event" _order="back"><title>1660/05/29: ascended</title></circle> <!-- e-38 -->
+  <circle cx="8133" cy="200" r="5" participant="baby" _type="event" _order="back"><title>1630/05/29: baby</title></circle> <!-- e-42 -->
+  <circle cx="8309" cy="200" r="5" participant="died" _type="event" _order="back"><title>1685/02/06: died</title></circle> <!-- e-36 -->
+  <circle cx="8116" cy="180" r="5" participant="ascended" _type="event" _order="back"><title>1625/03/27: ascended</title></circle> <!-- e-41 -->
+  <circle cx="8038" cy="180" r="5" participant="baby" _type="event" _order="back"><title>1600/11/19: baby</title></circle> <!-- e-39 -->
+  <circle cx="8193" cy="180" r="5" participant="died" _type="event" _order="back"><title>1649/01/30: died</title></circle> <!-- e-40 -->
+  <circle cx="4724" cy="60" r="5" participant="baby" _type="event" _order="back"><title>570: baby</title></circle> <!-- e-47 -->
+  <circle cx="4925" cy="60" r="5" participant="died" _type="event" _order="back"><title>632/06/08: died</title></circle> <!-- e-48 -->
+  <circle cx="9239" cy="100" r="5" participant="baby" _type="event" _order="back"><title>1974/08/20: baby</title></circle> <!-- e-4 -->
+  <circle cx="9239" cy="100" r="5" participant="baby" _type="event" _order="back"><title>1974/08/20: baby</title></circle> <!-- e-33 -->
+  <circle cx="8173" cy="80" r="5" participant="baby" _type="event" _order="back"><title>1642/12/25: baby</title></circle> <!-- e-5 -->
+  <circle cx="8444" cy="80" r="5" participant="died" _type="event" _order="back"><title>1727/03/20: died</title></circle> <!-- e-6 -->
+  <circle cx="2886" cy="60" r="5" participant="baby" _type="event" _order="back"><title>-2: baby</title></circle> <!-- e-7 -->
+  <circle cx="3008" cy="60" r="5" participant="died" _type="event" _order="back"><title>36: died</title></circle> <!-- e-8 -->
+  <circle cx="8752" cy="160" r="5" participant="baby" _type="event" _order="back"><title>1823/01/8: baby</title></circle> <!-- e-10 -->
+  <circle cx="9044" cy="160" r="5" participant="died" _type="event" _order="back"><title>1913/11/07: died</title></circle> <!-- e-11 -->
+  <circle cx="8707" cy="140" r="5" participant="baby" _type="event" _order="back"><title>1809/02/12: baby</title></circle> <!-- e-9 -->
+  <circle cx="8943" cy="140" r="5" participant="died" _type="event" _order="back"><title>1882/04/19: died</title></circle> <!-- e-12 -->
+  <circle cx="9167" cy="400" r="5" participant="ascended" _type="event" _order="back"><title>1952/02/06: ascended</title></circle> <!-- e-14 -->
+  <circle cx="9084" cy="400" r="5" participant="baby" _type="event" _order="back"><title>1926/04/21: baby</title></circle> <!-- e-13 -->
+  <circle cx="9118" cy="340" r="5" participant="ascended" _type="event" _order="back"><title>1936/12/11: ascended</title></circle> <!-- e-16 -->
+  <circle cx="9118" cy="340" r="5" participant="ascended" _type="event" _order="back"><title>1936/12/11: ascended</title></circle> <!-- e-27 -->
+  <circle cx="8986" cy="340" r="5" participant="baby" _type="event" _order="back"><title>1895/12/14: baby</title></circle> <!-- e-15 -->
+  <circle cx="9167" cy="340" r="5" participant="died" _type="event" _order="back"><title>1952/02/06: died</title></circle> <!-- e-14 -->
+  <circle cx="8379" cy="380" r="5" participant="born" _type="event" _order="back"><title>1707: born</title></circle> <!-- country-event-1 -->
+  <circle cx="8681" cy="380" r="5" participant="died" _type="event" _order="back"><title>1801: died</title></circle> <!-- country-event-2 -->
+  <circle cx="8225" cy="240" r="5" participant="" _type="event" _order="back"><title>1659: </title></circle> <!-- country-event-9 -->
+  <circle cx="8192" cy="240" r="5" participant="born" _type="event" _order="back"><title>1649: born</title></circle> <!-- country-event-10 -->
+  <circle cx="8228" cy="240" r="5" participant="died" _type="event" _order="back"><title>1660: died</title></circle> <!-- country-event-11 -->
+  <circle cx="5872" cy="60" r="5" participant="born" _type="event" _order="back"><title>927: born</title></circle> <!-- country-event-6 -->
+  <circle cx="8225" cy="60" r="5" participant="died" _type="event" _order="back"><title>1659: died</title></circle> <!-- country-event-9 -->
+  <circle cx="5602" cy="40" r="5" participant="born" _type="event" _order="back"><title>843: born</title></circle> <!-- country-event-7 -->
+  <circle cx="8225" cy="40" r="5" participant="died" _type="event" _order="back"><title>1659: died</title></circle> <!-- country-event-9 -->
+  <circle cx="7849" cy="140" r="5" participant="born" _type="event" _order="back"><title>1542: born</title></circle> <!-- country-event-3 -->
+  <circle cx="8225" cy="140" r="5" participant="died" _type="event" _order="back"><title>1659: died</title></circle> <!-- country-event-9 -->
+  <circle cx="9060" cy="360" r="5" participant="born" _type="event" _order="back"><title>1919: born</title></circle> <!-- country-event-12 -->
+  <circle cx="9147" cy="360" r="5" participant="died" _type="event" _order="back"><title>1946: died</title></circle> <!-- country-event-13 -->
+  <circle cx="9144" cy="440" r="5" participant="born" _type="event" _order="back"><title>1945: born</title></circle> <!-- country-event-14 -->
+  <circle cx="9147" cy="440" r="5" participant="successor" _type="event" _order="back"><title>1946: successor</title></circle> <!-- country-event-13 -->
+  <circle cx="9044" cy="300" r="5" participant="born" _type="event" _order="back"><title>1914: born</title></circle> <!-- country-event-15 -->
+  <circle cx="9057" cy="300" r="5" participant="died" _type="event" _order="back"><title>1918: died</title></circle> <!-- country-event-16 -->
+  <circle cx="9125" cy="80" r="5" participant="born" _type="event" _order="back"><title>1939: born</title></circle> <!-- country-event-17 -->
+  <circle cx="9144" cy="80" r="5" participant="died" _type="event" _order="back"><title>1945: died</title></circle> <!-- country-event-18 -->
+  <circle cx="8225" cy="280" r="5" participant="born" _type="event" _order="back"><title>1659: born</title></circle> <!-- country-event-9 -->
+  <circle cx="8379" cy="280" r="5" participant="died" _type="event" _order="back"><title>1707: died</title></circle> <!-- country-event-1 -->
+  <circle cx="2806" cy="40" r="5" participant="born" _type="event" _order="back"><title>-27: born</title></circle> <!-- country-event-23 -->
+  <circle cx="4422" cy="40" r="5" participant="died" _type="event" _order="back"><title>476: died</title></circle> <!-- country-event-24 -->
+  <circle cx="1256" cy="80" r="5" participant="born" _type="event" _order="back"><title>-509: born</title></circle> <!-- country-event-25 -->
+  <circle cx="2806" cy="80" r="5" participant="died" _type="event" _order="back"><title>-27: died</title></circle> <!-- country-event-23 -->
+  <circle cx="472" cy="60" r="5" participant="born" _type="event" _order="back"><title>-753: born</title></circle> <!-- country-event-26 -->
+  <circle cx="1256" cy="60" r="5" participant="died" _type="event" _order="back"><title>-509: died</title></circle> <!-- country-event-25 -->
+  <circle cx="321" cy="40" r="5" participant="born" _type="event" _order="back"><title>-800: born</title></circle> <!-- country-event-27 -->
+  <circle cx="1256" cy="40" r="5" participant="died" _type="event" _order="back"><title>-509: died</title></circle> <!-- country-event-25 -->
+  <circle cx="8848" cy="260" r="5" participant="born" _type="event" _order="back"><title>1853: born</title></circle> <!-- country-event-29 -->
+  <circle cx="8858" cy="260" r="5" participant="died" _type="event" _order="back"><title>1856: died</title></circle> <!-- country-event-30 -->
+  <circle cx="8858" cy="120" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
+  <circle cx="8848" cy="120" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="7068" cy="120" r="5" participant="born" _type="event" _order="back"><title>1299: born</title></circle> <!-- country-event-31 -->
+  <circle cx="9070" cy="120" r="5" participant="died" _type="event" _order="back"><title>1922: died</title></circle> <!-- country-event-32 -->
+  <circle cx="8225" cy="320" r="5" participant="born" _type="event" _order="back"><title>1659: born</title></circle> <!-- country-event-9 -->
+  <circle cx="8379" cy="320" r="5" participant="died" _type="event" _order="back"><title>1707: died</title></circle> <!-- country-event-1 -->
+  <circle cx="8858" cy="240" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
+  <circle cx="8848" cy="240" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="8845" cy="240" r="5" participant="born" _type="event" _order="back"><title>1852: born</title></circle> <!-- country-event-33 -->
+  <circle cx="8903" cy="240" r="5" participant="died" _type="event" _order="back"><title>1870: died</title></circle> <!-- country-event-34 -->
+  <circle cx="8858" cy="100" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
+  <circle cx="8848" cy="100" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="7061" cy="100" r="5" participant="born" _type="event" _order="back"><title>1297: born</title></circle> <!-- country-event-35 -->
+  <circle cx="8874" cy="100" r="5" participant="died" _type="event" _order="back"><title>1861: died</title></circle> <!-- country-event-36 -->
+  <circle cx="8858" cy="420" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
+  <circle cx="8848" cy="420" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="8424" cy="420" r="5" participant="born" _type="event" _order="back"><title>1721: born</title></circle> <!-- country-event-37 -->
+  <circle cx="7865" cy="160" r="5" participant="born" _type="event" _order="back"><title>1547: born</title></circle> <!-- country-event-38 -->
+  <circle cx="8424" cy="160" r="5" participant="died" _type="event" _order="back"><title>1721: died</title></circle> <!-- country-event-37 -->
+  <circle cx="8225" cy="300" r="5" participant="born" _type="event" _order="back"><title>1659: born</title></circle> <!-- country-event-9 -->
+  <circle cx="8681" cy="300" r="5" participant="died" _type="event" _order="back"><title>1801: died</title></circle> <!-- country-event-2 -->
+  <circle cx="8858" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
+  <circle cx="9057" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1918: belligerent</title></circle> <!-- country-event-16 -->
+  <circle cx="8848" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="9044" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1914: belligerent</title></circle> <!-- country-event-15 -->
+  <circle cx="8681" cy="60" r="5" participant="born" _type="event" _order="back"><title>1801: born</title></circle> <!-- country-event-2 -->
+  <circle cx="9070" cy="60" r="5" participant="died" _type="event" _order="back"><title>1922: died</title></circle> <!-- country-event-4 -->
+  <circle cx="9125" cy="380" r="5" participant="belligerent" _type="event" _order="back"><title>1939: belligerent</title></circle> <!-- country-event-17 -->
+  <circle cx="9144" cy="380" r="5" participant="belligerent" _type="event" _order="back"><title>1945: belligerent</title></circle> <!-- country-event-18 -->
+  <circle cx="9070" cy="380" r="5" participant="born" _type="event" _order="back"><title>1922: born</title></circle> <!-- country-event-4 -->
+  <circle cx="9070" cy="40" r="5" participant="born" _type="event" _order="back"><title>1922: born</title></circle> <!-- country-event-4 -->
+  <circle cx="9118" cy="40" r="5" participant="died" _type="event" _order="back"><title>1937: died</title></circle> <!-- country-event-5 -->
+  <circle cx="9118" cy="200" r="5" participant="born" _type="event" _order="back"><title>1937: born</title></circle> <!-- country-event-5 -->
+  <circle cx="6656" cy="80" r="5" participant="born" _type="event" _order="back"><title>1171: born</title></circle> <!-- country-event-8 -->
+  <circle cx="7849" cy="80" r="5" participant="died" _type="event" _order="back"><title>1542: died</title></circle> <!-- country-event-3 -->
+  <text x="9241" y="92" _type="event" _order="back">Amy Lou Adams was born</text>
+  <text x="8446" y="72" _type="event" _order="back">Isaac Newton died</text>
+  <text x="8175" y="72" _type="event" _order="back">Isaac Newton is born</text>
+  <text x="2888" y="52" _type="event" _order="back">Jesus born</text>
+  <text x="3010" y="52" _type="event" _order="back">Jesus died</text>
+  <text x="9256" y="232" _type="event" _order="back">John was born</text>
+  <defs><path id="0" d="M8379,380 L8681,380 L9681,380" _type="actor" name="United Kingdom of Great Britain"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#0">United Kingdom of Great Britain</textPath></text>
+  <defs><path id="1" d="M8192,240 L8225,240 L8228,240 L9228,240" _type="actor" name="Commonwealth of England"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#1">Commonwealth of England</textPath></text>
+  <defs><path id="2" d="M9060,360 L9147,360 L10147,360" _type="actor" name="League of Nations"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#2">League of Nations</textPath></text>
+  <defs><path id="3" d="M9144,440 L9147,440 L9575,440 L10575,440" _type="actor" name="United Nations"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#3">United Nations</textPath></text>
+  <defs><path id="4" d="M9044,300 L9057,300 L10057,300" _type="actor" name="Great War"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#4">Great War</textPath></text>
+  <defs><path id="5" d="M9125,80 L9144,80 L10144,80" _type="actor" name="World War II"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#5">World War II</textPath></text>
+  <defs><path id="6" d="M8681,60 L8848,60 L8858,60 L9044,60 L9057,60 L9070,60 L10070,60" _type="actor" name="United Kingdom of Great Britain and Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#6">United Kingdom of Great Britain and Ireland</textPath></text>
+  <defs><path id="7" d="M2806,40 L4422,40 L5422,40" _type="actor" name="Roman Empire"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#7">Roman Empire</textPath></text>
+  <defs><path id="8" d="M1256,80 L2806,80 L3806,80" _type="actor" name="Roman Republic"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#8">Roman Republic</textPath></text>
+  <defs><path id="9" d="M472,60 L1256,60 L2256,60" _type="actor" name="Roman Kingdom"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#9">Roman Kingdom</textPath></text>
+  <defs><path id="10" d="M321,40 L1256,40 L2256,40" _type="actor" name="Etruscan civilization"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#10">Etruscan civilization</textPath></text>
+  <defs><path id="11" d="M8848,260 L8858,260 L9858,260" _type="actor" name="Crimean War"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#11">Crimean War</textPath></text>
+  <defs><path id="12" d="M7849,140 L8225,140 L9225,140" _type="actor" name="Kingdom of Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#12">Kingdom of Ireland</textPath></text>
+  <defs><path id="13" d="M7068,120 L8848,120 L8858,120 L9070,120 L10070,120" _type="actor" name="Ottoman Empire"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#13">Ottoman Empire</textPath></text>
+  <defs><path id="14" d="M8845,240 L8848,240 L8858,240 L8903,240 L9903,240" _type="actor" name="Second French Empire"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#14">Second French Empire</textPath></text>
+  <defs><path id="15" d="M7061,100 L8848,100 L8858,100 L8874,100 L9874,100" _type="actor" name="Kingdom of Sardinia"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#15">Kingdom of Sardinia</textPath></text>
+  <defs><path id="16" d="M8424,420 L8848,420 L8858,420 L9858,420" _type="actor" name="Russian Empire"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#16">Russian Empire</textPath></text>
+  <defs><path id="17" d="M7865,160 L8424,160 L9424,160" _type="actor" name="Tsardom of Russia"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#17">Tsardom of Russia</textPath></text>
+  <defs><path id="18" d="M9070,380 L9125,380 L9144,380 L9575,380 L10575,380" _type="actor" name="United Kingdom of Great Britain and Northern Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#18">United Kingdom of Great Britain and Northern Ireland</textPath></text>
+  <defs><path id="19" d="M9070,40 L9118,40 L10118,40" _type="actor" name="Irish Free State"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#19">Irish Free State</textPath></text>
+  <defs><path id="20" d="M9118,200 L9575,200 L10575,200" _type="actor" name="Republic of Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#20">Republic of Ireland</textPath></text>
+  <defs><path id="21" d="M5872,60 L8225,60 L9225,60" _type="actor" name="Kingdom of England"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#21">Kingdom of England</textPath></text>
+  <defs><path id="22" d="M5602,40 L8225,40 L9225,40" _type="actor" name="Kingdom of Scotland"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#22">Kingdom of Scotland</textPath></text>
+  <defs><path id="23" d="M6656,80 L7849,80 L8849,80" _type="actor" name="Lordship of Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#23">Lordship of Ireland</textPath></text>
+  <defs><path id="24" d="M8225,280 L8379,280 L9379,280" _type="actor" name="Kingdom of England"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#24">Kingdom of England</textPath></text>
+  <defs><path id="25" d="M8225,320 L8379,320 L9379,320" _type="actor" name="Kingdom of Scotland"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#25">Kingdom of Scotland</textPath></text>
+  <defs><path id="26" d="M8225,300 L8681,300 L9681,300" _type="actor" name="Kingdom of Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#26">Kingdom of Ireland</textPath></text>
+  <defs><path id="27" d="M8752,160 L9044,160 L10044,160" _type="actor" name="Alfred Russel Wallace"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#27">Alfred Russel Wallace</textPath></text>
+  <defs><path id="28" d="M9084,400 L9167,400 L9575,400 L10575,400" _type="actor" name="Elizabeth Alexandra Mary Windsor"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#28">Elizabeth Alexandra Mary Windsor</textPath></text>
+  <defs><path id="29" d="M8986,340 L9118,340 L9167,340 L10167,340" _type="actor" name="Albert Frederick Arthur George Windsor"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#29">Albert Frederick Arthur George Windsor</textPath></text>
+  <defs><path id="30" d="M8404,400 L8445,400 L9445,400" _type="actor" name="George Louis"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#30">George Louis</textPath></text>
+  <defs><path id="31" d="M8445,440 L8552,440 L9552,440" _type="actor" name="George Augustus"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#31">George Augustus</textPath></text>
+  <defs><path id="32" d="M8552,40 L8743,40 L9743,40" _type="actor" name="George William Frederick"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#32">George William Frederick</textPath></text>
+  <defs><path id="33" d="M8743,200 L8776,200 L9776,200" _type="actor" name="George Augustus Frederick"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#33">George Augustus Frederick</textPath></text>
+  <defs><path id="34" d="M8776,80 L8798,80 L9798,80" _type="actor" name="William Henry"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#34">William Henry</textPath></text>
+  <defs><path id="35" d="M8979,320 L9115,320 L9118,320 L9232,320 L10232,320" _type="actor" name="Edward Albert Christian George Andrew Patrick David"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#35">Edward Albert Christian George Andrew Patrick David</textPath></text>
+  <defs><path id="36" d="M9254,240 L9575,240 L10575,240" _type="actor" name="John James Ralph Scott"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#36">John James Ralph Scott</textPath></text>
+  <defs><path id="37" d="M8888,280 L9033,280 L9115,280 L10115,280" _type="actor" name="George Frederick Ernest Albert"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#37">George Frederick Ernest Albert</textPath></text>
+  <defs><path id="38" d="M8813,220 L9003,220 L9033,220 L10033,220" _type="actor" name="Albert Edward"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#38">Albert Edward</textPath></text>
+  <defs><path id="39" d="M8740,180 L8798,180 L9003,180 L10003,180" _type="actor" name="Alexandrina Victoria"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#39">Alexandrina Victoria</textPath></text>
+  <defs><path id="40" d="M9239,100 L9575,100 L10575,100" _type="actor" name="Amy Lou Adams"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#40">Amy Lou Adams</textPath></text>
+  <defs><path id="41" d="M8322,260 L8341,260 L8364,260 L9364,260" _type="actor" name="William III &amp; II"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#41">William III &amp; II</textPath></text>
+  <defs><path id="42" d="M8322,340 L8341,340 L9341,340" _type="actor" name="Mary II"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#42">Mary II</textPath></text>
+  <defs><path id="43" d="M8309,220 L8321,220 L9321,220" _type="actor" name="James II and VII"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#43">James II and VII</textPath></text>
+  <defs><path id="44" d="M8229,200 L8309,200 L9309,200" _type="actor" name="Charles II"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#44">Charles II</textPath></text>
+  <defs><path id="45" d="M8038,180 L8116,180 L8193,180 L9193,180" _type="actor" name="Charles"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#45">Charles</textPath></text>
+  <defs><path id="46" d="M8116,180 L8193,180 L9193,180" _type="actor" name="Charles I"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#46">Charles I</textPath></text>
+  <defs><path id="47" d="M8133,200 L8229,200 L8309,200 L9309,200" _type="actor" name="Charles"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#47">Charles</textPath></text>
+  <defs><path id="48" d="M8144,220 L8309,220 L8321,220 L9321,220" _type="actor" name="James"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#48">James</textPath></text>
+  <defs><path id="49" d="M8199,260 L8322,260 L8341,260 L8364,260 L9364,260" _type="actor" name="William"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#49">William</textPath></text>
+  <defs><path id="50" d="M8236,340 L8322,340 L8341,340 L9341,340" _type="actor" name="Mary"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#50">Mary</textPath></text>
+  <defs><path id="51" d="M8244,360 L8364,360 L8404,360 L9404,360" _type="actor" name="Anne"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#51">Anne</textPath></text>
+  <defs><path id="52" d="M4724,60 L4925,60 L5925,60" _type="actor" name="Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#52">Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim</textPath></text>
+  <defs><path id="53" d="M8173,80 L8444,80 L9444,80" _type="actor" name="Isaac Newton"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#53">Isaac Newton</textPath></text>
+  <defs><path id="54" d="M2886,60 L3008,60 L4008,60" _type="actor" name="Jesus of Nazareth"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#54">Jesus of Nazareth</textPath></text>
+  <defs><path id="55" d="M8707,140 L8943,140 L9943,140" _type="actor" name="Charles Robert Darwin"/></defs>
+  <text _type="actor" x="5"><textPath _order="back" xlink:href="#55">Charles Robert Darwin</textPath></text>
+  <text x="9241" y="92" _type="event" _order="">Amy Lou Adams was born</text>
+  <text x="8446" y="72" _type="event" _order="">Isaac Newton died</text>
+  <text x="8175" y="72" _type="event" _order="">Isaac Newton is born</text>
+  <text x="2888" y="52" _type="event" _order="">Jesus born</text>
+  <text x="3010" y="52" _type="event" _order="">Jesus died</text>
+  <text x="9256" y="232" _type="event" _order="">John was born</text>
+  <defs><path id="56" d="M8379,380 L8681,380 L9681,380" _type="actor" name="United Kingdom of Great Britain"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#56">United Kingdom of Great Britain</textPath></text>
+  <defs><path id="57" d="M8192,240 L8225,240 L8228,240 L9228,240" _type="actor" name="Commonwealth of England"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#57">Commonwealth of England</textPath></text>
+  <defs><path id="58" d="M9060,360 L9147,360 L10147,360" _type="actor" name="League of Nations"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#58">League of Nations</textPath></text>
+  <defs><path id="59" d="M9144,440 L9147,440 L9575,440 L10575,440" _type="actor" name="United Nations"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#59">United Nations</textPath></text>
+  <defs><path id="60" d="M9044,300 L9057,300 L10057,300" _type="actor" name="Great War"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#60">Great War</textPath></text>
+  <defs><path id="61" d="M9125,80 L9144,80 L10144,80" _type="actor" name="World War II"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#61">World War II</textPath></text>
+  <defs><path id="62" d="M8681,60 L8848,60 L8858,60 L9044,60 L9057,60 L9070,60 L10070,60" _type="actor" name="United Kingdom of Great Britain and Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#62">United Kingdom of Great Britain and Ireland</textPath></text>
+  <defs><path id="63" d="M2806,40 L4422,40 L5422,40" _type="actor" name="Roman Empire"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#63">Roman Empire</textPath></text>
+  <defs><path id="64" d="M1256,80 L2806,80 L3806,80" _type="actor" name="Roman Republic"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#64">Roman Republic</textPath></text>
+  <defs><path id="65" d="M472,60 L1256,60 L2256,60" _type="actor" name="Roman Kingdom"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#65">Roman Kingdom</textPath></text>
+  <defs><path id="66" d="M321,40 L1256,40 L2256,40" _type="actor" name="Etruscan civilization"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#66">Etruscan civilization</textPath></text>
+  <defs><path id="67" d="M8848,260 L8858,260 L9858,260" _type="actor" name="Crimean War"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#67">Crimean War</textPath></text>
+  <defs><path id="68" d="M7849,140 L8225,140 L9225,140" _type="actor" name="Kingdom of Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#68">Kingdom of Ireland</textPath></text>
+  <defs><path id="69" d="M7068,120 L8848,120 L8858,120 L9070,120 L10070,120" _type="actor" name="Ottoman Empire"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#69">Ottoman Empire</textPath></text>
+  <defs><path id="70" d="M8845,240 L8848,240 L8858,240 L8903,240 L9903,240" _type="actor" name="Second French Empire"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#70">Second French Empire</textPath></text>
+  <defs><path id="71" d="M7061,100 L8848,100 L8858,100 L8874,100 L9874,100" _type="actor" name="Kingdom of Sardinia"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#71">Kingdom of Sardinia</textPath></text>
+  <defs><path id="72" d="M8424,420 L8848,420 L8858,420 L9858,420" _type="actor" name="Russian Empire"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#72">Russian Empire</textPath></text>
+  <defs><path id="73" d="M7865,160 L8424,160 L9424,160" _type="actor" name="Tsardom of Russia"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#73">Tsardom of Russia</textPath></text>
+  <defs><path id="74" d="M9070,380 L9125,380 L9144,380 L9575,380 L10575,380" _type="actor" name="United Kingdom of Great Britain and Northern Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#74">United Kingdom of Great Britain and Northern Ireland</textPath></text>
+  <defs><path id="75" d="M9070,40 L9118,40 L10118,40" _type="actor" name="Irish Free State"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#75">Irish Free State</textPath></text>
+  <defs><path id="76" d="M9118,200 L9575,200 L10575,200" _type="actor" name="Republic of Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#76">Republic of Ireland</textPath></text>
+  <defs><path id="77" d="M5872,60 L8225,60 L9225,60" _type="actor" name="Kingdom of England"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#77">Kingdom of England</textPath></text>
+  <defs><path id="78" d="M5602,40 L8225,40 L9225,40" _type="actor" name="Kingdom of Scotland"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#78">Kingdom of Scotland</textPath></text>
+  <defs><path id="79" d="M6656,80 L7849,80 L8849,80" _type="actor" name="Lordship of Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#79">Lordship of Ireland</textPath></text>
+  <defs><path id="80" d="M8225,280 L8379,280 L9379,280" _type="actor" name="Kingdom of England"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#80">Kingdom of England</textPath></text>
+  <defs><path id="81" d="M8225,320 L8379,320 L9379,320" _type="actor" name="Kingdom of Scotland"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#81">Kingdom of Scotland</textPath></text>
+  <defs><path id="82" d="M8225,300 L8681,300 L9681,300" _type="actor" name="Kingdom of Ireland"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#82">Kingdom of Ireland</textPath></text>
+  <defs><path id="83" d="M8752,160 L9044,160 L10044,160" _type="actor" name="Alfred Russel Wallace"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#83">Alfred Russel Wallace</textPath></text>
+  <defs><path id="84" d="M9084,400 L9167,400 L9575,400 L10575,400" _type="actor" name="Elizabeth Alexandra Mary Windsor"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#84">Elizabeth Alexandra Mary Windsor</textPath></text>
+  <defs><path id="85" d="M8986,340 L9118,340 L9167,340 L10167,340" _type="actor" name="Albert Frederick Arthur George Windsor"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#85">Albert Frederick Arthur George Windsor</textPath></text>
+  <defs><path id="86" d="M8404,400 L8445,400 L9445,400" _type="actor" name="George Louis"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#86">George Louis</textPath></text>
+  <defs><path id="87" d="M8445,440 L8552,440 L9552,440" _type="actor" name="George Augustus"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#87">George Augustus</textPath></text>
+  <defs><path id="88" d="M8552,40 L8743,40 L9743,40" _type="actor" name="George William Frederick"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#88">George William Frederick</textPath></text>
+  <defs><path id="89" d="M8743,200 L8776,200 L9776,200" _type="actor" name="George Augustus Frederick"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#89">George Augustus Frederick</textPath></text>
+  <defs><path id="90" d="M8776,80 L8798,80 L9798,80" _type="actor" name="William Henry"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#90">William Henry</textPath></text>
+  <defs><path id="91" d="M8979,320 L9115,320 L9118,320 L9232,320 L10232,320" _type="actor" name="Edward Albert Christian George Andrew Patrick David"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#91">Edward Albert Christian George Andrew Patrick David</textPath></text>
+  <defs><path id="92" d="M9254,240 L9575,240 L10575,240" _type="actor" name="John James Ralph Scott"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#92">John James Ralph Scott</textPath></text>
+  <defs><path id="93" d="M8888,280 L9033,280 L9115,280 L10115,280" _type="actor" name="George Frederick Ernest Albert"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#93">George Frederick Ernest Albert</textPath></text>
+  <defs><path id="94" d="M8813,220 L9003,220 L9033,220 L10033,220" _type="actor" name="Albert Edward"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#94">Albert Edward</textPath></text>
+  <defs><path id="95" d="M8740,180 L8798,180 L9003,180 L10003,180" _type="actor" name="Alexandrina Victoria"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#95">Alexandrina Victoria</textPath></text>
+  <defs><path id="96" d="M9239,100 L9575,100 L10575,100" _type="actor" name="Amy Lou Adams"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#96">Amy Lou Adams</textPath></text>
+  <defs><path id="97" d="M8322,260 L8341,260 L8364,260 L9364,260" _type="actor" name="William III &amp; II"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#97">William III &amp; II</textPath></text>
+  <defs><path id="98" d="M8322,340 L8341,340 L9341,340" _type="actor" name="Mary II"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#98">Mary II</textPath></text>
+  <defs><path id="99" d="M8309,220 L8321,220 L9321,220" _type="actor" name="James II and VII"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#99">James II and VII</textPath></text>
+  <defs><path id="100" d="M8229,200 L8309,200 L9309,200" _type="actor" name="Charles II"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#100">Charles II</textPath></text>
+  <defs><path id="101" d="M8038,180 L8116,180 L8193,180 L9193,180" _type="actor" name="Charles"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#101">Charles</textPath></text>
+  <defs><path id="102" d="M8116,180 L8193,180 L9193,180" _type="actor" name="Charles I"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#102">Charles I</textPath></text>
+  <defs><path id="103" d="M8133,200 L8229,200 L8309,200 L9309,200" _type="actor" name="Charles"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#103">Charles</textPath></text>
+  <defs><path id="104" d="M8144,220 L8309,220 L8321,220 L9321,220" _type="actor" name="James"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#104">James</textPath></text>
+  <defs><path id="105" d="M8199,260 L8322,260 L8341,260 L8364,260 L9364,260" _type="actor" name="William"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#105">William</textPath></text>
+  <defs><path id="106" d="M8236,340 L8322,340 L8341,340 L9341,340" _type="actor" name="Mary"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#106">Mary</textPath></text>
+  <defs><path id="107" d="M8244,360 L8364,360 L8404,360 L9404,360" _type="actor" name="Anne"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#107">Anne</textPath></text>
+  <defs><path id="108" d="M4724,60 L4925,60 L5925,60" _type="actor" name="Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#108">Abū al-Qāsim Muḥammad ibn ʿAbd Allāh ibn ʿAbd al-Muṭṭalib ibn Hāshim</textPath></text>
+  <defs><path id="109" d="M8173,80 L8444,80 L9444,80" _type="actor" name="Isaac Newton"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#109">Isaac Newton</textPath></text>
+  <defs><path id="110" d="M2886,60 L3008,60 L4008,60" _type="actor" name="Jesus of Nazareth"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#110">Jesus of Nazareth</textPath></text>
+  <defs><path id="111" d="M8707,140 L8943,140 L9943,140" _type="actor" name="Charles Robert Darwin"/></defs>
+  <text _type="actor" x="5"><textPath _order="" xlink:href="#111">Charles Robert Darwin</textPath></text>
+  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Empire"><path d="M2806,40 L4422,40" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Empire"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Roman_Republic"><path d="M1256,80 L2806,80" _type="actor" website="http://en.wikipedia.org/wiki/Roman_Republic"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Russian_Empire"><path d="M8424,420 L8848,420 L8858,420" _type="actor" website="http://en.wikipedia.org/wiki/Russian_Empire"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Tsardom_of_Russia"><path d="M7865,160 L8424,160" _type="actor" website="http://en.wikipedia.org/wiki/Tsardom_of_Russia"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"><path d="M8752,160 L9044,160" _type="actor" website="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"/></a>
+  <a xlink:href="http://jjrscott.com"><path d="M9254,240 L9575,240" _type="actor" website="http://jjrscott.com"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Amy_Adams"><path d="M9239,100 L9575,100" _type="actor" website="http://en.wikipedia.org/wiki/Amy_Adams"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Isaac_Newton"><path d="M8173,80 L8444,80" _type="actor" website="http://en.wikipedia.org/wiki/Isaac_Newton"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Jesus"><path d="M2886,60 L3008,60" _type="actor" website="http://en.wikipedia.org/wiki/Jesus"/></a>
+  <a xlink:href="http://en.wikipedia.org/wiki/Charles_Darwin"><path d="M8707,140 L8943,140" _type="actor" website="http://en.wikipedia.org/wiki/Charles_Darwin"/></a>
 </svg>
