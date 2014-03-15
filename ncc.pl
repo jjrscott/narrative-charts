@@ -5,6 +5,7 @@ use strict;
 use Data::Dumper;
 use FileHandle;
 use Getopt::Long;
+use File::Slurp;
 
 
 my %override_global_entry;
@@ -195,11 +196,13 @@ if (0 == length $xml_stylesheet)
 
 
 print $svg_handle qq(<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n);
-printf $svg_handle qq(<?xml-stylesheet href="%s" type="text/css"?>\n), $xml_stylesheet;
+# printf $svg_handle qq(<?xml-stylesheet href="%s" type="text/css"?>\n), $xml_stylesheet;
 
 printf $svg_handle qq(<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="%s" height="%s">\n), xT($entries{''}{';max-x'})-xT($entries{''}{';min-x'}), yT($entries{''}{';max-y'})-yT($entries{''}{';min-y'});
 
 print $svg_handle qq(<title>OpenTimeLine</title>);
+
+printf $svg_handle qq(<style type="text/css">\n<![CDATA[\n%s]]>\n</style>\n), scalar read_file($xml_stylesheet);
 
 #-----------------------------------------------------------------------------------------
 
