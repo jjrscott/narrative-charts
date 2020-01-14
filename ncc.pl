@@ -6,7 +6,7 @@ use Data::Dumper;
 use FileHandle;
 use Getopt::Long;
 use File::Slurp;
-
+use FindBin;
 
 my %override_global_entry;
 
@@ -14,6 +14,8 @@ GetOptions
 (
 	'value=s' => \%override_global_entry,
 ) or die;
+
+die $FindBin::Script." <timeline path>\n" unless @ARGV;
 
 my ($timeline_path) = @ARGV;
 
@@ -24,13 +26,17 @@ my $current_entry_name;
 
 my %event_entries;
 
+my $line_number = 0;
+
 while (my $line = $timeline_handle->getline())
 {
+    $line_number++;
 	$line =~ s!\n!!;
 	$line =~ s!;.*!!;
 	if ($line =~ m!\[([^\]]+)\]!)
 	{
 		$current_entry_name = $1;
+		$entries{$current_entry_name}{';line'} = $line_number;
 	}
 	elsif ($line =~ m!([^\ =\n(]+(?:\(([^\)]+)\))?)\s*=\s*([^\n]*)!)
 	{
@@ -73,7 +79,7 @@ foreach my $entry_name (keys %entries)
 }
 
 my %visible_entry_names;
-foreach my $entry_name (sort {$entries{$a}{';x'} <=> $entries{$b}{';x'}} keys %entries)
+foreach my $entry_name (sort {$entries{$a}{';x'} <=> $entries{$b}{';x'} || $entries{$a}{';line'} <=> $entries{$b}{';line'}} keys %entries)
 {
 	if (length $entry_name && exists $entries{$entry_name}{'_date'})
 	{		
