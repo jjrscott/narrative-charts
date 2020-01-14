@@ -401,7 +401,7 @@ foreach my $paintable (sort {$a->[2] <=> $b->[2] || $a->[1] cmp $b->[1] || $entr
 	}
 }
 
-print $svg_handle qq(</svg>);
+print $svg_handle qq(</svg>\n);
 
 exit(0);
 

@@ -197,7 +197,7 @@ rect[_type="period"]:nth-of-type(even)
   <path d="M8322 260 L8322 340" _date="1689/02/13" _type="event"><title>1689/02/13</title></path>
   <path d="M8341 260 L8341 340" _date="1694/12/28" _type="event"><title>1694/12/28</title></path>
   <path d="M8364 260 L8364 360" _date="1702/03/08" _type="event"><title>1702/03/08</title></path>
-  <path d="M8379 280 L8379 380" _date="1707" _type="event"><title>1707</title></path>
+  <path d="M8379 300 L8379 380" _date="1707" _type="event"><title>1707</title></path>
   <path d="M8404 360 L8404 400" _date="1714/08/01" _type="event"><title>1714/08/01</title></path>
   <path d="M8424 160 L8424 420" _date="1721" _type="event"><title>1721</title></path>
   <path d="M8444 74 L8444 80" _date="1727/03/20" _type="event"><title>1727/03/20</title></path>
@@ -210,11 +210,11 @@ rect[_type="period"]:nth-of-type(even)
   <path d="M8848 60 L8848 420" _date="1853" _type="event"><title>1853</title></path>
   <path d="M8858 60 L8858 420" _date="1856" _type="event"><title>1856</title></path>
   <path d="M9003 180 L9003 220" _date="1901/01/22" _type="event"><title>1901/01/22</title></path>
-  <path d="M9033 220 L9033 280" _date="1910/05/06" _type="event"><title>1910/05/06</title></path>
-  <path d="M9044 60 L9044 300" _date="1914" _type="event"><title>1914</title></path>
-  <path d="M9057 60 L9057 300" _date="1918" _type="event"><title>1918</title></path>
+  <path d="M9033 220 L9033 300" _date="1910/05/06" _type="event"><title>1910/05/06</title></path>
+  <path d="M9044 60 L9044 280" _date="1914" _type="event"><title>1914</title></path>
+  <path d="M9057 60 L9057 280" _date="1918" _type="event"><title>1918</title></path>
   <path d="M9070 40 L9070 380" _date="1922" _type="event"><title>1922</title></path>
-  <path d="M9115 280 L9115 320" _date="1936/01/20" _type="event"><title>1936/01/20</title></path>
+  <path d="M9115 300 L9115 320" _date="1936/01/20" _type="event"><title>1936/01/20</title></path>
   <path d="M9118 320 L9118 340" _date="1936/12/11" _type="event"><title>1936/12/11</title></path>
   <path d="M9118 40 L9118 200" _date="1937" _type="event"><title>1937</title></path>
   <path d="M9125 80 L9125 380" _date="1939" _type="event"><title>1939</title></path>
@@ -228,7 +228,7 @@ rect[_type="period"]:nth-of-type(even)
   <path d="M8192,240 L8225,240 L8228,240" _type="actor" entity="state"/> <!-- country-actor-10 -->
   <path d="M9060,360 L9147,360" _type="actor" entity="organization"/> <!-- country-actor-16 -->
   <path d="M9144,440 L9147,440 L9575,440" _type="actor" entity="organization"/> <!-- country-actor-17 -->
-  <path d="M9044,300 L9057,300" _type="actor" entity="conflict"/> <!-- country-actor-18 -->
+  <path d="M9044,280 L9057,280" _type="actor" entity="conflict"/> <!-- country-actor-18 -->
   <path d="M9125,80 L9144,80" _type="actor" entity="conflict"/> <!-- country-actor-19 -->
   <path d="M8681,60 L8848,60 L8858,60 L9044,60 L9057,60 L9070,60" _type="actor" entity="state"/> <!-- country-actor-5 -->
   <path d="M2806,40 L4422,40" _type="actor" entity="state"/> <!-- country-actor-23 -->
@@ -248,9 +248,9 @@ rect[_type="period"]:nth-of-type(even)
   <path d="M5872,60 L8225,60" _type="actor" entity="state"/> <!-- country-actor-11 -->
   <path d="M5602,40 L8225,40" _type="actor" entity="state"/> <!-- country-actor-12 -->
   <path d="M6656,80 L7849,80" _type="actor" entity="state"/> <!-- country-actor-9 -->
-  <path d="M8225,280 L8379,280" _type="actor" entity="state"/> <!-- country-actor-2 -->
-  <path d="M8225,320 L8379,320" _type="actor" entity="state"/> <!-- country-actor-3 -->
-  <path d="M8225,300 L8681,300" _type="actor" entity="state"/> <!-- country-actor-4 -->
+  <path d="M8225,320 L8379,320" _type="actor" entity="state"/> <!-- country-actor-2 -->
+  <path d="M8225,300 L8379,300" _type="actor" entity="state"/> <!-- country-actor-3 -->
+  <path d="M8225,280 L8681,280" _type="actor" entity="state"/> <!-- country-actor-4 -->
   <path d="M8752,160 L9044,160" _type="actor" entity="human"/> <!-- a-6 -->
   <path d="M9084,400 L9167,400 L9575,400" _type="actor" entity="human"/> <!-- a-8 -->
   <path d="M8986,340 L9118,340 L9167,340" _type="actor" entity="human"/> <!-- a-9 -->
@@ -261,7 +261,7 @@ rect[_type="period"]:nth-of-type(even)
   <path d="M8776,80 L8798,80" _type="actor" entity="human"/> <!-- a-14 -->
   <path d="M8979,320 L9115,320 L9118,320 L9232,320" _type="actor" entity="human"/> <!-- a-10 -->
   <path d="M9254,240 L9575,240" _type="actor" entity="human"/> <!-- a-2 -->
-  <path d="M8888,280 L9033,280 L9115,280" _type="actor" entity="human"/> <!-- a-11 -->
+  <path d="M8888,300 L9033,300 L9115,300" _type="actor" entity="human"/> <!-- a-11 -->
   <path d="M8813,220 L9003,220 L9033,220" _type="actor" entity="human"/> <!-- a-12 -->
   <path d="M8740,180 L8798,180 L9003,180" _type="actor" entity="human"/> <!-- a-13 -->
   <path d="M9239,100 L9575,100" _type="actor" entity="human"/> <!-- a-3 -->
@@ -285,7 +285,7 @@ rect[_type="period"]:nth-of-type(even)
   <path d="M8776,80 L8798,80" _type="actor" title="monarch"/> <!-- a-14 -->
   <path d="M8798,180 L9003,180" _type="actor" title="monarch"/> <!-- a-13 -->
   <path d="M9003,220 L9033,220" _type="actor" title="monarch"/> <!-- a-12 -->
-  <path d="M9033,280 L9115,280" _type="actor" title="monarch"/> <!-- a-11 -->
+  <path d="M9033,300 L9115,300" _type="actor" title="monarch"/> <!-- a-11 -->
   <path d="M9115,320 L9118,320" _type="actor" title="monarch"/> <!-- a-10 -->
   <path d="M8322,260 L8341,260 L8364,260" _type="actor" title="monarch"/> <!-- a-20 -->
   <path d="M8322,340 L8341,340" _type="actor" title="monarch"/> <!-- a-21 -->
@@ -296,9 +296,9 @@ rect[_type="period"]:nth-of-type(even)
   <circle cx="9115" cy="320" r="5" participant="ascended" _type="event" _order="back"><title>1936/01/20: ascended</title></circle> <!-- e-26 -->
   <circle cx="8979" cy="320" r="5" participant="baby" _type="event" _order="back"><title>1893/06/23: baby</title></circle> <!-- e-28 -->
   <circle cx="9232" cy="320" r="5" participant="died" _type="event" _order="back"><title>1972/05/28: died</title></circle> <!-- e-29 -->
-  <circle cx="9033" cy="280" r="5" participant="ascended" _type="event" _order="back"><title>1910/05/06: ascended</title></circle> <!-- e-25 -->
-  <circle cx="8888" cy="280" r="5" participant="baby" _type="event" _order="back"><title>1865/06/03: baby</title></circle> <!-- e-30 -->
-  <circle cx="9115" cy="280" r="5" participant="died" _type="event" _order="back"><title>1936/01/20: died</title></circle> <!-- e-26 -->
+  <circle cx="9033" cy="300" r="5" participant="ascended" _type="event" _order="back"><title>1910/05/06: ascended</title></circle> <!-- e-25 -->
+  <circle cx="8888" cy="300" r="5" participant="baby" _type="event" _order="back"><title>1865/06/03: baby</title></circle> <!-- e-30 -->
+  <circle cx="9115" cy="300" r="5" participant="died" _type="event" _order="back"><title>1936/01/20: died</title></circle> <!-- e-26 -->
   <circle cx="9003" cy="220" r="5" participant="ascended" _type="event" _order="back"><title>1901/01/22: ascended</title></circle> <!-- e-24 -->
   <circle cx="8813" cy="220" r="5" participant="baby" _type="event" _order="back"><title>1841/11/09: baby</title></circle> <!-- e-31 -->
   <circle cx="9033" cy="220" r="5" participant="died" _type="event" _order="back"><title>1910/05/06: died</title></circle> <!-- e-25 -->
@@ -337,8 +337,8 @@ rect[_type="period"]:nth-of-type(even)
   <circle cx="8193" cy="180" r="5" participant="died" _type="event" _order="back"><title>1649/01/30: died</title></circle> <!-- e-40 -->
   <circle cx="4724" cy="60" r="5" participant="baby" _type="event" _order="back"><title>570: baby</title></circle> <!-- e-47 -->
   <circle cx="4925" cy="60" r="5" participant="died" _type="event" _order="back"><title>632/06/08: died</title></circle> <!-- e-48 -->
-  <circle cx="9239" cy="100" r="5" participant="baby" _type="event" _order="back"><title>1974/08/20: baby</title></circle> <!-- e-4 -->
   <circle cx="9239" cy="100" r="5" participant="baby" _type="event" _order="back"><title>1974/08/20: baby</title></circle> <!-- e-33 -->
+  <circle cx="9239" cy="100" r="5" participant="baby" _type="event" _order="back"><title>1974/08/20: baby</title></circle> <!-- e-4 -->
   <circle cx="8173" cy="80" r="5" participant="baby" _type="event" _order="back"><title>1642/12/25: baby</title></circle> <!-- e-5 -->
   <circle cx="8444" cy="80" r="5" participant="died" _type="event" _order="back"><title>1727/03/20: died</title></circle> <!-- e-6 -->
   <circle cx="2886" cy="60" r="5" participant="baby" _type="event" _order="back"><title>-2: baby</title></circle> <!-- e-7 -->
@@ -349,8 +349,8 @@ rect[_type="period"]:nth-of-type(even)
   <circle cx="8943" cy="140" r="5" participant="died" _type="event" _order="back"><title>1882/04/19: died</title></circle> <!-- e-12 -->
   <circle cx="9167" cy="400" r="5" participant="ascended" _type="event" _order="back"><title>1952/02/06: ascended</title></circle> <!-- e-14 -->
   <circle cx="9084" cy="400" r="5" participant="baby" _type="event" _order="back"><title>1926/04/21: baby</title></circle> <!-- e-13 -->
-  <circle cx="9118" cy="340" r="5" participant="ascended" _type="event" _order="back"><title>1936/12/11: ascended</title></circle> <!-- e-16 -->
   <circle cx="9118" cy="340" r="5" participant="ascended" _type="event" _order="back"><title>1936/12/11: ascended</title></circle> <!-- e-27 -->
+  <circle cx="9118" cy="340" r="5" participant="ascended" _type="event" _order="back"><title>1936/12/11: ascended</title></circle> <!-- e-16 -->
   <circle cx="8986" cy="340" r="5" participant="baby" _type="event" _order="back"><title>1895/12/14: baby</title></circle> <!-- e-15 -->
   <circle cx="9167" cy="340" r="5" participant="died" _type="event" _order="back"><title>1952/02/06: died</title></circle> <!-- e-14 -->
   <circle cx="8379" cy="380" r="5" participant="born" _type="event" _order="back"><title>1707: born</title></circle> <!-- country-event-1 -->
@@ -368,12 +368,12 @@ rect[_type="period"]:nth-of-type(even)
   <circle cx="9147" cy="360" r="5" participant="died" _type="event" _order="back"><title>1946: died</title></circle> <!-- country-event-13 -->
   <circle cx="9144" cy="440" r="5" participant="born" _type="event" _order="back"><title>1945: born</title></circle> <!-- country-event-14 -->
   <circle cx="9147" cy="440" r="5" participant="successor" _type="event" _order="back"><title>1946: successor</title></circle> <!-- country-event-13 -->
-  <circle cx="9044" cy="300" r="5" participant="born" _type="event" _order="back"><title>1914: born</title></circle> <!-- country-event-15 -->
-  <circle cx="9057" cy="300" r="5" participant="died" _type="event" _order="back"><title>1918: died</title></circle> <!-- country-event-16 -->
+  <circle cx="9044" cy="280" r="5" participant="born" _type="event" _order="back"><title>1914: born</title></circle> <!-- country-event-15 -->
+  <circle cx="9057" cy="280" r="5" participant="died" _type="event" _order="back"><title>1918: died</title></circle> <!-- country-event-16 -->
   <circle cx="9125" cy="80" r="5" participant="born" _type="event" _order="back"><title>1939: born</title></circle> <!-- country-event-17 -->
   <circle cx="9144" cy="80" r="5" participant="died" _type="event" _order="back"><title>1945: died</title></circle> <!-- country-event-18 -->
-  <circle cx="8225" cy="280" r="5" participant="born" _type="event" _order="back"><title>1659: born</title></circle> <!-- country-event-9 -->
-  <circle cx="8379" cy="280" r="5" participant="died" _type="event" _order="back"><title>1707: died</title></circle> <!-- country-event-1 -->
+  <circle cx="8225" cy="320" r="5" participant="born" _type="event" _order="back"><title>1659: born</title></circle> <!-- country-event-9 -->
+  <circle cx="8379" cy="320" r="5" participant="died" _type="event" _order="back"><title>1707: died</title></circle> <!-- country-event-1 -->
   <circle cx="2806" cy="40" r="5" participant="born" _type="event" _order="back"><title>-27: born</title></circle> <!-- country-event-23 -->
   <circle cx="4422" cy="40" r="5" participant="died" _type="event" _order="back"><title>476: died</title></circle> <!-- country-event-24 -->
   <circle cx="1256" cy="80" r="5" participant="born" _type="event" _order="back"><title>-509: born</title></circle> <!-- country-event-25 -->
@@ -384,35 +384,35 @@ rect[_type="period"]:nth-of-type(even)
   <circle cx="1256" cy="40" r="5" participant="died" _type="event" _order="back"><title>-509: died</title></circle> <!-- country-event-25 -->
   <circle cx="8848" cy="260" r="5" participant="born" _type="event" _order="back"><title>1853: born</title></circle> <!-- country-event-29 -->
   <circle cx="8858" cy="260" r="5" participant="died" _type="event" _order="back"><title>1856: died</title></circle> <!-- country-event-30 -->
-  <circle cx="8858" cy="120" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
   <circle cx="8848" cy="120" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="8858" cy="120" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
   <circle cx="7068" cy="120" r="5" participant="born" _type="event" _order="back"><title>1299: born</title></circle> <!-- country-event-31 -->
   <circle cx="9070" cy="120" r="5" participant="died" _type="event" _order="back"><title>1922: died</title></circle> <!-- country-event-32 -->
-  <circle cx="8225" cy="320" r="5" participant="born" _type="event" _order="back"><title>1659: born</title></circle> <!-- country-event-9 -->
-  <circle cx="8379" cy="320" r="5" participant="died" _type="event" _order="back"><title>1707: died</title></circle> <!-- country-event-1 -->
-  <circle cx="8858" cy="240" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
+  <circle cx="8225" cy="300" r="5" participant="born" _type="event" _order="back"><title>1659: born</title></circle> <!-- country-event-9 -->
+  <circle cx="8379" cy="300" r="5" participant="died" _type="event" _order="back"><title>1707: died</title></circle> <!-- country-event-1 -->
   <circle cx="8848" cy="240" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="8858" cy="240" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
   <circle cx="8845" cy="240" r="5" participant="born" _type="event" _order="back"><title>1852: born</title></circle> <!-- country-event-33 -->
   <circle cx="8903" cy="240" r="5" participant="died" _type="event" _order="back"><title>1870: died</title></circle> <!-- country-event-34 -->
-  <circle cx="8858" cy="100" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
   <circle cx="8848" cy="100" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="8858" cy="100" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
   <circle cx="7061" cy="100" r="5" participant="born" _type="event" _order="back"><title>1297: born</title></circle> <!-- country-event-35 -->
   <circle cx="8874" cy="100" r="5" participant="died" _type="event" _order="back"><title>1861: died</title></circle> <!-- country-event-36 -->
-  <circle cx="8858" cy="420" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
   <circle cx="8848" cy="420" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="8858" cy="420" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
   <circle cx="8424" cy="420" r="5" participant="born" _type="event" _order="back"><title>1721: born</title></circle> <!-- country-event-37 -->
   <circle cx="7865" cy="160" r="5" participant="born" _type="event" _order="back"><title>1547: born</title></circle> <!-- country-event-38 -->
   <circle cx="8424" cy="160" r="5" participant="died" _type="event" _order="back"><title>1721: died</title></circle> <!-- country-event-37 -->
-  <circle cx="8225" cy="300" r="5" participant="born" _type="event" _order="back"><title>1659: born</title></circle> <!-- country-event-9 -->
-  <circle cx="8681" cy="300" r="5" participant="died" _type="event" _order="back"><title>1801: died</title></circle> <!-- country-event-2 -->
-  <circle cx="8858" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
-  <circle cx="9057" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1918: belligerent</title></circle> <!-- country-event-16 -->
+  <circle cx="8225" cy="280" r="5" participant="born" _type="event" _order="back"><title>1659: born</title></circle> <!-- country-event-9 -->
+  <circle cx="8681" cy="280" r="5" participant="died" _type="event" _order="back"><title>1801: died</title></circle> <!-- country-event-2 -->
   <circle cx="8848" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1853: belligerent</title></circle> <!-- country-event-29 -->
+  <circle cx="8858" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1856: belligerent</title></circle> <!-- country-event-30 -->
   <circle cx="9044" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1914: belligerent</title></circle> <!-- country-event-15 -->
+  <circle cx="9057" cy="60" r="5" participant="belligerent" _type="event" _order="back"><title>1918: belligerent</title></circle> <!-- country-event-16 -->
   <circle cx="8681" cy="60" r="5" participant="born" _type="event" _order="back"><title>1801: born</title></circle> <!-- country-event-2 -->
   <circle cx="9070" cy="60" r="5" participant="died" _type="event" _order="back"><title>1922: died</title></circle> <!-- country-event-4 -->
-  <circle cx="9125" cy="380" r="5" participant="belligerent" _type="event" _order="back"><title>1939: belligerent</title></circle> <!-- country-event-17 -->
   <circle cx="9144" cy="380" r="5" participant="belligerent" _type="event" _order="back"><title>1945: belligerent</title></circle> <!-- country-event-18 -->
+  <circle cx="9125" cy="380" r="5" participant="belligerent" _type="event" _order="back"><title>1939: belligerent</title></circle> <!-- country-event-17 -->
   <circle cx="9070" cy="380" r="5" participant="born" _type="event" _order="back"><title>1922: born</title></circle> <!-- country-event-4 -->
   <circle cx="9070" cy="40" r="5" participant="born" _type="event" _order="back"><title>1922: born</title></circle> <!-- country-event-4 -->
   <circle cx="9118" cy="40" r="5" participant="died" _type="event" _order="back"><title>1937: died</title></circle> <!-- country-event-5 -->
@@ -433,7 +433,7 @@ rect[_type="period"]:nth-of-type(even)
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#2">League of Nations</textPath></text>
   <defs><path id="3" d="M9144,440 L9147,440 L9575,440 L10575,440" _type="actor" name="United Nations"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#3">United Nations</textPath></text>
-  <defs><path id="4" d="M9044,300 L9057,300 L10057,300" _type="actor" name="Great War"/></defs>
+  <defs><path id="4" d="M9044,280 L9057,280 L10057,280" _type="actor" name="Great War"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#4">Great War</textPath></text>
   <defs><path id="5" d="M9125,80 L9144,80 L10144,80" _type="actor" name="World War II"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#5">World War II</textPath></text>
@@ -473,11 +473,11 @@ rect[_type="period"]:nth-of-type(even)
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#22">Kingdom of Scotland</textPath></text>
   <defs><path id="23" d="M6656,80 L7849,80 L8849,80" _type="actor" name="Lordship of Ireland"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#23">Lordship of Ireland</textPath></text>
-  <defs><path id="24" d="M8225,280 L8379,280 L9379,280" _type="actor" name="Kingdom of England"/></defs>
+  <defs><path id="24" d="M8225,320 L8379,320 L9379,320" _type="actor" name="Kingdom of England"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#24">Kingdom of England</textPath></text>
-  <defs><path id="25" d="M8225,320 L8379,320 L9379,320" _type="actor" name="Kingdom of Scotland"/></defs>
+  <defs><path id="25" d="M8225,300 L8379,300 L9379,300" _type="actor" name="Kingdom of Scotland"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#25">Kingdom of Scotland</textPath></text>
-  <defs><path id="26" d="M8225,300 L8681,300 L9681,300" _type="actor" name="Kingdom of Ireland"/></defs>
+  <defs><path id="26" d="M8225,280 L8681,280 L9681,280" _type="actor" name="Kingdom of Ireland"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#26">Kingdom of Ireland</textPath></text>
   <defs><path id="27" d="M8752,160 L9044,160 L10044,160" _type="actor" name="Alfred Russel Wallace"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#27">Alfred Russel Wallace</textPath></text>
@@ -499,7 +499,7 @@ rect[_type="period"]:nth-of-type(even)
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#35">Edward Albert Christian George Andrew Patrick David</textPath></text>
   <defs><path id="36" d="M9254,240 L9575,240 L10575,240" _type="actor" name="John James Ralph Scott"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#36">John James Ralph Scott</textPath></text>
-  <defs><path id="37" d="M8888,280 L9033,280 L9115,280 L10115,280" _type="actor" name="George Frederick Ernest Albert"/></defs>
+  <defs><path id="37" d="M8888,300 L9033,300 L9115,300 L10115,300" _type="actor" name="George Frederick Ernest Albert"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#37">George Frederick Ernest Albert</textPath></text>
   <defs><path id="38" d="M8813,220 L9003,220 L9033,220 L10033,220" _type="actor" name="Albert Edward"/></defs>
   <text _type="actor" x="5"><textPath _order="back" xlink:href="#38">Albert Edward</textPath></text>
@@ -551,7 +551,7 @@ rect[_type="period"]:nth-of-type(even)
   <text _type="actor" x="5"><textPath _order="" xlink:href="#58">League of Nations</textPath></text>
   <defs><path id="59" d="M9144,440 L9147,440 L9575,440 L10575,440" _type="actor" name="United Nations"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#59">United Nations</textPath></text>
-  <defs><path id="60" d="M9044,300 L9057,300 L10057,300" _type="actor" name="Great War"/></defs>
+  <defs><path id="60" d="M9044,280 L9057,280 L10057,280" _type="actor" name="Great War"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#60">Great War</textPath></text>
   <defs><path id="61" d="M9125,80 L9144,80 L10144,80" _type="actor" name="World War II"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#61">World War II</textPath></text>
@@ -591,11 +591,11 @@ rect[_type="period"]:nth-of-type(even)
   <text _type="actor" x="5"><textPath _order="" xlink:href="#78">Kingdom of Scotland</textPath></text>
   <defs><path id="79" d="M6656,80 L7849,80 L8849,80" _type="actor" name="Lordship of Ireland"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#79">Lordship of Ireland</textPath></text>
-  <defs><path id="80" d="M8225,280 L8379,280 L9379,280" _type="actor" name="Kingdom of England"/></defs>
+  <defs><path id="80" d="M8225,320 L8379,320 L9379,320" _type="actor" name="Kingdom of England"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#80">Kingdom of England</textPath></text>
-  <defs><path id="81" d="M8225,320 L8379,320 L9379,320" _type="actor" name="Kingdom of Scotland"/></defs>
+  <defs><path id="81" d="M8225,300 L8379,300 L9379,300" _type="actor" name="Kingdom of Scotland"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#81">Kingdom of Scotland</textPath></text>
-  <defs><path id="82" d="M8225,300 L8681,300 L9681,300" _type="actor" name="Kingdom of Ireland"/></defs>
+  <defs><path id="82" d="M8225,280 L8681,280 L9681,280" _type="actor" name="Kingdom of Ireland"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#82">Kingdom of Ireland</textPath></text>
   <defs><path id="83" d="M8752,160 L9044,160 L10044,160" _type="actor" name="Alfred Russel Wallace"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#83">Alfred Russel Wallace</textPath></text>
@@ -617,7 +617,7 @@ rect[_type="period"]:nth-of-type(even)
   <text _type="actor" x="5"><textPath _order="" xlink:href="#91">Edward Albert Christian George Andrew Patrick David</textPath></text>
   <defs><path id="92" d="M9254,240 L9575,240 L10575,240" _type="actor" name="John James Ralph Scott"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#92">John James Ralph Scott</textPath></text>
-  <defs><path id="93" d="M8888,280 L9033,280 L9115,280 L10115,280" _type="actor" name="George Frederick Ernest Albert"/></defs>
+  <defs><path id="93" d="M8888,300 L9033,300 L9115,300 L10115,300" _type="actor" name="George Frederick Ernest Albert"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#93">George Frederick Ernest Albert</textPath></text>
   <defs><path id="94" d="M8813,220 L9003,220 L9033,220 L10033,220" _type="actor" name="Albert Edward"/></defs>
   <text _type="actor" x="5"><textPath _order="" xlink:href="#94">Albert Edward</textPath></text>
@@ -660,6 +660,7 @@ rect[_type="period"]:nth-of-type(even)
   <a xlink:href="http://en.wikipedia.org/wiki/Russian_Empire"><path d="M8424,420 L8848,420 L8858,420" _type="actor" website="http://en.wikipedia.org/wiki/Russian_Empire"/></a>
   <a xlink:href="http://en.wikipedia.org/wiki/Tsardom_of_Russia"><path d="M7865,160 L8424,160" _type="actor" website="http://en.wikipedia.org/wiki/Tsardom_of_Russia"/></a>
   <a xlink:href="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"><path d="M8752,160 L9044,160" _type="actor" website="http://en.wikipedia.org/wiki/Alfred_Russel_Wallace"/></a>
+  <a xlink:href="https://en.wikipedia.org/wiki/Elizabeth_II"><path d="M9084,400 L9167,400 L9575,400" _type="actor" website="https://en.wikipedia.org/wiki/Elizabeth_II"/></a>
   <a xlink:href="http://jjrscott.com"><path d="M9254,240 L9575,240" _type="actor" website="http://jjrscott.com"/></a>
   <a xlink:href="http://en.wikipedia.org/wiki/Amy_Adams"><path d="M9239,100 L9575,100" _type="actor" website="http://en.wikipedia.org/wiki/Amy_Adams"/></a>
   <a xlink:href="http://en.wikipedia.org/wiki/Isaac_Newton"><path d="M8173,80 L8444,80" _type="actor" website="http://en.wikipedia.org/wiki/Isaac_Newton"/></a>
